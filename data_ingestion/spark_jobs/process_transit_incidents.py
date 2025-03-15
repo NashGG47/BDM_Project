@@ -3,14 +3,13 @@ from delta import DeltaTable
 import requests
 import xmltodict
 
-# Initialize Spark session with Delta extensions
 spark = SparkSession.builder \
     .appName("TransitIncidents") \
     .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
     .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog") \
     .getOrCreate()
 
-DELTA_PATH = "/data/delta/transit"  # Specify your Delta table path
+DELTA_PATH = "/storage/delta/transit" 
 
 def fetch_gml_data():
     """Fetch transit incidents from GML API and convert to DataFrame."""
