@@ -4,8 +4,11 @@ from datetime import datetime, timedelta
 import subprocess
 
 def run_spark_job():
-    """Run the Spark job to fetch and process transit incidents"""
-    subprocess.run(["python", "data_ingestion/spark_jobs/process_transit_incidents.py"])
+    """Run the Spark job to fetch and process transit incidents."""
+    try:
+        subprocess.run(["python", "data_ingestion/spark_jobs/process_transit_incidents.py"], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error running Spark job: {e}")
 
 # Define the DAG
 dag = DAG(
