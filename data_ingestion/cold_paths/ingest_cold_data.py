@@ -17,8 +17,8 @@ spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
 # Define Storage Paths
 BASE_DIR = "data_ingestion/cold_paths/"
-DELTA_TABLE_PATH = "data_ingestion/delta_storage/cold_paths/"
-METADATA_FILE = "data_ingestion/metadata/ingestion_logs.json"
+DELTA_TABLE_PATH = "storage/delta/raw/"
+METADATA_FILE = "storage/delta/raw/metadata/ingestion_logs.json"
 
 # Define Cold Path Data Sources
 cold_path_datasets = {
@@ -70,7 +70,7 @@ def store_in_delta(dataset_name, gdf):
 
 # Function to Log Metadata
 def log_metadata(dataset_name, file_path):
-    os.makedirs(os.path.dirname(METADATA_FILE), exist_ok=True)  # Ensure directory exists
+    os.makedirs(os.path.dirname(METADATA_FILE), exist_ok=True)  # Ensure metadata directory exists
 
     log_entry = {
         "dataset": dataset_name,

@@ -1,0 +1,17 @@
+[
+    {
+        "dataset": "environmental_indicators",
+        "timestamp": "2025-03-18 22:22:31",
+        "file_path": "data_ingestion/warm_paths/environmental_indicators/raw_2025-03-18.xls"
+    },
+    {
+        "dataset": "passenger_volume",
+        "timestamp": "2025-03-18 22:22:32",
+        "file_path": "data_ingestion/warm_paths/passenger_volume/raw_2025-03-18.csv"
+    },
+    {
+        "dataset": "administrative_shapefiles",
+        "timestamp": "2025-03-18 22:24:13",
+        "file_path": "data_ingestion/cold_paths/administrative_shapefiles/0301040100_Districtes_UNITATS_ADM.shp"
+    }
+]

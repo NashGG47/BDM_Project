@@ -15,17 +15,28 @@ spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
 # 🚀 Define Storage Paths
 BASE_DIR = "data_ingestion/warm_paths/"
-DELTA_TABLE_PATH = "data_ingestion/delta_storage/warm_paths/"
-METADATA_FILE = "data_ingestion/metadata/ingestion_logs.json"
+DELTA_TABLE_PATHS = {
+    "environmental_indicators": "storage/delta/raw/environmental_indicators/",
+    "passenger_volume": "storage/delta/raw/passenger_volume/"
+}
+METADATA_FILE = "storage/delta/raw/metadata/ingestion_logs.json"
 
 # 🚀 Define Warm Path Data Sources
 warm_path_datasets = {
-    "environmental_indicators": "https://data.renfe.com/dataset/81f21f5f-b093-413d-92a8-e9f5e670cd6b/resource/5d987311-277c-454f-bfbc-f81a32326973/download/principales-indicadores-ambientales.xls",
-    "passenger_volume": "https://data.renfe.com/dataset/9190f983-e138-42da-901a-b37205562fe4/resource/1417396e-4d6a-466a-a987-03d07aa92bed/download/barcelona_viajeros_por_franja_csv.csv"
+    "environmental_indicators": {
+        "url": "https://data.renfe.com/dataset/81f21f5f-b093-413d-92a8-e9f5e670cd6b/resource/5d987311-277c-454f-bfbc-f81a32326973/download/principales-indicadores-ambientales.xls",
+        "format": "xls"
+    },
+    "passenger_volume": {
+        "url": "https://data.renfe.com/dataset/9190f983-e138-42da-901a-b37205562fe4/resource/1417396e-4d6a-466a-a987-03d07aa92bed/download/barcelona_viajeros_por_franja_csv.csv",
+        "format": "csv"
+    }
 }
 
 # 🚀 Function to Download and Save Data
-def download_and_save(dataset_name, url, file_format):
+def download_and_save(dataset_name, dataset_info):
+    file_format = dataset_info["format"]
+    url = dataset_info["url"]
     local_path = os.path.join(BASE_DIR, dataset_name, f"raw_{datetime.now().strftime('%Y-%m-%d')}.{file_format}")
     os.makedirs(os.path.dirname(local_path), exist_ok=True)
 
@@ -73,40 +84,57 @@ def process_xls(file_path):
 
 # 🚀 Function to Process CSV (for Passenger Volume)
 def process_csv(file_path):
-    return pd.read_csv(file_path)
+    try:
+        df = pd.read_csv(file_path)
+        df.columns = df.columns.str.strip().str.replace(" ", "_").str.replace(r"[;{}()\n\t=]", "", regex=True)
+        return df
+    except Exception as e:
+        print(f"⚠️ Error processing CSV {file_path}: {e}")
+        return pd.DataFrame()  # Return empty DataFrame on failure
 
 # 🚀 Function to Store Data in Delta Lake
 def store_in_delta(dataset_name, df):
+    if df.empty:
+        print(f"⚠️ Skipping {dataset_name}: No data to store.")
+        return
+
     print(f"📤 Storing {dataset_name} in Delta Lake...")
+    delta_path = DELTA_TABLE_PATHS.get(dataset_name, "storage/delta/raw/misc/")
     spark_df = spark.createDataFrame(df)
-    spark_df.write.format("delta").mode("append").save(DELTA_TABLE_PATH + dataset_name)
-    print(f"✅ Delta Table Updated: {DELTA_TABLE_PATH + dataset_name}")
+    spark_df.write.format("delta").mode("append").save(delta_path)
+    print(f"✅ Delta Table Updated: {delta_path}")
 
 # 🚀 Function to Log Metadata
 def log_metadata(dataset_name, file_path):
+    os.makedirs(os.path.dirname(METADATA_FILE), exist_ok=True)  # Ensure metadata directory exists
+    
     log_entry = {
         "dataset": dataset_name,
         "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         "file_path": file_path
     }
-    
+
     if os.path.exists(METADATA_FILE):
         with open(METADATA_FILE, "r") as f:
             logs = json.load(f)
     else:
         logs = []
-    
+
     logs.append(log_entry)
+
     with open(METADATA_FILE, "w") as f:
         json.dump(logs, f, indent=4)
+
     print(f"📜 Metadata logged for {dataset_name}")
 
 # Execute Ingestion for Warm Path Datasets
-for dataset, url in warm_path_datasets.items():
-    file_format = "xls" if "xls" in url else "csv"
-    local_file = download_and_save(dataset, url, file_format)
-    df = process_xls(local_file) if file_format == "xls" else process_csv(local_file)
-    store_in_delta(dataset, df)
-    log_metadata(dataset, local_file)
+for dataset_name, dataset_info in warm_path_datasets.items():
+    local_file = download_and_save(dataset_name, dataset_info)
+    if dataset_info["format"] == "xls":
+        df = process_xls(local_file)
+    else:
+        df = process_csv(local_file)
+    store_in_delta(dataset_name, df)
+    log_metadata(dataset_name, local_file)
 
 print("🎯 Warm Path Data Ingestion Complete!")
