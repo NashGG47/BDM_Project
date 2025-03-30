@@ -34,7 +34,7 @@ def fetch_and_send():
     except Exception as e:
         print(f"[{datetime.now()}] Error: {e}")
 
-schedule.every(1).hours.do(fetch_and_send)
+schedule.every(1).minutes.do(fetch_and_send)
 #fetch_and_send()
 
 while True:
