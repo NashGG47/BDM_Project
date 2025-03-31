@@ -17,24 +17,31 @@ def run_producer_job():
     except subprocess.CalledProcessError as e:
         print(f"Error running Producer job: {e}")
 
+default_args = {
+    "owner": "airflow",
+    "depends_on_past": False,
+    "start_date": datetime(2025, 3, 15),
+    "retries": 1,
+    "retry_delay": timedelta(minutes=5),
+}
 
 dag = DAG(
-    'gencat_incidents_dag',
-    description='Fetch, process, and store transit incidents using Kafka and Delta Lake',
+    "gencat_incidents_dag",
+    description="Fetch, process, and store transit incidents using Kafka and Delta Lake",
     schedule_interval=timedelta(hours=1),
-    start_date=datetime(2025, 3, 15),
-    catchup=False, 
+    catchup=False,
+    default_args=default_args,
 )
 
 run_producer_task = PythonOperator(
-    task_id='run_producer_job',
+    task_id="run_producer_job",
     python_callable=run_producer_job,
     dag=dag,
 )
 
 run_consumer_task = PythonOperator(
-    task_id='run_consumer_job',
+    task_id="run_consumer_job",
     python_callable=run_consumer_job,
     dag=dag,
 )
-run_producer_task >> run_consumer_task 
+run_producer_task >> run_consumer_task
