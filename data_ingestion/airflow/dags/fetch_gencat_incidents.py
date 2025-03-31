@@ -6,14 +6,14 @@ import subprocess
 def run_consumer_job():
     """Run the Consumer job to fetch and process transit incidents from Kafka."""
     try:
-        subprocess.run(["python", "hotpaths/consumer/consume_gencat_incidents.py"], check=True)
+        subprocess.run(["python", "data_ingestion/hot_paths/consumer/consume_gencat_incident.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error running Consumer job: {e}")
 
 def run_producer_job():
     """Run the Producer job to send transit incidents to Kafka."""
     try:
-        subprocess.run(["python", "producer/process_gencat_incidents.py"], check=True)
+        subprocess.run(["python", "data_ingestion/hot_paths/producer/process_gencat_incidents.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error running Producer job: {e}")
 
