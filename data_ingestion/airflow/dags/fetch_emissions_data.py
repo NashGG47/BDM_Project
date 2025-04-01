@@ -26,7 +26,7 @@ default_args = {
 }
 
 dag = DAG(
-    "emissions_data_dag",
+    "ingest_emissions_data_dag",
     description="Fetch, process, and store transit incidents using Kafka and Delta Lake",
     schedule_interval=timedelta(hours=1),
     catchup=False,

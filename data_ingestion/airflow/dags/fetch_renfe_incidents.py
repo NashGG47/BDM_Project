@@ -26,7 +26,7 @@ default_args = {
 }
 
 dag = DAG(
-    "renfe_incidents_dag",
+    "ingest_renfe_incidents_dag",
     description="Fetch, process, and store transit incidents using Kafka and Delta Lake",
     schedule_interval=timedelta(hours=1),
     catchup=False,
