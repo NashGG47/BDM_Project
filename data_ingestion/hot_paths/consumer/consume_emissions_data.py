@@ -43,22 +43,41 @@ def store_in_delta(dataset_name, df):
     spark_df.write.format("delta").mode("append").save(delta_path)
     print(f"Delta Table Updated: {delta_path}")
 
-def log_metadata(dataset_name, count):
+def log_metadata(dataset_name, count, file_path=None, source=None, errors=0, warnings=None):
     """
-    Log metadata about the data ingestion process
+    Log metadata about the data ingestion process, including data quality and system context.
     """
     os.makedirs(os.path.dirname(METADATA_FILE), exist_ok=True)
+    
+    start_time = time.time()
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    file_size = os.path.getsize(file_path) if file_path and os.path.exists(file_path) else None
+    processing_time = round(time.time() - start_time, 2)
+    warnings = warnings if warnings else []
 
     log_entry = {
         "dataset": dataset_name,
-        "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-        "records_ingested": count
+        "timestamp": timestamp,
+        "records_ingested": count,
+        "source": source,
+        "file_size_MB": round(file_size / (1024 * 1024), 2) if file_size else None,
+        "processing_time_sec": processing_time,
+        "errors": errors,
+        "warnings": warnings,
     }
+
     if os.path.exists(METADATA_FILE):
         with open(METADATA_FILE, "r") as f:
             logs = json.load(f)
     else:
         logs = []
+
+    if logs:
+        last_log = logs[-1]
+        log_entry["previous_record_count"] = last_log.get("records_ingested", 0)
+        log_entry["change_percentage"] = round(
+            ((count - last_log.get("records_ingested", 0)) / (last_log.get("records_ingested", 1))) * 100, 2
+        ) if last_log.get("records_ingested") else None
 
     logs.append(log_entry)
     with open(METADATA_FILE, "w") as f:
