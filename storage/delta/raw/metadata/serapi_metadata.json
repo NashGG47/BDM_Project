@@ -1,0 +1,1216 @@
+[
+    {
+        "dataset_name": "serapi_data",
+        "data_count": 100,
+        "files_metadata": [
+            {
+                "file_name": "serapi_google_maps_image_0.jpg",
+                "file_size_in_kb": 12.5537,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:13:07.684180"
+            },
+            {
+                "file_name": "serapi_google_maps_image_1.jpg",
+                "file_size_in_kb": 16.5889,
+                "image_dimensions": "270x187",
+                "timestamp": "2025-04-01T05:13:20.384148"
+            },
+            {
+                "file_name": "serapi_google_maps_image_2.jpg",
+                "file_size_in_kb": 9.3184,
+                "image_dimensions": "259x195",
+                "timestamp": "2025-04-01T05:13:24.172268"
+            },
+            {
+                "file_name": "serapi_google_maps_image_3.jpg",
+                "file_size_in_kb": 14.1416,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T05:13:26.021451"
+            },
+            {
+                "file_name": "serapi_google_maps_image_4.jpg",
+                "file_size_in_kb": 9.498,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:13:27.874494"
+            },
+            {
+                "file_name": "serapi_google_maps_image_5.jpg",
+                "file_size_in_kb": 14.4072,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:13:29.684647"
+            },
+            {
+                "file_name": "serapi_google_maps_image_6.jpg",
+                "file_size_in_kb": 12.7725,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:13:31.250523"
+            },
+            {
+                "file_name": "serapi_google_maps_image_7.jpg",
+                "file_size_in_kb": 12.9902,
+                "image_dimensions": "299x168",
+                "timestamp": "2025-04-01T05:13:33.185184"
+            },
+            {
+                "file_name": "serapi_google_maps_image_8.jpg",
+                "file_size_in_kb": 14.4102,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:13:34.827458"
+            },
+            {
+                "file_name": "serapi_google_maps_image_9.jpg",
+                "file_size_in_kb": 16.0156,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:13:36.290568"
+            },
+            {
+                "file_name": "serapi_google_maps_image_10.jpg",
+                "file_size_in_kb": 14.0898,
+                "image_dimensions": "177x284",
+                "timestamp": "2025-04-01T05:13:37.859121"
+            },
+            {
+                "file_name": "serapi_google_maps_image_11.jpg",
+                "file_size_in_kb": 10.3877,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:13:47.915563"
+            },
+            {
+                "file_name": "serapi_google_maps_image_12.jpg",
+                "file_size_in_kb": 14.9346,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:13:51.031553"
+            },
+            {
+                "file_name": "serapi_google_maps_image_13.jpg",
+                "file_size_in_kb": 13.5576,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:13:53.077101"
+            },
+            {
+                "file_name": "serapi_google_maps_image_14.jpg",
+                "file_size_in_kb": 12.2891,
+                "image_dimensions": "299x168",
+                "timestamp": "2025-04-01T05:13:54.831903"
+            },
+            {
+                "file_name": "serapi_google_maps_image_15.jpg",
+                "file_size_in_kb": 10.5703,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T05:13:56.365342"
+            },
+            {
+                "file_name": "serapi_google_maps_image_16.jpg",
+                "file_size_in_kb": 11.7969,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:13:58.036056"
+            },
+            {
+                "file_name": "serapi_google_maps_image_17.jpg",
+                "file_size_in_kb": 14.0439,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:13:59.717860"
+            },
+            {
+                "file_name": "serapi_google_maps_image_18.jpg",
+                "file_size_in_kb": 13.3828,
+                "image_dimensions": "250x202",
+                "timestamp": "2025-04-01T05:14:01.261755"
+            },
+            {
+                "file_name": "serapi_google_maps_image_19.jpg",
+                "file_size_in_kb": 12.752,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:02.729302"
+            },
+            {
+                "file_name": "serapi_google_maps_image_20.jpg",
+                "file_size_in_kb": 12.7646,
+                "image_dimensions": "281x180",
+                "timestamp": "2025-04-01T05:14:04.264888"
+            },
+            {
+                "file_name": "serapi_google_maps_image_21.jpg",
+                "file_size_in_kb": 7.5273,
+                "image_dimensions": "246x205",
+                "timestamp": "2025-04-01T05:14:06.789885"
+            },
+            {
+                "file_name": "serapi_google_maps_image_22.jpg",
+                "file_size_in_kb": 11.5869,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:08.227688"
+            },
+            {
+                "file_name": "serapi_google_maps_image_23.jpg",
+                "file_size_in_kb": 12.5938,
+                "image_dimensions": "311x162",
+                "timestamp": "2025-04-01T05:14:09.888324"
+            },
+            {
+                "file_name": "serapi_google_maps_image_24.jpg",
+                "file_size_in_kb": 9.4248,
+                "image_dimensions": "225x225",
+                "timestamp": "2025-04-01T05:14:11.424655"
+            },
+            {
+                "file_name": "serapi_google_maps_image_25.jpg",
+                "file_size_in_kb": 9.9375,
+                "image_dimensions": "274x184",
+                "timestamp": "2025-04-01T05:14:12.862878"
+            },
+            {
+                "file_name": "serapi_google_maps_image_26.jpg",
+                "file_size_in_kb": 10.7354,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T05:14:14.477399"
+            },
+            {
+                "file_name": "serapi_google_maps_image_27.jpg",
+                "file_size_in_kb": 12.4863,
+                "image_dimensions": "183x276",
+                "timestamp": "2025-04-01T05:14:16.279933"
+            },
+            {
+                "file_name": "serapi_google_maps_image_28.jpg",
+                "file_size_in_kb": 14.1562,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:18.504181"
+            },
+            {
+                "file_name": "serapi_google_maps_image_29.jpg",
+                "file_size_in_kb": 12.1123,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:14:20.581765"
+            },
+            {
+                "file_name": "serapi_google_maps_image_30.jpg",
+                "file_size_in_kb": 16.7256,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:14:21.918254"
+            },
+            {
+                "file_name": "serapi_google_maps_image_31.jpg",
+                "file_size_in_kb": 12.623,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:23.842262"
+            },
+            {
+                "file_name": "serapi_google_maps_image_32.jpg",
+                "file_size_in_kb": 15.9863,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:25.419373"
+            },
+            {
+                "file_name": "serapi_google_maps_image_33.jpg",
+                "file_size_in_kb": 13.751,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:26.708949"
+            },
+            {
+                "file_name": "serapi_google_maps_image_34.jpg",
+                "file_size_in_kb": 12.0098,
+                "image_dimensions": "299x168",
+                "timestamp": "2025-04-01T05:14:28.229939"
+            },
+            {
+                "file_name": "serapi_google_maps_image_35.jpg",
+                "file_size_in_kb": 14.127,
+                "image_dimensions": "276x182",
+                "timestamp": "2025-04-01T05:14:29.959011"
+            },
+            {
+                "file_name": "serapi_google_maps_image_36.jpg",
+                "file_size_in_kb": 13.5674,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:31.409952"
+            },
+            {
+                "file_name": "serapi_google_maps_image_37.jpg",
+                "file_size_in_kb": 6.1875,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:32.774138"
+            },
+            {
+                "file_name": "serapi_google_maps_image_38.jpg",
+                "file_size_in_kb": 13.5107,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:14:34.008329"
+            },
+            {
+                "file_name": "serapi_google_maps_image_39.jpg",
+                "file_size_in_kb": 12.3066,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:14:35.672123"
+            },
+            {
+                "file_name": "serapi_google_maps_image_40.jpg",
+                "file_size_in_kb": 13.043,
+                "image_dimensions": "221x228",
+                "timestamp": "2025-04-01T05:14:37.388828"
+            },
+            {
+                "file_name": "serapi_google_maps_image_41.jpg",
+                "file_size_in_kb": 14.6104,
+                "image_dimensions": "305x165",
+                "timestamp": "2025-04-01T05:14:40.084872"
+            },
+            {
+                "file_name": "serapi_google_maps_image_42.jpg",
+                "file_size_in_kb": 12.1846,
+                "image_dimensions": "261x193",
+                "timestamp": "2025-04-01T05:14:41.265442"
+            },
+            {
+                "file_name": "serapi_google_maps_image_43.jpg",
+                "file_size_in_kb": 9.7422,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:14:42.500829"
+            },
+            {
+                "file_name": "serapi_google_maps_image_44.jpg",
+                "file_size_in_kb": 13.2715,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:43.793260"
+            },
+            {
+                "file_name": "serapi_google_maps_image_45.jpg",
+                "file_size_in_kb": 12.3398,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:14:45.014573"
+            },
+            {
+                "file_name": "serapi_google_maps_image_46.jpg",
+                "file_size_in_kb": 18.3584,
+                "image_dimensions": "290x174",
+                "timestamp": "2025-04-01T05:14:46.166526"
+            },
+            {
+                "file_name": "serapi_google_maps_image_47.jpg",
+                "file_size_in_kb": 10.8301,
+                "image_dimensions": "194x259",
+                "timestamp": "2025-04-01T05:14:48.963571"
+            },
+            {
+                "file_name": "serapi_google_maps_image_48.jpg",
+                "file_size_in_kb": 12.8867,
+                "image_dimensions": "329x153",
+                "timestamp": "2025-04-01T05:14:50.432259"
+            },
+            {
+                "file_name": "serapi_google_maps_image_49.jpg",
+                "file_size_in_kb": 13.1309,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:14:51.592018"
+            },
+            {
+                "file_name": "serapi_google_maps_image_50.jpg",
+                "file_size_in_kb": 12.748,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:14:52.896230"
+            },
+            {
+                "file_name": "serapi_google_maps_image_51.jpg",
+                "file_size_in_kb": 10.3301,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:55.756185"
+            },
+            {
+                "file_name": "serapi_google_maps_image_52.jpg",
+                "file_size_in_kb": 14.2002,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:14:56.162795"
+            },
+            {
+                "file_name": "serapi_google_maps_image_53.jpg",
+                "file_size_in_kb": 9.124,
+                "image_dimensions": "392x129",
+                "timestamp": "2025-04-01T05:14:56.464664"
+            },
+            {
+                "file_name": "serapi_google_maps_image_54.jpg",
+                "file_size_in_kb": 15.5127,
+                "image_dimensions": "250x202",
+                "timestamp": "2025-04-01T05:14:56.776696"
+            },
+            {
+                "file_name": "serapi_google_maps_image_55.jpg",
+                "file_size_in_kb": 11.6162,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:14:57.076411"
+            },
+            {
+                "file_name": "serapi_google_maps_image_56.jpg",
+                "file_size_in_kb": 9.7725,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:14:57.474701"
+            },
+            {
+                "file_name": "serapi_google_maps_image_57.jpg",
+                "file_size_in_kb": 10.0605,
+                "image_dimensions": "327x154",
+                "timestamp": "2025-04-01T05:14:57.819872"
+            },
+            {
+                "file_name": "serapi_google_maps_image_58.jpg",
+                "file_size_in_kb": 12.3506,
+                "image_dimensions": "222x227",
+                "timestamp": "2025-04-01T05:14:58.107182"
+            },
+            {
+                "file_name": "serapi_google_maps_image_59.jpg",
+                "file_size_in_kb": 11.4785,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:14:58.424187"
+            },
+            {
+                "file_name": "serapi_google_maps_image_60.jpg",
+                "file_size_in_kb": 11.9121,
+                "image_dimensions": "177x285",
+                "timestamp": "2025-04-01T05:14:58.658898"
+            },
+            {
+                "file_name": "serapi_google_maps_image_61.jpg",
+                "file_size_in_kb": 13.0771,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:00.329984"
+            },
+            {
+                "file_name": "serapi_google_maps_image_62.jpg",
+                "file_size_in_kb": 13.0059,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T05:15:00.655024"
+            },
+            {
+                "file_name": "serapi_google_maps_image_63.jpg",
+                "file_size_in_kb": 13.541,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:00.979891"
+            },
+            {
+                "file_name": "serapi_google_maps_image_64.jpg",
+                "file_size_in_kb": 17.542,
+                "image_dimensions": "320x157",
+                "timestamp": "2025-04-01T05:15:01.364609"
+            },
+            {
+                "file_name": "serapi_google_maps_image_65.jpg",
+                "file_size_in_kb": 11.2393,
+                "image_dimensions": "276x183",
+                "timestamp": "2025-04-01T05:15:01.748952"
+            },
+            {
+                "file_name": "serapi_google_maps_image_66.jpg",
+                "file_size_in_kb": 11.3916,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:02.075232"
+            },
+            {
+                "file_name": "serapi_google_maps_image_67.jpg",
+                "file_size_in_kb": 14.3281,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:02.429873"
+            },
+            {
+                "file_name": "serapi_google_maps_image_68.jpg",
+                "file_size_in_kb": 11.5449,
+                "image_dimensions": "168x300",
+                "timestamp": "2025-04-01T05:15:02.711910"
+            },
+            {
+                "file_name": "serapi_google_maps_image_69.jpg",
+                "file_size_in_kb": 13.3789,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:02.984812"
+            },
+            {
+                "file_name": "serapi_google_maps_image_70.jpg",
+                "file_size_in_kb": 11.0225,
+                "image_dimensions": "287x175",
+                "timestamp": "2025-04-01T05:15:03.283047"
+            },
+            {
+                "file_name": "serapi_google_maps_image_71.jpg",
+                "file_size_in_kb": 14.2207,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:05.223156"
+            },
+            {
+                "file_name": "serapi_google_maps_image_72.jpg",
+                "file_size_in_kb": 11.0566,
+                "image_dimensions": "263x192",
+                "timestamp": "2025-04-01T05:15:05.632866"
+            },
+            {
+                "file_name": "serapi_google_maps_image_73.jpg",
+                "file_size_in_kb": 11.2227,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:15:06.026928"
+            },
+            {
+                "file_name": "serapi_google_maps_image_74.jpg",
+                "file_size_in_kb": 12.4521,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:06.382167"
+            },
+            {
+                "file_name": "serapi_google_maps_image_75.jpg",
+                "file_size_in_kb": 15.8809,
+                "image_dimensions": "312x162",
+                "timestamp": "2025-04-01T05:15:06.720730"
+            },
+            {
+                "file_name": "serapi_google_maps_image_76.jpg",
+                "file_size_in_kb": 15.668,
+                "image_dimensions": "277x182",
+                "timestamp": "2025-04-01T05:15:07.014802"
+            },
+            {
+                "file_name": "serapi_google_maps_image_77.jpg",
+                "file_size_in_kb": 12.4707,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:07.305057"
+            },
+            {
+                "file_name": "serapi_google_maps_image_78.jpg",
+                "file_size_in_kb": 13.2471,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:07.761245"
+            },
+            {
+                "file_name": "serapi_google_maps_image_79.jpg",
+                "file_size_in_kb": 11.959,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:15:08.121213"
+            },
+            {
+                "file_name": "serapi_google_maps_image_80.jpg",
+                "file_size_in_kb": 9.2295,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:15:08.460530"
+            },
+            {
+                "file_name": "serapi_google_maps_image_81.jpg",
+                "file_size_in_kb": 10.8047,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:10.830255"
+            },
+            {
+                "file_name": "serapi_google_maps_image_82.jpg",
+                "file_size_in_kb": 9.8564,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T05:15:11.129226"
+            },
+            {
+                "file_name": "serapi_google_maps_image_83.jpg",
+                "file_size_in_kb": 8.4277,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:11.444502"
+            },
+            {
+                "file_name": "serapi_google_maps_image_84.jpg",
+                "file_size_in_kb": 12.1426,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:11.739165"
+            },
+            {
+                "file_name": "serapi_google_maps_image_85.jpg",
+                "file_size_in_kb": 12.9629,
+                "image_dimensions": "399x126",
+                "timestamp": "2025-04-01T05:15:12.006736"
+            },
+            {
+                "file_name": "serapi_google_maps_image_86.jpg",
+                "file_size_in_kb": 12.2305,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:12.301277"
+            },
+            {
+                "file_name": "serapi_google_maps_image_87.jpg",
+                "file_size_in_kb": 12.5068,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:12.627415"
+            },
+            {
+                "file_name": "serapi_google_maps_image_88.jpg",
+                "file_size_in_kb": 8.2803,
+                "image_dimensions": "323x156",
+                "timestamp": "2025-04-01T05:15:12.914953"
+            },
+            {
+                "file_name": "serapi_google_maps_image_89.jpg",
+                "file_size_in_kb": 10.4385,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:13.284834"
+            },
+            {
+                "file_name": "serapi_google_maps_image_90.jpg",
+                "file_size_in_kb": 10.9473,
+                "image_dimensions": "309x163",
+                "timestamp": "2025-04-01T05:15:13.612217"
+            },
+            {
+                "file_name": "serapi_google_maps_image_91.jpg",
+                "file_size_in_kb": 12.4531,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:15.379527"
+            },
+            {
+                "file_name": "serapi_google_maps_image_92.jpg",
+                "file_size_in_kb": 15.9814,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:15.729376"
+            },
+            {
+                "file_name": "serapi_google_maps_image_93.jpg",
+                "file_size_in_kb": 9.7344,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T05:15:16.032304"
+            },
+            {
+                "file_name": "serapi_google_maps_image_94.jpg",
+                "file_size_in_kb": 11.7236,
+                "image_dimensions": "248x203",
+                "timestamp": "2025-04-01T05:15:16.348521"
+            },
+            {
+                "file_name": "serapi_google_maps_image_95.jpg",
+                "file_size_in_kb": 17.9131,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T05:15:16.695907"
+            },
+            {
+                "file_name": "serapi_google_maps_image_96.jpg",
+                "file_size_in_kb": 5.7246,
+                "image_dimensions": "299x168",
+                "timestamp": "2025-04-01T05:15:17.011389"
+            },
+            {
+                "file_name": "serapi_google_maps_image_97.jpg",
+                "file_size_in_kb": 11.5654,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T05:15:17.320142"
+            },
+            {
+                "file_name": "serapi_google_maps_image_98.jpg",
+                "file_size_in_kb": 13.1641,
+                "image_dimensions": "225x225",
+                "timestamp": "2025-04-01T05:15:17.628938"
+            },
+            {
+                "file_name": "serapi_google_maps_image_99.jpg",
+                "file_size_in_kb": 12.1436,
+                "image_dimensions": "276x183",
+                "timestamp": "2025-04-01T05:15:17.954969"
+            }
+        ],
+        "timestamp": "2025-04-01T05:15:18.105800"
+    },
+    {
+        "dataset_name": "serapi_data",
+        "data_count": 100,
+        "files_metadata": [
+            {
+                "file_name": "serapi_google_maps_image_0.jpg",
+                "file_size_in_kb": 12.5537,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:38:00.684982"
+            },
+            {
+                "file_name": "serapi_google_maps_image_1.jpg",
+                "file_size_in_kb": 16.5889,
+                "image_dimensions": "270x187",
+                "timestamp": "2025-04-01T14:38:20.213134"
+            },
+            {
+                "file_name": "serapi_google_maps_image_2.jpg",
+                "file_size_in_kb": 9.3184,
+                "image_dimensions": "259x195",
+                "timestamp": "2025-04-01T14:38:23.795780"
+            },
+            {
+                "file_name": "serapi_google_maps_image_3.jpg",
+                "file_size_in_kb": 14.1416,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T14:38:27.185901"
+            },
+            {
+                "file_name": "serapi_google_maps_image_4.jpg",
+                "file_size_in_kb": 9.498,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:38:30.141122"
+            },
+            {
+                "file_name": "serapi_google_maps_image_5.jpg",
+                "file_size_in_kb": 14.4072,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:38:32.572295"
+            },
+            {
+                "file_name": "serapi_google_maps_image_6.jpg",
+                "file_size_in_kb": 12.7725,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:38:35.577204"
+            },
+            {
+                "file_name": "serapi_google_maps_image_7.jpg",
+                "file_size_in_kb": 12.9902,
+                "image_dimensions": "299x168",
+                "timestamp": "2025-04-01T14:38:37.570971"
+            },
+            {
+                "file_name": "serapi_google_maps_image_8.jpg",
+                "file_size_in_kb": 14.4102,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:38:39.630084"
+            },
+            {
+                "file_name": "serapi_google_maps_image_9.jpg",
+                "file_size_in_kb": 16.0156,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:38:41.563868"
+            },
+            {
+                "file_name": "serapi_google_maps_image_10.jpg",
+                "file_size_in_kb": 14.0898,
+                "image_dimensions": "177x284",
+                "timestamp": "2025-04-01T14:38:43.771833"
+            },
+            {
+                "file_name": "serapi_google_maps_image_11.jpg",
+                "file_size_in_kb": 10.3877,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:38:49.470502"
+            },
+            {
+                "file_name": "serapi_google_maps_image_12.jpg",
+                "file_size_in_kb": 14.9346,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:38:52.074625"
+            },
+            {
+                "file_name": "serapi_google_maps_image_13.jpg",
+                "file_size_in_kb": 13.5576,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:38:54.705604"
+            },
+            {
+                "file_name": "serapi_google_maps_image_14.jpg",
+                "file_size_in_kb": 12.2891,
+                "image_dimensions": "299x168",
+                "timestamp": "2025-04-01T14:38:57.122837"
+            },
+            {
+                "file_name": "serapi_google_maps_image_15.jpg",
+                "file_size_in_kb": 10.5703,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T14:38:59.235299"
+            },
+            {
+                "file_name": "serapi_google_maps_image_16.jpg",
+                "file_size_in_kb": 11.7969,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:01.456503"
+            },
+            {
+                "file_name": "serapi_google_maps_image_17.jpg",
+                "file_size_in_kb": 14.0439,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:04.799334"
+            },
+            {
+                "file_name": "serapi_google_maps_image_18.jpg",
+                "file_size_in_kb": 13.3828,
+                "image_dimensions": "250x202",
+                "timestamp": "2025-04-01T14:39:07.532143"
+            },
+            {
+                "file_name": "serapi_google_maps_image_19.jpg",
+                "file_size_in_kb": 12.752,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:09.864673"
+            },
+            {
+                "file_name": "serapi_google_maps_image_20.jpg",
+                "file_size_in_kb": 7.5273,
+                "image_dimensions": "246x205",
+                "timestamp": "2025-04-01T14:39:12.473065"
+            },
+            {
+                "file_name": "serapi_google_maps_image_21.jpg",
+                "file_size_in_kb": 12.7646,
+                "image_dimensions": "281x180",
+                "timestamp": "2025-04-01T14:39:15.723777"
+            },
+            {
+                "file_name": "serapi_google_maps_image_22.jpg",
+                "file_size_in_kb": 12.5938,
+                "image_dimensions": "311x162",
+                "timestamp": "2025-04-01T14:39:17.531612"
+            },
+            {
+                "file_name": "serapi_google_maps_image_23.jpg",
+                "file_size_in_kb": 11.5869,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:19.035858"
+            },
+            {
+                "file_name": "serapi_google_maps_image_24.jpg",
+                "file_size_in_kb": 9.4248,
+                "image_dimensions": "225x225",
+                "timestamp": "2025-04-01T14:39:21.282444"
+            },
+            {
+                "file_name": "serapi_google_maps_image_25.jpg",
+                "file_size_in_kb": 9.9375,
+                "image_dimensions": "274x184",
+                "timestamp": "2025-04-01T14:39:22.987452"
+            },
+            {
+                "file_name": "serapi_google_maps_image_26.jpg",
+                "file_size_in_kb": 10.7354,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T14:39:24.709449"
+            },
+            {
+                "file_name": "serapi_google_maps_image_27.jpg",
+                "file_size_in_kb": 12.4863,
+                "image_dimensions": "183x276",
+                "timestamp": "2025-04-01T14:39:26.444759"
+            },
+            {
+                "file_name": "serapi_google_maps_image_28.jpg",
+                "file_size_in_kb": 14.1562,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:27.906424"
+            },
+            {
+                "file_name": "serapi_google_maps_image_29.jpg",
+                "file_size_in_kb": 12.1123,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:39:29.790569"
+            },
+            {
+                "file_name": "serapi_google_maps_image_30.jpg",
+                "file_size_in_kb": 16.7256,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:39:31.662403"
+            },
+            {
+                "file_name": "serapi_google_maps_image_31.jpg",
+                "file_size_in_kb": 15.9863,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:34.938524"
+            },
+            {
+                "file_name": "serapi_google_maps_image_32.jpg",
+                "file_size_in_kb": 12.623,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:43.845900"
+            },
+            {
+                "file_name": "serapi_google_maps_image_33.jpg",
+                "file_size_in_kb": 13.751,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:47.101115"
+            },
+            {
+                "file_name": "serapi_google_maps_image_34.jpg",
+                "file_size_in_kb": 14.127,
+                "image_dimensions": "276x182",
+                "timestamp": "2025-04-01T14:39:49.093937"
+            },
+            {
+                "file_name": "serapi_google_maps_image_35.jpg",
+                "file_size_in_kb": 12.0098,
+                "image_dimensions": "299x168",
+                "timestamp": "2025-04-01T14:39:50.957326"
+            },
+            {
+                "file_name": "serapi_google_maps_image_36.jpg",
+                "file_size_in_kb": 13.5674,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:52.676674"
+            },
+            {
+                "file_name": "serapi_google_maps_image_37.jpg",
+                "file_size_in_kb": 6.1875,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:39:55.398545"
+            },
+            {
+                "file_name": "serapi_google_maps_image_38.jpg",
+                "file_size_in_kb": 13.5107,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:40:02.683662"
+            },
+            {
+                "file_name": "serapi_google_maps_image_39.jpg",
+                "file_size_in_kb": 12.3066,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:40:10.164565"
+            },
+            {
+                "file_name": "serapi_google_maps_image_40.jpg",
+                "file_size_in_kb": 13.043,
+                "image_dimensions": "221x228",
+                "timestamp": "2025-04-01T14:40:13.991467"
+            },
+            {
+                "file_name": "serapi_google_maps_image_41.jpg",
+                "file_size_in_kb": 12.1846,
+                "image_dimensions": "261x193",
+                "timestamp": "2025-04-01T14:40:19.146373"
+            },
+            {
+                "file_name": "serapi_google_maps_image_42.jpg",
+                "file_size_in_kb": 14.6104,
+                "image_dimensions": "305x165",
+                "timestamp": "2025-04-01T14:40:21.273211"
+            },
+            {
+                "file_name": "serapi_google_maps_image_43.jpg",
+                "file_size_in_kb": 13.2715,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:40:23.479864"
+            },
+            {
+                "file_name": "serapi_google_maps_image_44.jpg",
+                "file_size_in_kb": 12.3398,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:40:25.866341"
+            },
+            {
+                "file_name": "serapi_google_maps_image_45.jpg",
+                "file_size_in_kb": 10.8301,
+                "image_dimensions": "194x259",
+                "timestamp": "2025-04-01T14:40:27.666474"
+            },
+            {
+                "file_name": "serapi_google_maps_image_46.jpg",
+                "file_size_in_kb": 18.3584,
+                "image_dimensions": "290x174",
+                "timestamp": "2025-04-01T14:40:29.124500"
+            },
+            {
+                "file_name": "serapi_google_maps_image_47.jpg",
+                "file_size_in_kb": 12.8867,
+                "image_dimensions": "329x153",
+                "timestamp": "2025-04-01T14:40:30.981846"
+            },
+            {
+                "file_name": "serapi_google_maps_image_48.jpg",
+                "file_size_in_kb": 9.7422,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:40:34.479608"
+            },
+            {
+                "file_name": "serapi_google_maps_image_49.jpg",
+                "file_size_in_kb": 12.748,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:40:36.745241"
+            },
+            {
+                "file_name": "serapi_google_maps_image_50.jpg",
+                "file_size_in_kb": 13.1309,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:40:38.283411"
+            },
+            {
+                "file_name": "serapi_google_maps_image_51.jpg",
+                "file_size_in_kb": 10.3301,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:40:40.680148"
+            },
+            {
+                "file_name": "serapi_google_maps_image_52.jpg",
+                "file_size_in_kb": 14.2002,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:40:41.086595"
+            },
+            {
+                "file_name": "serapi_google_maps_image_53.jpg",
+                "file_size_in_kb": 9.124,
+                "image_dimensions": "392x129",
+                "timestamp": "2025-04-01T14:40:41.452046"
+            },
+            {
+                "file_name": "serapi_google_maps_image_54.jpg",
+                "file_size_in_kb": 15.5127,
+                "image_dimensions": "250x202",
+                "timestamp": "2025-04-01T14:40:41.854998"
+            },
+            {
+                "file_name": "serapi_google_maps_image_55.jpg",
+                "file_size_in_kb": 9.7725,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:40:42.226814"
+            },
+            {
+                "file_name": "serapi_google_maps_image_56.jpg",
+                "file_size_in_kb": 11.6162,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:40:42.589998"
+            },
+            {
+                "file_name": "serapi_google_maps_image_57.jpg",
+                "file_size_in_kb": 12.3506,
+                "image_dimensions": "222x227",
+                "timestamp": "2025-04-01T14:40:42.927275"
+            },
+            {
+                "file_name": "serapi_google_maps_image_58.jpg",
+                "file_size_in_kb": 10.0605,
+                "image_dimensions": "327x154",
+                "timestamp": "2025-04-01T14:40:43.303727"
+            },
+            {
+                "file_name": "serapi_google_maps_image_59.jpg",
+                "file_size_in_kb": 11.9121,
+                "image_dimensions": "177x285",
+                "timestamp": "2025-04-01T14:40:43.623651"
+            },
+            {
+                "file_name": "serapi_google_maps_image_60.jpg",
+                "file_size_in_kb": 13.0771,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:40:44.044621"
+            },
+            {
+                "file_name": "serapi_google_maps_image_61.jpg",
+                "file_size_in_kb": 13.0059,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T14:40:46.391736"
+            },
+            {
+                "file_name": "serapi_google_maps_image_62.jpg",
+                "file_size_in_kb": 13.541,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:40:46.794402"
+            },
+            {
+                "file_name": "serapi_google_maps_image_63.jpg",
+                "file_size_in_kb": 17.542,
+                "image_dimensions": "320x157",
+                "timestamp": "2025-04-01T14:40:47.201529"
+            },
+            {
+                "file_name": "serapi_google_maps_image_64.jpg",
+                "file_size_in_kb": 11.2393,
+                "image_dimensions": "276x183",
+                "timestamp": "2025-04-01T14:40:47.670103"
+            },
+            {
+                "file_name": "serapi_google_maps_image_65.jpg",
+                "file_size_in_kb": 11.3916,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:40:48.020307"
+            },
+            {
+                "file_name": "serapi_google_maps_image_66.jpg",
+                "file_size_in_kb": 11.5449,
+                "image_dimensions": "168x300",
+                "timestamp": "2025-04-01T14:40:48.331853"
+            },
+            {
+                "file_name": "serapi_google_maps_image_67.jpg",
+                "file_size_in_kb": 14.3281,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:40:48.682210"
+            },
+            {
+                "file_name": "serapi_google_maps_image_68.jpg",
+                "file_size_in_kb": 13.3789,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:40:48.971946"
+            },
+            {
+                "file_name": "serapi_google_maps_image_69.jpg",
+                "file_size_in_kb": 11.0225,
+                "image_dimensions": "287x175",
+                "timestamp": "2025-04-01T14:40:49.279568"
+            },
+            {
+                "file_name": "serapi_google_maps_image_70.jpg",
+                "file_size_in_kb": 14.2207,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:40:49.563957"
+            },
+            {
+                "file_name": "serapi_google_maps_image_71.jpg",
+                "file_size_in_kb": 11.0566,
+                "image_dimensions": "263x192",
+                "timestamp": "2025-04-01T14:40:52.710027"
+            },
+            {
+                "file_name": "serapi_google_maps_image_72.jpg",
+                "file_size_in_kb": 11.2227,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:40:53.152245"
+            },
+            {
+                "file_name": "serapi_google_maps_image_73.jpg",
+                "file_size_in_kb": 12.4521,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:40:53.517865"
+            },
+            {
+                "file_name": "serapi_google_maps_image_74.jpg",
+                "file_size_in_kb": 15.8809,
+                "image_dimensions": "312x162",
+                "timestamp": "2025-04-01T14:40:54.064937"
+            },
+            {
+                "file_name": "serapi_google_maps_image_75.jpg",
+                "file_size_in_kb": 15.668,
+                "image_dimensions": "277x182",
+                "timestamp": "2025-04-01T14:40:54.610121"
+            },
+            {
+                "file_name": "serapi_google_maps_image_76.jpg",
+                "file_size_in_kb": 12.4707,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:40:55.144219"
+            },
+            {
+                "file_name": "serapi_google_maps_image_77.jpg",
+                "file_size_in_kb": 13.2471,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:40:55.619934"
+            },
+            {
+                "file_name": "serapi_google_maps_image_78.jpg",
+                "file_size_in_kb": 11.959,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:40:55.993125"
+            },
+            {
+                "file_name": "serapi_google_maps_image_79.jpg",
+                "file_size_in_kb": 9.2295,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:40:56.366988"
+            },
+            {
+                "file_name": "serapi_google_maps_image_80.jpg",
+                "file_size_in_kb": 9.8564,
+                "image_dimensions": "259x194",
+                "timestamp": "2025-04-01T14:40:56.753100"
+            },
+            {
+                "file_name": "serapi_google_maps_image_81.jpg",
+                "file_size_in_kb": 10.8047,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:41:00.925416"
+            },
+            {
+                "file_name": "serapi_google_maps_image_82.jpg",
+                "file_size_in_kb": 8.4277,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:41:01.670555"
+            },
+            {
+                "file_name": "serapi_google_maps_image_83.jpg",
+                "file_size_in_kb": 12.1426,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:41:02.497749"
+            },
+            {
+                "file_name": "serapi_google_maps_image_84.jpg",
+                "file_size_in_kb": 12.9629,
+                "image_dimensions": "399x126",
+                "timestamp": "2025-04-01T14:41:03.059643"
+            },
+            {
+                "file_name": "serapi_google_maps_image_85.jpg",
+                "file_size_in_kb": 12.2305,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:41:03.748381"
+            },
+            {
+                "file_name": "serapi_google_maps_image_86.jpg",
+                "file_size_in_kb": 12.5068,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:41:04.226242"
+            },
+            {
+                "file_name": "serapi_google_maps_image_87.jpg",
+                "file_size_in_kb": 8.2803,
+                "image_dimensions": "323x156",
+                "timestamp": "2025-04-01T14:41:04.702204"
+            },
+            {
+                "file_name": "serapi_google_maps_image_88.jpg",
+                "file_size_in_kb": 10.9473,
+                "image_dimensions": "309x163",
+                "timestamp": "2025-04-01T14:41:05.109627"
+            },
+            {
+                "file_name": "serapi_google_maps_image_89.jpg",
+                "file_size_in_kb": 10.4385,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:41:05.384161"
+            },
+            {
+                "file_name": "serapi_google_maps_image_90.jpg",
+                "file_size_in_kb": 12.4531,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:41:05.802299"
+            },
+            {
+                "file_name": "serapi_google_maps_image_91.jpg",
+                "file_size_in_kb": 15.9814,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:41:08.178160"
+            },
+            {
+                "file_name": "serapi_google_maps_image_92.jpg",
+                "file_size_in_kb": 9.7344,
+                "image_dimensions": "262x192",
+                "timestamp": "2025-04-01T14:41:08.550799"
+            },
+            {
+                "file_name": "serapi_google_maps_image_93.jpg",
+                "file_size_in_kb": 11.7236,
+                "image_dimensions": "248x203",
+                "timestamp": "2025-04-01T14:41:09.084418"
+            },
+            {
+                "file_name": "serapi_google_maps_image_94.jpg",
+                "file_size_in_kb": 17.9131,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:41:09.587787"
+            },
+            {
+                "file_name": "serapi_google_maps_image_95.jpg",
+                "file_size_in_kb": 5.7246,
+                "image_dimensions": "299x168",
+                "timestamp": "2025-04-01T14:41:10.130107"
+            },
+            {
+                "file_name": "serapi_google_maps_image_96.jpg",
+                "file_size_in_kb": 11.5654,
+                "image_dimensions": "300x168",
+                "timestamp": "2025-04-01T14:41:10.607224"
+            },
+            {
+                "file_name": "serapi_google_maps_image_97.jpg",
+                "file_size_in_kb": 13.1641,
+                "image_dimensions": "225x225",
+                "timestamp": "2025-04-01T14:41:11.000563"
+            },
+            {
+                "file_name": "serapi_google_maps_image_98.jpg",
+                "file_size_in_kb": 12.1436,
+                "image_dimensions": "276x183",
+                "timestamp": "2025-04-01T14:41:11.344535"
+            },
+            {
+                "file_name": "serapi_google_maps_image_99.jpg",
+                "file_size_in_kb": 14.4424,
+                "image_dimensions": "275x183",
+                "timestamp": "2025-04-01T14:41:11.670898"
+            }
+        ],
+        "timestamp": "2025-04-01T14:41:11.831037"
+    }
+]
