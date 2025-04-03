@@ -45,4 +45,3 @@ run_consumer_task = PythonOperator(
     dag=dag,
 )
 run_producer_task >> run_consumer_task
-

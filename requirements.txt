@@ -103,3 +103,4 @@ wheel==0.43.0
 wirerope==1.0.0
 WTForms==3.2.1
 xmltodict==0.14.2
+xlrd>=2.0.1
