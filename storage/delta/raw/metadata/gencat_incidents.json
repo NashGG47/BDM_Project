@@ -1,0 +1,27 @@
+[
+    {
+        "dataset": "gencat_incidents",
+        "timestamp": "2025-03-30 21:29:19",
+        "records_ingested": 10
+    },
+    {
+        "dataset": "gencat_incidents",
+        "timestamp": "2025-03-30 21:29:20",
+        "records_ingested": 10
+    },
+    {
+        "dataset": "gencat_incidents",
+        "timestamp": "2025-03-30 21:29:20",
+        "records_ingested": 10
+    },
+    {
+        "dataset": "gencat_incidents",
+        "timestamp": "2025-03-30 21:29:21",
+        "records_ingested": 10
+    },
+    {
+        "dataset": "gencat_incidents",
+        "timestamp": "2025-03-30 21:29:22",
+        "records_ingested": 10
+    }
+]
