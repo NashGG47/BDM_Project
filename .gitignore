@@ -1,3 +1,4 @@
+.env
 data_ingestion/cold_paths/administrative_shapefiles/
 data_ingestion/warm_paths/environmental_indicators/
 data_ingestion/warm_paths/passenger_volume/
@@ -7,3 +8,5 @@ storage/delta/raw/passenger_volume/
 storage/delta/raw/gencat_incidents/
 storage/delta/raw/emissions_data/
 storage/delta/raw/renfe_incidents/
+storage/delta/raw/images
+storage/delta/raw/social_media

@@ -1,0 +1,101 @@
+Ruta,Lat1,Lon1,Lat2,Lon2
+Drassanes a Parc Güell,41.3769,2.1765,41.4145,2.1527
+Plaça Catalunya a Plaça Espanya,41.387,2.1701,41.3751,2.1496
+Universitat a Estació Sants,41.3857,2.1669,41.379,2.14
+Estació Sants a Plaça Espanya,41.379,2.14,41.3751,2.1496
+Marina / Arago a Glòries,41.3954,2.1847,41.4031,2.1911
+Universitat a Sagrada Familia,41.3857,2.1669,41.4036,2.1744
+El Born a Hospital Vall d'Hebron,41.3851,2.1815,41.437,2.1356
+Sagrada Familia a Barceloneta,41.4036,2.1744,41.3809,2.1909
+Marina / Arago a Camp Nou,41.3954,2.1847,41.3809,2.1228
+Estació Sants a Ciutadella,41.379,2.14,41.3888,2.1909
+Marina / Arago a Estació Sants,41.3954,2.1847,41.379,2.14
+Glòries a Marina / Arago,41.4031,2.1911,41.3954,2.1847
+Forum a Estació Sants,41.4115,2.2182,41.379,2.14
+Passeig de Gracia a Forum,41.3915,2.1649,41.4115,2.2182
+Passeig de Gracia a Parc Güell,41.3915,2.1649,41.4145,2.1527
+Diagonal Mar a Plaça Espanya,41.409,2.2184,41.3751,2.1496
+Gran Via / Rambla a Universitat,41.3865,2.1705,41.3857,2.1669
+Plaça Espanya a Sagrada Familia,41.3751,2.1496,41.4036,2.1744
+Passeig de Gracia a Gran Via / Rambla,41.3915,2.1649,41.3865,2.1705
+Camp Nou a Passeig de Gracia,41.3809,2.1228,41.3915,2.1649
+Glòries a Ciutadella,41.4031,2.1911,41.3888,2.1909
+Plaça Catalunya a Diagonal / Francesc Macià,41.387,2.1701,41.3892,2.1476
+Glòries a Zona Franca,41.4031,2.1911,41.3384,2.1276
+Universitat a Zona Franca,41.3857,2.1669,41.3384,2.1276
+Parc Güell a Universitat,41.4145,2.1527,41.3857,2.1669
+Universitat a Parc Güell,41.3857,2.1669,41.4145,2.1527
+Drassanes a Diagonal / Francesc Macià,41.3769,2.1765,41.3892,2.1476
+Forum a Ciutadella,41.4115,2.2182,41.3888,2.1909
+El Born a Diagonal Mar,41.3851,2.1815,41.409,2.2184
+Ciutadella a Parc Güell,41.3888,2.1909,41.4145,2.1527
+Ciutadella a Gran Via / Rambla,41.3888,2.1909,41.3865,2.1705
+Camp Nou a Universitat,41.3809,2.1228,41.3857,2.1669
+Forum a Diagonal Mar,41.4115,2.2182,41.409,2.2184
+Diagonal Mar a Glòries,41.409,2.2184,41.4031,2.1911
+Gran Via / Rambla a Glòries,41.3865,2.1705,41.4031,2.1911
+Plaça Catalunya a Forum,41.387,2.1701,41.4115,2.2182
+Forum a Plaça Espanya,41.4115,2.2182,41.3751,2.1496
+Barceloneta a Zona Franca,41.3809,2.1909,41.3384,2.1276
+Camp Nou a Barceloneta,41.3809,2.1228,41.3809,2.1909
+Diagonal Mar a Sagrada Familia,41.409,2.2184,41.4036,2.1744
+Plaça Catalunya a Sagrada Familia,41.387,2.1701,41.4036,2.1744
+Sagrada Familia a Ciutadella,41.4036,2.1744,41.3888,2.1909
+Camp Nou a Estació Sants,41.3809,2.1228,41.379,2.14
+Diagonal / Francesc Macià a Forum,41.3892,2.1476,41.4115,2.2182
+Plaça Espanya a Diagonal Mar,41.3751,2.1496,41.409,2.2184
+Barceloneta a El Born,41.3809,2.1909,41.3851,2.1815
+Diagonal / Francesc Macià a Camp Nou,41.3892,2.1476,41.3809,2.1228
+Zona Franca a Drassanes,41.3384,2.1276,41.3769,2.1765
+Sagrada Familia a Plaça Catalunya,41.4036,2.1744,41.387,2.1701
+Glòries a Estació Sants,41.4031,2.1911,41.379,2.14
+Estació Sants a Plaça Catalunya,41.379,2.14,41.387,2.1701
+Parc Güell a Camp Nou,41.4145,2.1527,41.3809,2.1228
+Diagonal Mar a Plaça Catalunya,41.409,2.2184,41.387,2.1701
+El Born a Plaça Espanya,41.3851,2.1815,41.3751,2.1496
+Estació Sants a Marina / Arago,41.379,2.14,41.3954,2.1847
+Marina / Arago a Gran Via / Rambla,41.3954,2.1847,41.3865,2.1705
+Plaça Espanya a Universitat,41.3751,2.1496,41.3857,2.1669
+Sagrada Familia a Glòries,41.4036,2.1744,41.4031,2.1911
+Glòries a Drassanes,41.4031,2.1911,41.3769,2.1765
+Gran Via / Rambla a Hospital Vall d'Hebron,41.3865,2.1705,41.437,2.1356
+Zona Franca a Forum,41.3384,2.1276,41.4115,2.2182
+Sagrada Familia a Camp Nou,41.4036,2.1744,41.3809,2.1228
+Passeig de Gracia a Plaça Catalunya,41.3915,2.1649,41.387,2.1701
+Hospital Vall d'Hebron a Plaça Espanya,41.437,2.1356,41.3751,2.1496
+Glòries a Diagonal / Francesc Macià,41.4031,2.1911,41.3892,2.1476
+Universitat a Ciutadella,41.3857,2.1669,41.3888,2.1909
+Parc Güell a Marina / Arago,41.4145,2.1527,41.3954,2.1847
+Universitat a Hospital Vall d'Hebron,41.3857,2.1669,41.437,2.1356
+Gran Via / Rambla a Plaça Espanya,41.3865,2.1705,41.3751,2.1496
+Barceloneta a Hospital Vall d'Hebron,41.3809,2.1909,41.437,2.1356
+Ciutadella a Diagonal / Francesc Macià,41.3888,2.1909,41.3892,2.1476
+Estació Sants a Gran Via / Rambla,41.379,2.14,41.3865,2.1705
+Marina / Arago a Plaça Espanya,41.3954,2.1847,41.3751,2.1496
+Diagonal / Francesc Macià a Universitat,41.3892,2.1476,41.3857,2.1669
+Universitat a Glòries,41.3857,2.1669,41.4031,2.1911
+Barceloneta a Glòries,41.3809,2.1909,41.4031,2.1911
+Camp Nou a El Born,41.3809,2.1228,41.3851,2.1815
+Forum a Plaça Catalunya,41.4115,2.2182,41.387,2.1701
+Drassanes a Estació Sants,41.3769,2.1765,41.379,2.14
+Diagonal / Francesc Macià a Estació Sants,41.3892,2.1476,41.379,2.14
+Parc Güell a El Born,41.4145,2.1527,41.3851,2.1815
+Zona Franca a Diagonal Mar,41.3384,2.1276,41.409,2.2184
+Diagonal Mar a El Born,41.409,2.2184,41.3851,2.1815
+Zona Franca a Ciutadella,41.3384,2.1276,41.3888,2.1909
+Barceloneta a Sagrada Familia,41.3809,2.1909,41.4036,2.1744
+Zona Franca a Sagrada Familia,41.3384,2.1276,41.4036,2.1744
+Drassanes a El Born,41.3769,2.1765,41.3851,2.1815
+Camp Nou a Plaça Catalunya,41.3809,2.1228,41.387,2.1701
+Marina / Arago a Parc Güell,41.3954,2.1847,41.4145,2.1527
+Estació Sants a Zona Franca,41.379,2.14,41.3384,2.1276
+Plaça Catalunya a Passeig de Gracia,41.387,2.1701,41.3915,2.1649
+Diagonal Mar a Parc Güell,41.409,2.2184,41.4145,2.1527
+Forum a Universitat,41.4115,2.2182,41.3857,2.1669
+Diagonal / Francesc Macià a Diagonal Mar,41.3892,2.1476,41.409,2.2184
+Parc Güell a Zona Franca,41.4145,2.1527,41.3384,2.1276
+Zona Franca a Diagonal / Francesc Macià,41.3384,2.1276,41.3892,2.1476
+Passeig de Gracia a Hospital Vall d'Hebron,41.3915,2.1649,41.437,2.1356
+Universitat a Diagonal / Francesc Macià,41.3857,2.1669,41.3892,2.1476
+Marina / Arago a Sagrada Familia,41.3954,2.1847,41.4036,2.1744
+Diagonal / Francesc Macià a El Born,41.3892,2.1476,41.3851,2.1815
