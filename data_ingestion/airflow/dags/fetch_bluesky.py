@@ -2,10 +2,6 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
 import subprocess
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 
 def run_consumer_job():
@@ -13,7 +9,6 @@ def run_consumer_job():
     try:
         subprocess.run(
             ["python3", "data_ingestion/hot_paths/consumer/consume_bluesky.py"],
-            timeout=int(os.getenv("STREAMING_TIMEOUT", 1800)),
             check=True
         )
     except subprocess.TimeoutExpired:
@@ -26,7 +21,6 @@ def run_producer_job():
     try:
         subprocess.run(
             ["python3", "data_ingestion/hot_paths/producer/bluesky_producer.py"],
-            timeout=int(os.getenv("STREAMING_TIMEOUT", 1800)),
             check=True
         )
     except subprocess.TimeoutExpired:
