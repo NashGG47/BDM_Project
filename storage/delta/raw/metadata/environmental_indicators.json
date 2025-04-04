@@ -1,0 +1,12 @@
+[
+    {
+        "dataset": "environmental_indicators",
+        "timestamp": "2025-04-03 18:52:05",
+        "raw_file_path": "data_ingestion/warm_paths/environmental_indicators/202504/raw_2025-04-03.xls",
+        "source_url": "https://data.renfe.com/dataset/81f21f5f-b093-413d-92a8-e9f5e670cd6b/resource/5d987311-277c-454f-bfbc-f81a32326973/download/principales-indicadores-ambientales.xls",
+        "file_size_bytes": 20480,
+        "delta_path": "storage/delta/raw/environmental_indicators/202504/20250403",
+        "row_count": 7,
+        "processing_duration_seconds": 6.309020042419434
+    }
+]

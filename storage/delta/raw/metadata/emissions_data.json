@@ -1,0 +1,12 @@
+[
+    {
+        "dataset": "emissions_data",
+        "timestamp": "2025-03-30 21:39:56",
+        "records_ingested": 10
+    },
+    {
+        "dataset": "emissions_data",
+        "timestamp": "2025-03-30 22:54:22",
+        "records_ingested": 10
+    }
+]

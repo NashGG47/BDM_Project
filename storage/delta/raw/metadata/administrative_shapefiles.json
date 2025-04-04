@@ -1,0 +1,12 @@
+[
+    {
+        "dataset": "administrative_shapefiles",
+        "timestamp": "2025-04-03 18:45:52",
+        "raw_file_path": "data_ingestion/cold_paths/administrative_shapefiles/202504/0301040100_Districtes_UNITATS_ADM.shp",
+        "source_url": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/11851135-6919-4dcb-91ed-821e5e87a428/download",
+        "file_size_bytes": 1792879,
+        "delta_path": "storage/delta/raw/administrative_shapefiles/202504/20250403",
+        "row_count": 10,
+        "processing_duration_seconds": 8.865447759628296
+    }
+]

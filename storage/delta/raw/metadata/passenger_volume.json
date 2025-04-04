@@ -1,0 +1,13 @@
+[
+    {
+        "dataset": "passenger_volume",
+        "timestamp": "2025-04-03 18:53:04",
+        "raw_file_path": "data_ingestion/warm_paths/passenger_volume/202504/raw_2025-04-03.csv",
+        "source_url": "https://data.renfe.com/dataset/9190f983-e138-42da-901a-b37205562fe4/resource/1417396e-4d6a-466a-a987-03d07aa92bed/download/barcelona_viajeros_por_franja_csv.csv",
+        "file_size_bytes": 219452,
+        "delta_path": "storage/delta/raw/passenger_volume/202504/20250403",
+        "row_count": 4226,
+        "processing_duration_seconds": 6.374779224395752,
+        "columns": null
+    }
+]
