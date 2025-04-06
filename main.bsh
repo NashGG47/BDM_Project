@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo "Running Kafka wp environmental indicators consumer..."
+python data_ingestion/warm_paths/ingest_environmental_indicators.py
+
+echo "Running Kafka wp volume passengers consumer..."
+python data_ingestion/warm_paths/ingest_passenger_volume.py
+
+echo "Running Kafka cp shapefiles consumer..."
+python data_ingestion/cold_paths/ingest_admin_shapefiles.py
+
+echo "Running Kafka cp google images consumer..."
+python data_ingestion/cold_paths/ingest_cold_google_maps_images.py
+
+echo "Running Kafka cp serapi consumer..."
+python data_ingestion/cold_paths/ingest_cold_serapi_images.py
+
+echo "Running Kafka cp twitter consumer..."
+python data_ingestion/cold_paths/ingest_cold_twitter_data.py
+
+echo "Running Kafka hp bluesky consumer..."
+python data_ingestion/hot_paths/consumer/consume_bluesky.py
+
+echo "Running Kafka hp emissions consumer..."
+python data_ingestion/hot_paths/consumer/consume_emissions_data.py
+
+echo "Running Kafka hp gencat consumer..."
+python data_ingestion/hot_paths/consumer/consume_gencat_incidents.py
+
+echo "Running Kafka hp renfe consumer..."
+python data_ingestion/hot_paths/consumer/consume_renfe_incident.py
+
+echo "All scripts executed."
