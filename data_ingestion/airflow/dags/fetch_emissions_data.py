@@ -6,7 +6,7 @@ import subprocess
 def run_consumer_job():
     """Run the Consumer job to fetch and process transit incidents from Kafka."""
     try:
-        subprocess.run(["python", "data_ingestion/hot_paths/consumer/consume_emissions_dta.py"], check=True)
+        subprocess.run(["python", "data_ingestion/hot_paths/consumer/consume_emissions_data.py"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error running Consumer job: {e}")
 
@@ -28,7 +28,7 @@ default_args = {
 dag = DAG(
     "ingest_emissions_data_dag",
     description="Fetch, process, and store transit incidents using Kafka and Delta Lake",
-    schedule_interval=timedelta(hours=1),
+    schedule=timedelta(hours=1),
     catchup=False,
     default_args=default_args,
 )
