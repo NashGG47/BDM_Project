@@ -15,7 +15,7 @@ Big Data Management  - Project
 
 ### Step-by-Step Instructions
 
-1. Navigate to the directory where Kafka is installed.
+1. Navigate to the directory where Kafka is installed. Version Installed: kafka_2.13-3.9.0.tgz
 
 2. Start Zookeeper in a terminal:
 ```bash
