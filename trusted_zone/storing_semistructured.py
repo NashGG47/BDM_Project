@@ -1,36 +1,55 @@
-#convert data into influx format-- THIS IS TEST CODE
-from influxdb_client import InfluxDBClient, Point
+import os
+from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
 from datetime import datetime
+from processing_semistructured import process_gencat_incidents  # This must return a list of dicts
 
-# Setup (replace with your actual values)
-token = "your-token"
-org = "your-org"
-bucket = "your-bucket"
-url = "http://localhost:8086"
+def store_incidents_in_influxdb(processed_data, url, token, org, bucket):
+    """
+    Store processed incident records into InfluxDB.
+    
+    Parameters:
+        processed_data (list): List of dicts formatted for InfluxDB.
+        url (str): InfluxDB server URL.
+        token (str): Authentication token.
+        org (str): InfluxDB organization.
+        bucket (str): InfluxDB bucket name.
+    """
+    client = InfluxDBClient(url=url, token=token, org=org)
+    write_api = client.write_api(write_options=SYNCHRONOUS)
 
-client = InfluxDBClient(url=url, token=token, org=org)
-write_api = client.write_api(write_options=SYNCHRONOUS)
+    for record in processed_data:
+        try:
+            p = Point(record["measurement"]) \
+                .tag("incident_id", record["tags"]["incident_id"]) \
+                .tag("road", record["tags"]["road"]) \
+                .tag("cause", record["tags"]["cause"]) \
+                .tag("direction", record["tags"]["direction"]) \
+                .field("pk_start", float(record["fields"]["pk_start"])) \
+                .field("pk_end", float(record["fields"]["pk_end"])) \
+                .field("lat", float(record["fields"]["lat"])) \
+                .field("lon", float(record["fields"]["lon"])) \
+                .field("description", record["fields"]["description"]) \
+                .time(datetime.strptime(record["fields"]["timestamp"], "%Y-%m-%dT%H:%M:%SZ"), WritePrecision.NS)
 
-# Your JSON data
-data = {
-    "device": "sensor01",
-    "temperature": 22.5,
-    "humidity": 60,
-    "status": "ok",
-    "timestamp": "2025-05-12T15:30:00Z"
-}
+            write_api.write(bucket=bucket, org=org, record=p)
 
-# Create a Point object
-point = (
-    Point("environment")                     # measurement name
-    .tag("device", data["device"])           # tag (indexed)
-    .field("temperature", data["temperature"])
-    .field("humidity", data["humidity"])
-    .field("status", data["status"])         # string field
-    .time(data["timestamp"])                 # ISO8601 timestamp
-)
+        except Exception as e:
+            print(f"Failed to write record: {record}")
+            print(f"Error: {e}")
 
-# Write to InfluxDB
-write_api.write(bucket=bucket, org=org, record=point)
-client.close()
+    print("✅ Data written to InfluxDB successfully!")
+    client.close()
+
+processed_data = process_gencat_incidents()
+
+if processed_data:
+    store_incidents_in_influxdb(
+        processed_data,
+        url="http://localhost:8086",
+        token="token1", 
+        org="upa",     
+        bucket="gencat_incidents"
+    )
+else:
+    print("⚠️ No incident data to write.")
