@@ -12,12 +12,16 @@ import glob
 from pathlib import Path
 
 
-def save_parquet_records_as_delta(
-    raw_parquet_dir="storage/delta/raw/emissions_data",
-    delta_output_dir="trusted_zone/storage/emissions_data/partition_raw"
+def process_emissions_data(
+    raw_parquet_dir="storage/delta/raw/emissions_data"
 ):
+    from pyspark.sql import SparkSession
+    from pyspark.sql.functions import col, lit, avg, first
+    from delta import configure_spark_with_delta_pip
+    import os
+    import pandas as pd
 
-    builder = SparkSession.builder.appName("ExtractAndSaveDelta") \
+    builder = SparkSession.builder.appName("ExtractAndProcessEmissions") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
@@ -34,52 +38,47 @@ def save_parquet_records_as_delta(
                     record = dict(cell)
                     all_records.append(record)
 
-    if all_records:
-        df_out = spark.createDataFrame(all_records)
-        h_columns = [c for c in df_out.columns if c.startswith('h')]
+    if not all_records:
+        print("No valid records found to process.")
+        spark.stop()
+        return None
 
-        if h_columns:
-            sum_expr = None
-            for c in h_columns:
-                if sum_expr is None:
-                    sum_expr = col(c).cast("double")
-                else:
-                    sum_expr += col(c).cast("double")
+    df_out = spark.createDataFrame(all_records)
+    h_columns = [c for c in df_out.columns if c.startswith('h')]
 
-            avg_expr = sum_expr / len(h_columns)
-            df_out = df_out.withColumn("average_contaminant", avg_expr)
-        else:
-            df_out = df_out.withColumn("average_contaminant", lit(None))
-        grouped_df = df_out.groupBy("data", "nom_estacio").agg(
-            avg("average_contaminant").alias("average_contaminant")
-        )
+    if h_columns:
+        sum_expr = None
+        for c in h_columns:
+            if sum_expr is None:
+                sum_expr = col(c).cast("double")
+            else:
+                sum_expr += col(c).cast("double")
 
-        from pyspark.sql.functions import first
-
-        additional_cols = ["latitud", "longitud", "contaminant", "unitats",
-                           "municipi", "area_urbana", "codi_eoi"]
-        agg_exprs = [first(c, ignorenulls=True).alias(c) for c in additional_cols]
-
-        grouped_df = df_out.groupBy("data", "nom_estacio").agg(
-            avg("average_contaminant").alias("average_contaminant"),
-            *agg_exprs
-        )
-        output_columns = [
-            "data", "latitud", "longitud", "contaminant", "unitats",
-            "municipi", "nom_estacio", "area_urbana", "codi_eoi", "average_contaminant"
-        ]
-        cols_to_keep = [c for c in output_columns if c in grouped_df.columns]
-        grouped_df = grouped_df.select(*cols_to_keep)
-        for c in cols_to_keep:
-            if grouped_df.filter(col(c).isNotNull()).count() == 0:
-                grouped_df = grouped_df.drop(c)
-
-        grouped_df.write.format("delta").mode("overwrite").save(delta_output_dir)
-        print(f"Saved {grouped_df.count()} grouped records to Delta at {delta_output_dir}")
-
+        avg_expr = sum_expr / len(h_columns)
+        df_out = df_out.withColumn("average_contaminant", avg_expr)
     else:
-        print("No valid records found to save.")
+        df_out = df_out.withColumn("average_contaminant", lit(None))
 
-    spark.stop()
+    additional_cols = ["latitud", "longitud", "contaminant", "unitats",
+                       "municipi", "area_urbana", "codi_eoi"]
+    agg_exprs = [first(c, ignorenulls=True).alias(c) for c in additional_cols]
 
-save_parquet_records_as_delta()
+    grouped_df = df_out.groupBy("data", "nom_estacio").agg(
+        avg("average_contaminant").alias("average_contaminant"),
+        *agg_exprs
+    )
+
+    output_columns = [
+        "data", "latitud", "longitud", "contaminant", "unitats",
+        "municipi", "nom_estacio", "area_urbana", "codi_eoi", "average_contaminant"
+    ]
+    cols_to_keep = [c for c in output_columns if c in grouped_df.columns]
+    grouped_df = grouped_df.select(*cols_to_keep)
+
+    # Drop columns with no non-null values
+    for c in cols_to_keep:
+        if grouped_df.filter(col(c).isNotNull()).count() == 0:
+            grouped_df = grouped_df.drop(c)
+
+    #spark.stop()
+    return grouped_df

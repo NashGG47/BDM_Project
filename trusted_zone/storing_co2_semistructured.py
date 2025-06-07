@@ -1,5 +1,6 @@
 from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
+from processing_co2_semistructured import process_emissions_data
 import pandas as pd
 
 def bucket_exists(client, bucket_name):
@@ -14,10 +15,17 @@ def create_bucket_if_not_exists(client, bucket_name, org):
         buckets_api.create_bucket(bucket_name=bucket_name, org=org)
         print(f"Bucket '{bucket_name}' created successfully.")
 
-def store_co2_in_influxdb(url, token, org, bucket):
+
+def store_co2_dataframe_in_influxdb(df, url, token, org, bucket):
     client = InfluxDBClient(url=url, token=token, org=org)
-    create_bucket_if_not_exists(client, bucket, org)
-    df = pd.read_parquet("trusted_zone/storage/emissions_data/partition_raw")
+
+    # Create bucket if not exists
+    buckets_api = client.buckets_api()
+    if not any(b.name == bucket for b in buckets_api.find_buckets().buckets):
+        print(f"Bucket '{bucket}' not found. Creating it...")
+        buckets_api.create_bucket(bucket_name=bucket, org=org)
+        print(f"Bucket '{bucket}' created successfully.")
+
     df['data'] = pd.to_datetime(df['data'])
 
     write_api = client.write_api(write_options=SYNCHRONOUS)
@@ -39,9 +47,23 @@ def store_co2_in_influxdb(url, token, org, bucket):
     client.close()
     print(f"Wrote {len(df)} records to InfluxDB bucket '{bucket}'.")
 
-store_co2_in_influxdb(
-    url="http://localhost:8086",
-    token="token1",
-    org="upa",
-    bucket="air_quality"
-)
+def main():
+    grouped_spark_df = process_emissions_data()
+
+    if grouped_spark_df is None:
+        print("No data processed, exiting.")
+        return
+
+    # Convert Spark DataFrame to Pandas
+    pandas_df = grouped_spark_df.toPandas()
+
+    store_co2_dataframe_in_influxdb(
+        df=pandas_df,
+        url="http://localhost:8086",
+        token="token1",
+        org="upa",
+        bucket="air_quality"
+    )
+
+if __name__ == "__main__":
+    main()
