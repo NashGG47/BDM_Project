@@ -56,4 +56,3 @@ output_file = TRUSTED_PATH / f"passenger_volume_cleaned_{datetime.now().strftime
 df.to_parquet(output_file, index=False)
 
 print(f"Trusted passenger volume data written to: {output_file}")
-# Step 6: Clean up
