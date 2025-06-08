@@ -1,19 +1,19 @@
-
 from minio import Minio
 from pathlib import Path
 import json
 import shutil
+import matplotlib.pyplot as plt
 from processing_unstructured import process_bluesky_posts
 
-# Config MinIO
+# MinIO configuration
 client = Minio("localhost:9000", access_key="admin", secret_key="admin123", secure=False)
 bucket = "trusted-zone"
 base_path = "storage/social_media/bluesky/"
 
 # Paths
 BASE_DIR = Path(__file__).resolve().parents[1]
-images_dir = BASE_DIR / "storage" / "delta" / "raw" / "social_media" / "bluesky" / "images"  # landing zone
-trusted_images_dir = BASE_DIR / "trusted_zone" / "storage" / "processed" / "bluesky" / "images"  # trusted zone
+images_dir = BASE_DIR / "storage" / "delta" / "raw" / "social_media" / "bluesky" / "images"
+trusted_images_dir = BASE_DIR / "trusted_zone" / "storage" / "processed" / "bluesky" / "images"
 metadata_file = BASE_DIR / "trusted_zone" / "storage" / "processed" / "bluesky" / "metadata.json"
 failed_log_file = BASE_DIR / "trusted_zone" / "storage" / "processed" / "bluesky" / "failed_log.json"
 local_parquet_path = BASE_DIR / "trusted_zone" / "storage" / "processed" / "bluesky" / "posts_clean.parquet"
@@ -48,17 +48,27 @@ def main():
     if not client.bucket_exists(bucket):
         client.make_bucket(bucket)
 
-    # Obtener SparkSession y DataFrame limpio desde processing
+    # Get SparkSession and cleaned DataFrame from processing
     spark, df_clean = process_bluesky_posts()
 
-    # Guardar el Parquet como un solo archivo dentro de una carpeta
+    # Count original and cleaned records
+    df_raw = spark.read.format("delta").load(str(BASE_DIR / "storage" / "delta" / "raw" / "social_media" / "bluesky"))
+    total_count = df_raw.count()
+    cleaned_count = df_clean.count()
+    removed_count = total_count - cleaned_count
+
+    print(f"\n📊 Total original records: {total_count}")
+    print(f"❌ Removed records (duplicates/nulls): {removed_count}")
+    print(f"✅ Cleaned records saved: {cleaned_count}\n")
+
+    # Save the cleaned data as a single Parquet file
     local_parquet_path.mkdir(parents=True, exist_ok=True)
     df_clean.coalesce(1).write.mode("overwrite").parquet(str(local_parquet_path))
 
-    # Buscar el archivo .parquet generado dentro de la carpeta
+    # Find the generated .parquet file
     actual_parquet = next(local_parquet_path.glob("*.parquet"))
 
-    # Generar metadata
+    # Generate metadata
     metadata = generate_metadata(df_clean)
     metadata_file.parent.mkdir(parents=True, exist_ok=True)
     with open(metadata_file, "w", encoding="utf-8") as f:
@@ -67,12 +77,12 @@ def main():
     with open(failed_log_file, "w", encoding="utf-8") as f:
         json.dump([], f, indent=2)
 
-    # Subir archivos a MinIO
+    # Upload files to MinIO
     upload_to_minio(actual_parquet, base_path + "posts_clean.parquet")
     upload_to_minio(metadata_file, base_path + "metadata.json")
     upload_to_minio(failed_log_file, base_path + "failed_log.json")
 
-    # Copiar imágenes desde landing a Trusted Zone
+    # Copy images from landing to trusted zone
     trusted_images_dir.mkdir(parents=True, exist_ok=True)
     for image in images_dir.glob("*.jpg"):
         try:
@@ -81,12 +91,26 @@ def main():
         except Exception as e:
             print(f"Failed to copy image {image.name}: {e}")
 
-    # Subir imágenes desde Trusted Zone a MinIO
+    # Upload images from trusted zone to MinIO
     for image in trusted_images_dir.glob("*.jpg"):
         try:
             upload_to_minio(image, base_path + "images/" + image.name)
         except Exception as e:
             print(f"Failed to upload image {image.name}: {e}")
 
+    # 📈 Generate summary chart
+    labels = ['Total', 'Removed (duplicates/nulls)', 'Saved in Minio']
+    values = [total_count, removed_count, cleaned_count]
+
+    plt.figure(figsize=(6, 4))
+    plt.bar(labels, values)
+    plt.title("Post Processing Summary - Trusted Zone")
+    plt.ylabel("Number of Records")
+    plt.tight_layout()
+    plt.savefig("summary_chart.png")
+    print("📊 Summary chart saved as summary_chart.png")
+    spark.stop()
+
 if __name__ == "__main__":
     main()
+    
