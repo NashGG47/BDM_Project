@@ -20,5 +20,27 @@
         "row_count": 4226,
         "processing_duration_seconds": 9.941904306411743,
         "columns": null
+    },
+    {
+        "dataset": "passenger_volume",
+        "timestamp": "2025-06-08 12:54:40",
+        "raw_file_path": "data_ingestion/warm_paths/passenger_volume/202506/raw_2025-06-08.csv",
+        "source_url": "https://data.renfe.com/dataset/9190f983-e138-42da-901a-b37205562fe4/resource/1417396e-4d6a-466a-a987-03d07aa92bed/download/barcelona_viajeros_por_franja_csv.csv",
+        "file_size_bytes": 219452,
+        "delta_path": "storage/delta/raw/passenger_volume/202506/20250608",
+        "row_count": 4226,
+        "processing_duration_seconds": 9.587415933609009,
+        "columns": null
+    },
+    {
+        "dataset": "passenger_volume",
+        "timestamp": "2025-06-08 12:54:55",
+        "raw_file_path": "data_ingestion/warm_paths/passenger_volume/202506/raw_2025-06-08.csv",
+        "source_url": "https://data.renfe.com/dataset/9190f983-e138-42da-901a-b37205562fe4/resource/1417396e-4d6a-466a-a987-03d07aa92bed/download/barcelona_viajeros_por_franja_csv.csv",
+        "file_size_bytes": 219452,
+        "delta_path": "storage/delta/raw/passenger_volume/202506/20250608",
+        "row_count": 4226,
+        "processing_duration_seconds": 9.293776035308838,
+        "columns": null
     }
 ]
