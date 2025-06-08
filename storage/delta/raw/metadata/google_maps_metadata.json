@@ -5826,5 +5826,1012 @@
             }
         ],
         "timestamp": "2025-04-03T19:39:33.149635"
+    },
+    {
+        "dataset_name": "google_maps_traffic_routes",
+        "data_count": 100,
+        "files_metadata": [
+            {
+                "id": "00_Drassanes_a_Parc_G\u00fcell_route",
+                "file_name": "00_Drassanes_a_Parc_G\u00fcell_route.png",
+                "image_index": 0,
+                "file_size_in_kb": 190.3809,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:12.675447",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aqlp%7BF%7DahLbA%7D%40dAw%40f%40Yb%40k%40JBR%3FJCHIN%5BAWKc%40S%5DSO_%40E%5BDe%40a%40uM%7BJcJ_HkBsAq%40a%40_DeCqBcBm%40i%40y%40k%40e%40IQQaBoAiBwAcE_Du%40i%40IEW%5EsC%60Eu%40hAsC%60EkBjCW%60%40Ya%40u%40gAwBgDkBgCGIGLcDvEuBxCm%40x%40%7DCvEkAzAiGbJ%7DIhMaChD%7BCnE%7BEbHuBtC_AxAk%40x%40%5D%5EWf%40g%40r%40yAxBkCxDe%40r%40%7D%40pAmAxA%7DEdH%7BCxEoDjFoAfBq%40bAdAnBaB~Aw%40l%40qC~BqG%60G%7B%40v%40uAxAgCvBwArAy%40r%40aAfA_Ax%40_BzA%5Db%40eA%7C%40%7DAlA%40p%40Dz%40Hr%40CHCz%40Eb%40Oj%40O%5Ca%40j%40_%40X%5DRIJc%40j%40g%40n%40mBlC&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/00_Drassanes_a_Parc_G\u00fcell_route.png"
+            },
+            {
+                "id": "01_Pla\u00e7a_Catalunya_a_Pla\u00e7a_Espanya_route",
+                "file_name": "01_Pla\u00e7a_Catalunya_a_Pla\u00e7a_Espanya_route.png",
+                "image_index": 1,
+                "file_size_in_kb": 197.1953,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:13.857787",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Amir%7BFuufLcBvAa%40%5EQX%5CxAnBjHlApE%5EfB%60%40jABTz%40jAf%40t%40ZHdAHbAH%7CAHBJFLhFxHdGxI%60FdHdEhG~A~BtH%7CKpDlFzAxBr%40aAjAeBJOFGx%40%40VEd%40SfCkAXIFCJQn%40W%5EO%5EOn%40Y%5EvAV%7C%40l%40xBvAdFbApDLf%40E%3FIL%3FLBJHFLCFLj%40pBRp%40%5DVaAtAeEfGzB%7CCfB~CR%5ESFeCz%40kBj%40%5Bc%40%5Be%40ESS%5Bu%40mA%7BBcDYs%40i%40%7BBYu%40g%40s%40e%40c%40SM&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/01_Pla\u00e7a_Catalunya_a_Pla\u00e7a_Espanya_route.png"
+            },
+            {
+                "id": "02_Universitat_a_Estaci\u00f3_Sants_route",
+                "file_name": "02_Universitat_a_Estaci\u00f3_Sants_route.png",
+                "image_index": 2,
+                "file_size_in_kb": 202.6836,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:15.008801",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3A%7Dcr%7BFeffLd%40oLBiAAYOy%40%5Dw%40_%40%5EsEvDYTa%40%5EQX%5CxAz%40~C%60BfGd%40pBn%40%60CJTBTz%40jAr%40bATZN%60%40o%40~%40m%40~%40q%40~%40qBzC%7BCtE%7DDxFhDzE%60E%60G%60CjD%5C%60%40jAbBzGvJnC%60ERPhA%60BnAfBpCbEpBxCbBhCnC~DjDbFkD~EyAvBcClDm%40v%40l%40lCPz%40dAlARFPLbB~B%5E%5CLTCToAvAeAhAELIVCLFPDLdArBV%5EN%3F%60%40f%40PZXh%40rAyADE&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/02_Universitat_a_Estaci\u00f3_Sants_route.png"
+            },
+            {
+                "id": "03_Estaci\u00f3_Sants_a_Pla\u00e7a_Espanya_route",
+                "file_name": "03_Estaci\u00f3_Sants_a_Pla\u00e7a_Espanya_route.png",
+                "image_index": 3,
+                "file_size_in_kb": 162.8467,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:15.908745",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awxp%7BFg%7C%60LhAmAm%40iAUc%40ECK%40OL%7D%40dAKT_AbAM%40GCMUeAoBSi%40CJ%3FNVr%40t%40%7CA%60%40bAxA%60CPJRFx%40FRFb%40Zp%40d%40d%40Nl%40Np%40_%40%60BdDd%40t%40Z%60%40hAzAbBnBZVl%40n%40VRF%40%40y%40%3Fe%40%40eEDoIBiFLwOfHHtEFtA%40R%40%5Ck%40lD%7DERQU%5Dk%40y%40a%40m%40aBaCqDmF%5Be%40ESS%5B_CmD_AyAWaAS%7D%40Ww%40_%40s%40c%40g%40g%40_%40AA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/03_Estaci\u00f3_Sants_a_Pla\u00e7a_Espanya_route.png"
+            },
+            {
+                "id": "04_Marina___Arago_a_Gl\u00f2ries_route",
+                "file_name": "04_Marina___Arago_a_Gl\u00f2ries_route.png",
+                "image_index": 4,
+                "file_size_in_kb": 136.0928,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:16.777305",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ak~s%7BF%7BriL%60FoH%7CBcDR_%40L%3FL%3FHm%40~%40wAJOd%40q%40%5Em%40%7D%40wAwAyBOWY%60%40s%40dAaBbC%7DA%7CBY%5EILECICK%3FMDKLEJADe%40%40e%40%3F%5D%3FwA%3F%7DA%3FwBCwI%3F%7BDA_%40Ug%40%5Bw%40gA%7B%40iAeA%7BAwBeDuGsJ&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/04_Marina___Arago_a_Gl\u00f2ries_route.png"
+            },
+            {
+                "id": "05_Universitat_a_Sagrada_Familia_route",
+                "file_name": "05_Universitat_a_Sagrada_Familia_route.png",
+                "image_index": 5,
+                "file_size_in_kb": 204.583,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:17.714614",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3A%7Dcr%7BFeffLd%40oLBiAAYOy%40%5Dw%40EIa%40e%40s%40c%40w%40o%40e%40a%40e%40m%40KWEOc%40l%40u%40bAw%40dA%5Dd%40o%40%7C%40kE%7CFUNMFG%40GJQ%3FMFILG%60%40Ar%40KLKNOPq%40%7C%40Y%5EcBtB%7BIpLw%40dAY%5Cc%40l%40W_%40eEeGeA_BgAaBwCgEcBcCuFeIyHgL_AuAkA%7DAwAaCm%40y%40kD%7DE%7BHgL_B_CiA%7DA%7DC%7BE_CfDk%40z%40NR%60AtAnAhB%60DzE%7CAzB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/05_Universitat_a_Sagrada_Familia_route.png"
+            },
+            {
+                "id": "06_El_Born_a_Hospital_Vall_d'Hebron_route",
+                "file_name": "06_El_Born_a_Hospital_Vall_d'Hebron_route.png",
+                "image_index": 6,
+                "file_size_in_kb": 133.1611,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:18.553754",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ao~q%7BFy_iL%7DAlCGHp%40~%40x%40dApAfBPVjAxAPUh%40%7B%40Xa%40%7CA%7BBjDeFhCuDfAaB%5Em%40Pm%40Ba%40Aa%40C%5DWuA%3FOCKI_%40a%40sA_%40iAe%40mBa%40yA%7BAkDgBqEaAyCqB%7DFEIa%40%7DAWaAy%40yBUg%40_BeDaBmCOQK%40%7BA_CyCkE_AsA%7BFqI%7DEiHeJ_NmNuSiEkGwDuF_AkAaB_Bi%40e%40u%40m%40eBeAkB_Ai%40WaAc%40%7DA_AmCyBc%40c%40m%40s%40%7D%40kAoC%7BDkIuL%7DUo%5DmBoCqA%7DAqAqAoAeAmAy%40k%40%5Bw%40a%40oBw%40oD_A%7DAc%40gA%5Bi%40SoBgAy%40g%40iBwAsGiGgBmA%7BBiAy%40U%7DAYu%40Gk%40%3Fe%40%40iADmAJ%7D%40R%7DAb%40%7DAr%40%7B%40j%40sAdA_AfA_AtA%7B%40bBy%40pB%7D%40fCe%40pAeAjCoAdCm%40bAw%40pAqAnB_%40d%40q%40~%40oCdDoCnCgC~BuC%7CB_C%60BaDvBsG%60EmC%60By%40j%40kCdByFnDaFlCaChAoBz%40_Cz%40uEnAyQvCoDt%40gDbAgBn%40uB~%40_CrAcAl%40cDzB_FlE%7DBlBsE%7CDmCfCiAlAY%5Ei%40p%40_AvAe%40v%40k%40lAiA%60E%5DnBQhAa%40rASl%40Wt%40q%40tAoAvBWf%40c%40hAS~%40Mp%40EJ%40j%40JfBNn%40%5EjAf%40~%40RXb%40%5Ev%40%60%40%60%40J~%40Jz%40%3FlAS%60%40Ih%40Gp%40Bf%40Jb%40RTRb%40f%40R%5EZdAN%7CADpF%40%7CHAdH%3FnCDpATrEJxBf%40hLb%40~Gh%40%60I%5E%7CCjAzH%60%40jC%60ApEd%40dBv%40rCj%40pBjB%7CGvE~PzDpNpC~JjCvJXrAr%40hE%5ErCXpCT%7CCKXNlCLpCLdB%40TCPBRD%5EJt%40d%40%60D%5CzBZrA%60AfFPdAXlAn%40~CbB%7CH%5CnATn%40Xl%40z%40fBvAhChAfBf%40p%40dAlAdAdAbAx%40lAx%40~Az%40%5CRL%60%40HtA%3Ft%40Eh%40Qd%40WZKTMNITQ%7C%40WhBIl%40%40%5ED%5ELb%40zAhDFVm%40lAc%40z%40_AlBK%60%40DPQb%40On%40_BhDmAtAWN%5Bn%40In%40Up%40o%40fAm%40~%40u%40r%40EJCHBHJRJLV%60%40Vp%40F%60%40%3Fb%40ARMZQNKD%7D%40T&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/06_El_Born_a_Hospital_Vall_d'Hebron_route.png"
+            },
+            {
+                "id": "07_Sagrada_Familia_a_Barceloneta_route",
+                "file_name": "07_Sagrada_Familia_a_Barceloneta_route.png",
+                "image_index": 7,
+                "file_size_in_kb": 192.8105,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:19.571187",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awpu%7BFuxgLdA~A%5Eh%40%5Ek%40hCuDpAkB%7CBiDp%40eAlAmBjAcBdCoDjIuL~%40qA%7CA%7DBlLoP~D%7DFt%40oAZ%3FHm%40f%40w%40Ze%40b%40o%40pAgBpFaIvB%7BCrAiB%7CBiDvB%7DCzAyBbCmDj%40_ATMLAJAHNr%40bAV%60%40lAfBhBpC%5El%40z%40bBpBvEd%40nAjAxCrC~HFNpBvFLMl%40e%40%5D_AyAiEm%40gBaAqCUkAOmACg%40TAxDaAvAi%40%5CIxH%7DBJn%40Jb%40%5ChC%7D%40Pa%40L&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/07_Sagrada_Familia_a_Barceloneta_route.png"
+            },
+            {
+                "id": "08_Marina___Arago_a_Camp_Nou_route",
+                "file_name": "08_Marina___Arago_a_Camp_Nou_route.png",
+                "image_index": 8,
+                "file_size_in_kb": 158.9561,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:20.384037",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ak~s%7BF%7BriL%60FoH%7CBcDR_%40L%3FL%3FHm%40~%40wAJOd%40q%40fBgCbBcCtGkJrDkFrByClDcF%7C%40%7BAPUPIHCRC%7C%40rANHv%40n%40%5C%5EfBjCl%40~%40v%40xAz%40~ATl%40LBt%40nBnArD%7CAjEzBjG%60CzGz%40rBrB%60Fl%40xANh%40Ln%40Hr%40T%7CC%60%40xAb%40h%40lDhClJdHrDrC%60A%60Aj%40l%40j%40b%40ZPp%40JzCXj%40Jl%40ZfAx%40jFnElFbEtAbA%7CBjBjB~Ax%40d%40%7C%40ZzAb%40tAf%40f%40%5CbDdC~AdA~BpAvGzCtBlAlExCnChB~BfBh%40h%40v%40dAjFhIpAtBfC%7CEbDbFdBlC~AtBnL%7CMnE~EfBxBxAvB%7C%40zAZn%40d%40bAb%40jAn%40xB%60%40%60B%3FVTnAXdBj%40xD%3FVd%40nClArH%60AtENn%40%40%60%40Jf%40j%40vCVzAnA~FDT%3FPQp%40_B%60AyAbAiAz%40gC%60BkEpC%7DCrBgFfDcLpHgG%7CDkEtC%7DA~%40cAt%40gJ%60GkAv%40mFlDgElCY%3FSHQPKXs%40j%40uA%7C%40wDdC_CxAuC~AsAl%40eBn%40kCr%40gEjAoCv%40aDz%40%7DHtBkD~%40qJ~BwHjBsFxA%5BAk%40Fc%40FuEdA_Dn%40cDt%40l%40dA%60CzDfBfDhAzBmBdBLf%40R%60AbBk%40LNz%40fAf%40%7C%40%5EbANp%40DVBdAC~%40M~%40BdABLWTWPWNK%5B&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/08_Marina___Arago_a_Camp_Nou_route.png"
+            },
+            {
+                "id": "09_Estaci\u00f3_Sants_a_Ciutadella_route",
+                "file_name": "09_Estaci\u00f3_Sants_a_Ciutadella_route.png",
+                "image_index": 9,
+                "file_size_in_kb": 194.6211,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:21.564414",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awxp%7BFg%7C%60LhAmAm%40iAUc%40ECK%40OL%7D%40dAKT_AbAM%40GCMUeAoBSi%40CJ%3FNVr%40t%40%7CA%60%40bAxA%60CPJRFx%40FRFb%40Zp%40d%40d%40Nl%40Np%40_%40TSOSQwAMaA%3Fa%40AWMq%40g%40iAIIgBiD%7BAmCMYy%40%5DQC%5BCcB_CKUIWd%40q%40jAiBhDaFtC_ExDuFdCqDl%40q%40pAcBFIJQFEh%40EH%3FL%60%40DFTTZDZCRGZWPWN%5B%40g%40Em%40I%5DOUOKKEQWEOAI%3FsA%3FuBDiJ%3FeI%40yL%3Fy%5E%40_X%40%7BWt%40uYHeEDm%40P_%40TSd%40O%5CR%5EFZCVKTSTc%40H_%40BWAm%40Ga%40Se%40QSYOYGa%40BWJMJOB%5B%40SGu%40k%40oByA%5B%5BEg%40Oa%40YWUI%5D%3FMBWUgEcDyKiImHqFgAs%40gBsAwD_Dm%40i%40y%40k%40e%40IQQaBoAq%40i%40qB%7DA_EyCIEW%5EsC%60EeBfCcCjDkAbBW%60%40Ya%40u%40gAa%40s%40_DqEoAgBOWWMsAqB%7D%40mA%5De%40%7B%40uAQe%40e%40e%40qAkB%7D%40%7DAf%40m%40x%40mAl%40%7D%40hCuDvB%7BChD_F&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/09_Estaci\u00f3_Sants_a_Ciutadella_route.png"
+            },
+            {
+                "id": "10_Marina___Arago_a_Estaci\u00f3_Sants_route",
+                "file_name": "10_Marina___Arago_a_Estaci\u00f3_Sants_route.png",
+                "image_index": 10,
+                "file_size_in_kb": 193.8564,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:22.627293",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ak~s%7BF%7BriL%60FoHlCzDdEnGfD~E%7DCvEkAzAiGbJ%7DIhMaChDiBjC%7BDzFqAjBe%40r%40l%40~%40fA%7CAnAjBhA~ApEvGrBvCpAlBxAvBfEjGlAfBvExG%7CQhXfDjFhDzE%60E%60G%60CjD%5C%60%40jAbBzGvJnC%60ERPhA%60BnAfBpCbEpBxCbBhCnC~DjDbFkD~EyAvBcClDm%40v%40l%40lCPz%40dAlARFPLbB~B%5E%5CLTCToAvAeAhAELIVCLFPDLdArBV%5EN%3F%60%40f%40PZXh%40rAyADE&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/10_Marina___Arago_a_Estaci\u00f3_Sants_route.png"
+            },
+            {
+                "id": "11_Gl\u00f2ries_a_Marina___Arago_route",
+                "file_name": "11_Gl\u00f2ries_a_Marina___Arago_route.png",
+                "image_index": 11,
+                "file_size_in_kb": 143.8623,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:23.452113",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ayou%7BFc~jLy%40mAd%40q%40x%40iAn%40%7D%40%5Cc%40dA~AbCpD%5Ef%40T%5EhDbFfEjGtDtF%5Er%40TLj%40%7C%40dEfGjErGr%40dAn%40cAx%40iA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/11_Gl\u00f2ries_a_Marina___Arago_route.png"
+            },
+            {
+                "id": "12_Forum_a_Estaci\u00f3_Sants_route",
+                "file_name": "12_Forum_a_Estaci\u00f3_Sants_route.png",
+                "image_index": 12,
+                "file_size_in_kb": 181.1963,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:24.303465",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akcw%7BF_gpL%7CDjV%5EvCpAfInEfYzB%7CNfCnOjExXr%40%7CDVbBjAzH%60%40~B%60%40tBDd%40ZdBp%40fExBpNv%40%60FTvAUXY%60%40g%40z%40iA%7CA_AvAaBzBqErGoAbBrAlBzAvBbAxAvDvFbHlKxH%7CKxH%60LhG%7CI%7CFxItDhFbEfGjCxDxAvB~CrEzAzBp%40bAxChEpC%60EzGxJdCpDzCtEzA%60ChCrDjBlCzCjEzAzB%5C%60%40zDtFzHfLRPhA%60BnAfBbG%7CIzBjDvB%7CCjDbFkD~EyAvBoAhBaBzBl%40lCF%5EHZt%40%7C%40NNRFPLbB~B%5E%5CJL%40PCJaAhAsAvAKXCJCLFPDLXh%40z%40bBNFFA%60%40f%40PZXh%40rAyADE&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/12_Forum_a_Estaci\u00f3_Sants_route.png"
+            },
+            {
+                "id": "13_Passeig_de_Gracia_a_Forum_route",
+                "file_name": "13_Passeig_de_Gracia_a_Forum_route.png",
+                "image_index": 13,
+                "file_size_in_kb": 160.6143,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:25.085323",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Agis%7BFs%7BeLhByBU%5BbAsAl%40y%40xAiBT%5BPUt%40aARWPOb%40OVUJ%5Dy%40wA_AwAuE%7BGqDiFmAgBbD_FeD%7BEsEuGkCyDeJ_NaBcCyE_H%7DBiDg%40s%40yDtFyB_D_AwAy%40uAm%40eAWMa%40u%40q%40_AcBcCk%40%7B%40sA%7DBkC_EgAeBuAmBkBaCq%40%7D%40oB%7DCaCgDgKaOsAyBI%5DWc%40g%40cAg%40w%40q%40_A%5Dg%40Ye%40LSNUp%40eAr%40gAtJoN%60BcCqAsI_ByJqC%7DP%7B%40%7BFo%40qDm%40qD_%40_CuEcZi%40wCiA_H%7BAmJ%7D%40qFGa%40AUH%5D%3FQEUKQKISAQDKJITA%5CDVHLNJHBBADZFh%40Jt%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/13_Passeig_de_Gracia_a_Forum_route.png"
+            },
+            {
+                "id": "14_Passeig_de_Gracia_a_Parc_G\u00fcell_route",
+                "file_name": "14_Passeig_de_Gracia_a_Parc_G\u00fcell_route.png",
+                "image_index": 14,
+                "file_size_in_kb": 202.3643,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:25.986121",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Agis%7BFs%7BeLhByBU%5Bq%40~%40w%40bA_C~Cw%40dAqBhCmHrJaFvGq%40z%40UXc%40%5CCOWJc%40h%40_%40l%40qCvDUb%40G%5CAVSVyBtCuFdHmEfFkBdCe%40iAqAyCuBiEaAiB%7BBwDgEyHuDyG_FeJ%7BDrDwBlBuAxAoB~AsApAuAlAaAfAu%40r%40s%40p%40u%40n%40QTk%40h%40y%40r%40iAz%40%40p%40FrAD%60%40GpAOp%40Ob%40%5Bf%40YVm%40%5E_AlAcCfD&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/14_Passeig_de_Gracia_a_Parc_G\u00fcell_route.png"
+            },
+            {
+                "id": "15_Diagonal_Mar_a_Pla\u00e7a_Espanya_route",
+                "file_name": "15_Diagonal_Mar_a_Pla\u00e7a_Espanya_route.png",
+                "image_index": 15,
+                "file_size_in_kb": 134.1924,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:26.824782",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akwv%7BF%7DbpLxEfEtDpDh%40%60%40hBhBf%40n%40pAjBHZRj%40Rx%40Tt%40JMp%40eA~CsETa%40NR%60%40OPE%5CBPHJJ%5Cf%40tAbBX%5CRTHBx%40jAlEpGx%40lAn%40%7C%40xB%60D~AnBx%40x%40jAbA~AhAbAh%40lAl%40bClAfBhA%7CAnAvCfDhBfCbG~IhCtDbAzAxClE%7CG%7CJ%7CNdTxCnEfI%7CLhAjBxAxCJ%60%40hA~ChB%60FfF%7CNjAbDd%40jA%7C%40tBnBvEZfANv%40VnDDX%60%40tAh%40l%40lAz%40%7CDvCjE%60DtDtCz%40p%40v%40v%40dAdAb%40XZL%60ALz%40FrANj%40Pp%40%60%40~%40r%40tCdC%60DhCrFdE~DfDn%40d%40n%40%5CrAd%40tA%5Ev%40ZZP~%40p%40pCtBxA%60Ax%40d%40fB%7C%40jChAtBdAnD%7CB%60EnC~CvBp%40j%40d%40h%40lAdB~%40xApEdHdAnBdBbDd%40t%40pFjI~AnBbIdJ%60DpD%7CBbC~BxCfAbBx%40tAbA~B%60%40jAj%40nBv%40nD%5ClBfBdLb%40lCh%40dCl%40fCdFlPvB~GlCvI~DrM~D%7CMtBtIlM~h%40~GfYjB~Hz%40rD%5E~AFr%40l%40jC%5E~At%40xDPbAl%40%60EJfBAfAMbBg%40lDMv%40a%40%60BoAdFaAvDc%40%60B_%40dA%5Bn%40e%40v%40i%40h%40c%40Zc%40Rw%40Rw%40H_%40%3Fs%40Me%40Oq%40_%40wA%7B%40yAy%40u%40Ua%40GiAA_AFsAVcAf%40w%40b%40g%40NUDSCe%40Es%40Km%40c%40eA_Aw%40%7B%40iB_Ck%40y%40OWMQGAAAIIk%40g%40a%40a%40OIQGw%40kAcAiBgC_F%7BAeCiA_BoLuP%7DFoIcD%7DEkBuC%7BBcDmJcNmEoGqC_EyAiB%7DAiBu%40aAqBsCs%40aA_FgHmNuSsAmBME%5Be%40%5Di%40sB%7DCsAmBgG%7BI_H_KsGoJ%5Be%40ESS%5B_CmD_AyAWaAS%7D%40Ww%40_%40s%40c%40g%40i%40a%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/15_Diagonal_Mar_a_Pla\u00e7a_Espanya_route.png"
+            },
+            {
+                "id": "16_Gran_Via___Rambla_a_Universitat_route",
+                "file_name": "16_Gran_Via___Rambla_a_Universitat_route.png",
+                "image_index": 16,
+                "file_size_in_kb": 113.5107,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:27.539353",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aahr%7BF%7B%7DfL%7B%40u%40e%40m%40KWOc%40KO%7DDgDk%40c%40g%40c%40yAwBi%40_%40YYICNb%40L%60%40FR%60ApDBf%40HPd%40dBj%40rBv%40hCXx%40f%40dBdA%7CDzBrI%60AlDd%40tBh%40lBJ%60%40bB%60C%60%40j%40N%5EMRa%40j%40wCgEp%40eAFM%3FSByANsEHsB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/16_Gran_Via___Rambla_a_Universitat_route.png"
+            },
+            {
+                "id": "17_Pla\u00e7a_Espanya_a_Sagrada_Familia_route",
+                "file_name": "17_Pla\u00e7a_Espanya_a_Sagrada_Familia_route.png",
+                "image_index": 17,
+                "file_size_in_kb": 198.3096,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:28.578451",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Aeap%7BFozbLuAq%40m%40a%40%5B%5Ba%40i%40sAmBsB_DiD%7BEuLoQaKaOmJaNmGaJmAcBiNoSq%40aAe%40%5B%5B%5DgCoDaAyAQaAU%5DeCqDiBmCeCyD%7BEyGgBiCsCaEUa%40EYWq%40Mo%40Gm%40%3Fc%40Ik%40O%5DUY%5BMc%40CYHYVILMf%40GbAArACJi%40%7C%40oBpCgBlCsC%7CD%7BClEg%40t%40y%40mAsCeEa%40g%40o%40eAy%40oA_DkEoFcI%7BD%7DFaB%7BB%7DC%7BEeBfCeAzA%7CBbDbHfK&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/17_Pla\u00e7a_Espanya_a_Sagrada_Familia_route.png"
+            },
+            {
+                "id": "18_Passeig_de_Gracia_a_Gran_Via___Rambla_route",
+                "file_name": "18_Passeig_de_Gracia_a_Gran_Via___Rambla_route.png",
+                "image_index": 18,
+                "file_size_in_kb": 107.4619,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:29.436166",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Agis%7BFs%7BeLhByBU%5BbAsAl%40y%40z%40kAVZ%60AxAb%40l%40d%40p%40Z%60%40%7CBdD%60ClDj%40y%40nBwC%5Ci%40rAkBbCmD%7CAkCH%7DATsF%40%7B%40C%5DIe%40M_%40Ue%40e%40i%40uA_A&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/18_Passeig_de_Gracia_a_Gran_Via___Rambla_route.png"
+            },
+            {
+                "id": "19_Camp_Nou_a_Passeig_de_Gracia_route",
+                "file_name": "19_Camp_Nou_a_Passeig_de_Gracia_route.png",
+                "image_index": 19,
+                "file_size_in_kb": 199.6953,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:30.523681",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aiaq%7BFyk%7DKJZJEVQb%40_%40t%40dAz%40jAX%60%40DU%3FC%3FC%3FGEKe%40_Aq%40gAJcBHe%40R%5DFQj%40m%40hCpEnFeElCwB%5Ec%40oFiKqEqJeB%7BDqDqIgAqCg%40cBc%40iBcAoFs%40uDs%40iCo%40kCo%40cCe%40iBsAwEoAwDmBoEuBgEmAeBy%40gAaA%7DAmA_BcCmD%7DEgHeG%7DIaCiDeCwDiBiCsAiBkEoGeA_BmAcBq%40aAkAiBoEoGiCuDd%40q%40tAqBr%40%7B%40lAgBjG%7DIhD_FfDcFcBcCu%40eA%7DFoIu%40cAx%40gAj%40w%40lA_BNT%5Ca%40%5Eg%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/19_Camp_Nou_a_Passeig_de_Gracia_route.png"
+            },
+            {
+                "id": "20_Gl\u00f2ries_a_Ciutadella_route",
+                "file_name": "20_Gl\u00f2ries_a_Ciutadella_route.png",
+                "image_index": 20,
+                "file_size_in_kb": 191.4141,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:31.508715",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ayou%7BFc~jLy%40mAd%40q%40x%40iAn%40%7D%40%5Cc%40dA~AbCpD%5Ef%40T%5EhDbFfEjGtDtF%5Er%40TLXd%40%60%40%3FvE%40lB%3FfBA~A%40h%40G%40DBDNNNBRGLKDS%40%5BEQlD%7DEnKyOvAuBv%40jAdBfCvAqBxBaD&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/20_Gl\u00f2ries_a_Ciutadella_route.png"
+            },
+            {
+                "id": "21_Pla\u00e7a_Catalunya_a_Diagonal___Francesc_Maci\u00e0_route",
+                "file_name": "21_Pla\u00e7a_Catalunya_a_Diagonal___Francesc_Maci\u00e0_route.png",
+                "image_index": 21,
+                "file_size_in_kb": 137.8857,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:32.177201",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Amir%7BFuufLcBvAa%40%5EQX%5CxAnBjHlApE%5EfB%60%40jABTz%40jAr%40bATZN%60%40o%40~%40m%40~%40qBvC%7BElHoDdFhCrDjBlCtBzC%3FRRj%40dD%60Kf%40%7CAmAbBuGtJgFpHxH%7CKhD%60FZd%40%5Dd%40W%60%40q%40%60A%7DBdDy%40lAu%40fAiA_BaBcCqC_EeAaB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/21_Pla\u00e7a_Catalunya_a_Diagonal___Francesc_Maci\u00e0_route.png"
+            },
+            {
+                "id": "22_Gl\u00f2ries_a_Zona_Franca_route",
+                "file_name": "22_Gl\u00f2ries_a_Zona_Franca_route.png",
+                "image_index": 22,
+                "file_size_in_kb": 142.5889,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:32.903027",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ayou%7BFc~jLy%40mAd%40q%40x%40iAn%40%7D%40%5Cc%40dA~AbCpD%5Ef%40T%5EhDbFfEjGtDtF%5Er%40TLXd%40%60%40%3FvE%40lB%3FfBA~A%40h%40G%40DBDNNNBRGLKDS%40%5BEQlD%7DEnKyO%60E%7DF~EiHrB%7BCj%40%7D%40pCcELORKHDD%40DJDHfBhCfBjCNHv%40n%40%5C%5EfBjCl%40~%40v%40xAz%40~ATl%40LBt%40nBnArD%7CAjEzBjG%60CzGz%40rBrB%60Fl%40xANh%40Ln%40Hr%40T%7CC%60%40xAb%40h%40lDhClJdHrDrC%60A%60Aj%40l%40j%40b%40ZPp%40JzCXj%40Jl%40ZfAx%40jFnElFbEtAbA%7CBjBjB~Ax%40d%40%7C%40ZzAb%40tAf%40f%40%5CbDdC~AdA~BpAvGzCtBlAlExCnChB~BfBh%40h%40v%40dAjFhIpAtBfC%7CEbDbFdBlC~AtBnL%7CMnE~EfBxBxAvB%7C%40zAZn%40d%40bAb%40jAn%40xB%60%40%60B%3FVTnAXdBj%40xD%3FVd%40nClArH%60AtE%7C%40pDnBvHhAxDPh%40t%40nBR%5CXZZV%5ELd%40B%5CGb%40Kv%40k%40z%40gAx%40y%40XUZQdAY%60%40IPAVBh%40H%5EJl%40LzEfCVNd%40LpFvClC%7CAtDpBdAf%40jFxClEzBvYhOfCnAXj%40d%40r%40HTTz%40Hf%40BbAAn%40I%7C%40%7BB%60JgDfNgAtEgAdEo%40%60CQb%40C%3FC%3FIBIHI%60%40%3FRDPGf%40Ib%40aA~D%5DtA%5BjAw%40PgAk%40uAw%40y%40%7B%40gBaAAYKSQGUDMVAXHX%3Fd%40IZpBdANRVN&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/22_Gl\u00f2ries_a_Zona_Franca_route.png"
+            },
+            {
+                "id": "23_Universitat_a_Zona_Franca_route",
+                "file_name": "23_Universitat_a_Zona_Franca_route.png",
+                "image_index": 23,
+                "file_size_in_kb": 152.0693,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:33.623775",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3A%7Dcr%7BFeffLd%40oLBiAAYOy%40%5Dw%40_%40%5EsEvDYTa%40%5EQX%5CxAz%40~C%60BfGd%40pBn%40%60CJTBTz%40jAf%40t%40ZHdAH%60DRJXhFxHnDfFvHvKhMfRjP%60Vx%40rA%3FxC%3FzD%40%5CMDQLKNQ%60%40Kl%40Ab%40B%5CXn%40VPXBZEHCHDb%40ZtAhBrBxC%5CXv%40fALLJFZd%40Zb%40tChE%60B%60C~G~JfGzIfEjG%5Ch%40Zd%40DLT%5Cv%40jAn%40%7C%40%60BbCtFjIbHdKlCzDrBtCtAfBp%40z%40%7CClEbGvIrI%60MrCjEvFfItFbIvBzC~BhDbFrHxBdD%60AfBjBrD%60A%60BlAjBfAfBPVFHB%5C%3F%40t%40jAXd%40Vj%40hAnCf%40pALPF%40D%5CNh%40LZR%5CLRT%3FZEZMXGz%40eAh%40m%40b%40i%40RQ~%40s%40xAu%40h%40Q%7C%40Mv%40Ab%40%40r%40Rf%40Nb%40Pz%40h%40vAj%40x%40Pv%40%40fAM%60%40Kh%40Uf%40%5Br%40q%40NUd%40%7D%40l%40_BnBuHxAaG%5CmA%5Cy%40RYLMRUXKHE%5CGZ%3Fj%40J%60%40XX%5CRl%40Fv%40AXGd%40GHOf%40%40XDVPXLJPBVCTQFOHg%40Ii%40S%5BKGWyAKm%40e%40eCm%40%7BDMmAA_BLsBVmAnCiLvFgUzAeG%60AqDTs%40D%3FLGJKFO%40UAKQYKGMAI%40GFM%60%40%3FRBPBFId%40w%40jDmAvEw%40P%5DSeB%7D%40m%40c%40c%40g%40%5DUkAo%40%3FEAMIUQIUBIJEJAXFV%40b%40ALGRpBdANRVN&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/23_Universitat_a_Zona_Franca_route.png"
+            },
+            {
+                "id": "24_Parc_G\u00fcell_a_Universitat_route",
+                "file_name": "24_Parc_G\u00fcell_a_Universitat_route.png",
+                "image_index": 24,
+                "file_size_in_kb": 205.9336,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:34.626331",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aerw%7BFgrcLf%40z%40h%40%7C%40%60%40i%40%60AwAvAoBzByClAcB%7CCeEp%40dAfBzCf%40jAX%7C%40n%40hC%5CpAp%40nC%7C%40fDbAfDTt%40Xf%40j%40r%40DFp%40x%40PCB%3FD%3FR%3Fb%40RhArAb%40i%40~%40eARGT%40~%40J%5ECZI%60D%7D%40TAXBVNn%40j%40ZH~AN%5CGzCwBjAy%40ZW%60B%7CBh%40%7C%40RRv%40fAr%40%60Ab%40p%40x%40wAn%40gAn%40gAj%40%7B%40z%40cAjAw%40p%40%5Dj%40a%40xCaDzAqBjDwEtDiFlBsCf%40s%40nBkChEiGpNuSpFaItCaEtDsF%5Ci%40rAkB%7C%40qANn%40%5EtA%5EfB%60%40jABTz%40jAr%40bATZN%60%40o%40~%40wCgEb%40q%40R_%40%40E%3F%5DFyBNyED_A&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/24_Parc_G\u00fcell_a_Universitat_route.png"
+            },
+            {
+                "id": "25_Universitat_a_Parc_G\u00fcell_route",
+                "file_name": "25_Universitat_a_Parc_G\u00fcell_route.png",
+                "image_index": 25,
+                "file_size_in_kb": 200.5176,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:35.429913",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3A%7Dcr%7BFeffLd%40oLBiAAYOy%40%5Dw%40EIa%40e%40s%40c%40w%40o%40e%40a%40e%40m%40KWEOc%40l%40u%40bAw%40dA%5Dd%40o%40%7C%40kE%7CFUNMFG%40GJQ%3FMFILG%60%40Ar%40KLKNOPq%40%7C%40Y%5EcBtB%7BIpLiDnEoOjSq%40z%40UXc%40%5CCOWJc%40h%40_%40l%40qCvDUb%40G%5CAVSVyBtCuFdHmEfFkBdCe%40iAqAyCuBiEaAiB%7BBwDgEyHuDyG_FeJ%7BDrDwBlBuAxAoB~AsApAuAlAaAfAu%40r%40s%40p%40u%40n%40QTk%40h%40y%40r%40iAz%40%40p%40FrAD%60%40GpAOp%40Ob%40%5Bf%40YVm%40%5E_AlAcCfD&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/25_Universitat_a_Parc_G\u00fcell_route.png"
+            },
+            {
+                "id": "26_Drassanes_a_Diagonal___Francesc_Maci\u00e0_route",
+                "file_name": "26_Drassanes_a_Diagonal___Francesc_Maci\u00e0_route.png",
+                "image_index": 26,
+                "file_size_in_kb": 211.832,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:36.404172",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aqlp%7BF%7DahLbA%7D%40dAw%40f%40YZ_%40DHBLALOv%40IXOdAi%40dDEb%40HFj%40%5Cb%40%5C%5Eh%40%7CB%60Fj%40vACtAQvGQfIApD%3FrD%3FJe%40j%40mBpCmBrCeAzAaFhHkA%60BiBbCaDtEuN%7CSs%40%7C%40Yf%40cFnHgHdKwCfEwH%60LuCfESVlAfBrBvCtC%60EfDbFe%40n%40wAtB%7BBdD%7BAxBqBwC%7DEeHs%40gA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/26_Drassanes_a_Diagonal___Francesc_Maci\u00e0_route.png"
+            },
+            {
+                "id": "27_Forum_a_Ciutadella_route",
+                "file_name": "27_Forum_a_Ciutadella_route.png",
+                "image_index": 27,
+                "file_size_in_kb": 143.4951,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:37.324679",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akcw%7BF_gpL%7CDjV%5EvCpAfInEfYF%5CW_%40%7BAwB%60BaC~%40%7BArEqG%7CA_CrAmB~BiDvAoBvCoEl%40_ANRXKFCJCZ%3FRFJH%60%40h%40%7CBtCPHnC~D%60DvEjBlCnBpCdBlBjAbA~AlA%60B%7C%40nB~%40dCrA~AhAf%40b%40v%40x%40lBxBB%5CDNR%60%40l%40hA%60BdChA%7CAbAhBDNdBjCtCfEfDzEbCrDxAxBdBdCd%40r%40fA%7CAZb%40a%40h%40eCpDuApB_BzBiCzDsBzC_AvAjErGdBfCxAvBdBfCvAqBxBaD&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/27_Forum_a_Ciutadella_route.png"
+            },
+            {
+                "id": "28_El_Born_a_Diagonal_Mar_route",
+                "file_name": "28_El_Born_a_Diagonal_Mar_route.png",
+                "image_index": 28,
+                "file_size_in_kb": 140.1895,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:38.062684",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ao~q%7BFy_iL%7DAlCGHp%40~%40x%40dApAfBPVjAxAPUh%40%7B%40Xa%40%7CA%7BBjDeFhCuDfAaB%5Em%40Pm%40Ba%40Aa%40C%5DWuA%3FOCKI_%40a%40sA_%40iAe%40mBa%40yA%7BAkDgBqEaAyCqB%7DFEIa%40%7DAWaAy%40yBUg%40_BeDaBmCOQK%40%7BA_CyCkE_AsA%7BFqI%7DEiHeJ_NmNuSiEkGwDuF_AkAaB_Bi%40e%40u%40m%40eBeAkB_Ai%40WaAc%40%7DA_AmCyBc%40c%40m%40s%40%7D%40kAq%40oA%5Be%40u%40gAsAoB%7BCmEoF%7DH_CiD%7B%40yAsBwD%7D%40yBw%40kB_%40w%40%3FA%3FK%5Ba%40iAeBs%40%60AU%5Co%40%60AiCnDc%40t%40iBjCaA%7D%40w%40q%40_BwA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/28_El_Born_a_Diagonal_Mar_route.png"
+            },
+            {
+                "id": "29_Ciutadella_a_Parc_G\u00fcell_route",
+                "file_name": "29_Ciutadella_a_Parc_G\u00fcell_route.png",
+                "image_index": 29,
+                "file_size_in_kb": 191.3506,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:39.064356",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ac%7Br%7BFqakLbFkHfCqDl%40eAn%40%7D%40vAqBuB%7BCU_%40MUKUMMUEO%3FODUTOb%40Aj%40HV%5Bl%40g%40t%40aChDaAtAiGbJaLjPqErGgD%7CEUGOBOLGRgD%40mA%3FeAAKi%40gBiC_%40k%40OTe%40h%40aC%7CCQL%5Dd%40a%40b%40g%40t%40eAzAmBrCwDtFs%40dAQVo%40hAkBtCq%40z%40i%40r%40q%40~%40wArBgKfOsBvCoCvDqAjBo%40%7C%40qBrCy%40nAaAvAqExGmElG%7BDlFeDvEwAxBcAnBQn%40MZBh%40Lh%40Td%40%5E%5C%5C%60%40LPRb%40L%60%40NbALhANjCAl%40%3FNOXMf%40Ml%40k%40dCy%40xDGVEZBVBV%3FRBjCBtADfA%3Fn%40Az%40cAjAl%40%7C%40j%40bApA%7CBfAlBVd%40GDc%40%5Cq%40h%40%40%5CDz%40Br%40BTADCt%40C%60%40Mh%40Qd%40%5Bf%40%5DXo%40b%40%7D%40lA%7DB~C&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/29_Ciutadella_a_Parc_G\u00fcell_route.png"
+            },
+            {
+                "id": "30_Ciutadella_a_Gran_Via___Rambla_route",
+                "file_name": "30_Ciutadella_a_Gran_Via___Rambla_route.png",
+                "image_index": 30,
+                "file_size_in_kb": 193.5381,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:39.875077",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ac%7Br%7BFqakLbFkHV_%40VX%60%40%5El%40l%40v%40n%40bAn%40%60D%60Ct%40p%40r%40v%40r%40lAt%40nBh%40dBNt%40NbAFt%40DpAC~AIfAMfAO%60AQp%40O%5E%5Bd%40c%40p%40%7B%40tAiEjGsC%60EkBjCW%60%40Ya%40u%40gAwBgDaBzB%7DEhHoC%7CDa%40l%40VZPVSZ%3F%40CH%3FF%40BOXJP%3FT%3FFHV%7CCbLRv%40R%60ALXlCpJ%60ArDr%40xBVbA%60%40vAPp%40Bf%40Z%7C%40%5ExAv%40nCh%40hB%5Cx%40j%40vBj%40tB%5CxAnBjH%5CjAl%40%7B%40V_%40%7CAkCH%7DATsF%40%7B%40C%5DIe%40M_%40Ue%40e%40i%40uA_A&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/30_Ciutadella_a_Gran_Via___Rambla_route.png"
+            },
+            {
+                "id": "31_Camp_Nou_a_Universitat_route",
+                "file_name": "31_Camp_Nou_a_Universitat_route.png",
+                "image_index": 31,
+                "file_size_in_kb": 200.2715,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:40.818395",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aiaq%7BFyk%7DKJZJEVQb%40_%40t%40dAz%40jAX%60%40DU%3FC%3FC%3FGEKe%40_Aq%40gAJcBHe%40R%5DFQj%40m%40hCpEnFeElCwB%5Ec%40oFiKqEqJeB%7BDqDqIgAqCg%40cBc%40iBcAoFs%40uDs%40iCo%40kCo%40cCe%40iBsAwEoAwDmBoEuBgEmAeBy%40gAaA%7DAmA_BcCmD%7DEgHeG%7DIaCiDeCwDiBiCsAiBkEoGeA_Bc%40g%40~A%7DBb%40o%40%60DqE%60HcKfJ_NpBsCfCyDhJyMZa%40gBiC%7DEeHp%40eAFM%3FSByAXgI&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/31_Camp_Nou_a_Universitat_route.png"
+            },
+            {
+                "id": "32_Forum_a_Diagonal_Mar_route",
+                "file_name": "32_Forum_a_Diagonal_Mar_route.png",
+                "image_index": 32,
+                "file_size_in_kb": 103.3193,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:41.491394",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akcw%7BF_gpL%60B~JXdB%5E~BL%7C%40ABEDGBG%40g%40u%40%7B%40oAsCiEaB_Cq%40_ALOJQ%7CCuE%60%40o%40JANGJMDIRBh%40HzDjDjBbB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/32_Forum_a_Diagonal_Mar_route.png"
+            },
+            {
+                "id": "33_Diagonal_Mar_a_Gl\u00f2ries_route",
+                "file_name": "33_Diagonal_Mar_a_Gl\u00f2ries_route.png",
+                "image_index": 33,
+                "file_size_in_kb": 178.6191,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:42.357532",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akwv%7BF%7DbpLxEfEaB~BkD~EmBpCMPDZVzAhBjL~B~Nn%40~DxAvJpA%60ITxAw%40lA_ArAgA~AkAbBk%40z%40fA%7CAZb%40tF~Hd%40p%40rE%7CG%7C%40dAj%40n%40n%40hAp%40dAn%40bAjCxD%60IfLzBhDdBfCmBlC%7D%40pAYc%40qAkB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/33_Diagonal_Mar_a_Gl\u00f2ries_route.png"
+            },
+            {
+                "id": "34_Gran_Via___Rambla_a_Gl\u00f2ries_route",
+                "file_name": "34_Gran_Via___Rambla_a_Gl\u00f2ries_route.png",
+                "image_index": 34,
+                "file_size_in_kb": 205.8174,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:43.295702",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aahr%7BF%7B%7DfL%7B%40u%40e%40m%40KWEOc%40l%40u%40bA%7B%40jAcCbDQVMUiBsCoCyDoEwGsGqJ_JoMeJ_NaBcCyE_H%7DBiDg%40s%40uCgE%3FUw%40m%40mCmAkBy%40eCcAg%40YMKPYf%40u%40%7CDaGHKRm%40%40_%40EKIWk%40w%40_AkAyBcDgGgJqAkB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/34_Gran_Via___Rambla_a_Gl\u00f2ries_route.png"
+            },
+            {
+                "id": "35_Pla\u00e7a_Catalunya_a_Forum_route",
+                "file_name": "35_Pla\u00e7a_Catalunya_a_Forum_route.png",
+                "image_index": 35,
+                "file_size_in_kb": 168.7266,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:44.288716",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Amir%7BFuufLcBvAa%40%5EQXFXq%40~%40k%40z%40uArBg%40VsCiE%7D%40aB%7B%40mA%7BD%7BFiDaFeBeCW_%40%5Ce%40dCyDYc%40qDgFiCuD_DwE%7BImMgDeFcIiLOUOPW%5E%7BBbDU%5Es%40aAi%40y%40y%40kAcAaBeAiB%5BS%5Do%40MOYc%40e%40q%40aAuAe%40q%40kAmBaAaBiAeBcA%7DA%7DA%7BBeDiEuBcDqGgJgFmHqAuBS%5BCOMYm%40iAc%40s%40wBcD%60CuDbImL~BgDT_%40Ik%40%7D%40wFg%40_Du%40uEuCkQWeBk%40%7BD_%40mBW_BYiBW_BKk%40qEyYk%40aDq%40uDU%7BAeBsK%7B%40gFMgAH%5B%3FOCUIUKISEQDKHKRC%5CBVFNNLPBXzB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/35_Pla\u00e7a_Catalunya_a_Forum_route.png"
+            },
+            {
+                "id": "36_Forum_a_Pla\u00e7a_Espanya_route",
+                "file_name": "36_Forum_a_Pla\u00e7a_Espanya_route.png",
+                "image_index": 36,
+                "file_size_in_kb": 131.7188,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:45.110998",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akcw%7BF_gpL%7CDjV%5EvCpAfInEfYF%5CW_%40%7BAwB%60BaC~%40%7BArEqG%7CA_CrAmB~BiDvAoBvCoEl%40_ANRXKFCJCZ%3FRFJH%60%40h%40%7CBtCPHnC~D%60DvEjBlCnBpCdBlBjAbA~AlA%60B%7C%40nB~%40dCrA~AhAf%40b%40v%40x%40dCvCV%5EfEhGrCfErKzOdVx%5DxGzJbFzHxBjEJb%40t%40nBnArD%7CAjEzBjG%60CzGz%40rBrB%60Fl%40xANh%40Ln%40Hr%40T%7CC%60%40xAb%40h%40lDhCbE%7CChDfCrDrC%60A%60Aj%40l%40j%40b%40ZPp%40JzCXj%40Jl%40ZfAx%40jFnElFbEtAbA%7CBjBjB~Ax%40d%40%7C%40ZzAb%40tAf%40f%40%5CbDdC~AdA~BpAvGzCtBlAlExCnChB~BfBh%40h%40v%40dAjFhIpAtBfC%7CEbDbFdBlC~AtBnL%7CMnE~EfBxBxAvB%7C%40zAZn%40d%40bAb%40jAn%40xB%60%40%60BnA%7CGz%40xFj%40jDd%40jCt%40dDdB~FnD%60L%7CHzVd%40%60BrCjJdCtI%60L%60e%40%7CGdYlEvQ~B~JFr%40Nr%40n%40nCNj%40b%40xB%5ExB%60%40zCLj%40Dn%40Bd%40%40%60AKdBMhAWzAYlBiCfKy%40~C_%40lAQ%5E%7D%40~AUXg%40%60%40%5DR%7B%40X%7B%40J_%40Bm%40Gk%40Ok%40WcAo%40sBiA%5BO_AU%7B%40EsAFw%40Lo%40R%5BNeAl%40c%40Nc%40JoAM_%40Ge%40_%40q%40k%40w%40u%40aBqBeAyAe%40u%40MGiAgASQWGw%40kAmBmDoAcCcBqC%7B%40oAgCqD%7DEgH_HwJ%7BEgHuAyBcHaK%7BJsNeA%7DA_B_CqAeBkDcEwAsB%7DB_D_QcW_E%7BFMEo%40aA%7BA%7DB_E%7BFyJuN%7BCqEsEyGc%40o%40ESiC%7DDcA%7BAWw%40UiASo%40_%40w%40c%40k%40g%40a%40IG&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/36_Forum_a_Pla\u00e7a_Espanya_route.png"
+            },
+            {
+                "id": "37_Barceloneta_a_Zona_Franca_route",
+                "file_name": "37_Barceloneta_a_Zona_Franca_route.png",
+                "image_index": 37,
+                "file_size_in_kb": 134.4307,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:45.777115",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akeq%7BFc%7BjL_DdAiA%5CeHtBKBOc%40Ke%40Ie%40OmACu%40GkAQ_Ac%40gAU_%40a%40c%40iAeA%7B%40eAs%40kAo%40yAs%40yA%7D%40qAsAoBIMI%40KBSPe%40t%40CNAPHNr%40bAPJ%7C%40t%40p%40z%40~A%60Cf%40z%40t%40rAXh%40j%40rALBJTv%40%7CBhB%60F%60ApCdDjJjAbDd%40jA%7C%40tBnBvEZfANv%40Fr%40TtC%60%40tAh%40l%40dDbCtEhDvDrCtCzBrAtAh%40f%40b%40XZL%60ALz%40FrANj%40Pp%40%60%40~%40r%40tCdChBxAfGvEb%40%5ClCzB%60BpAn%40%5CrAd%40tA%5Ev%40ZZP~%40p%40pCtBxA%60Ax%40d%40fB%7C%40jChAtBdAnD%7CB~B%7CApCjBnA%7C%40p%40j%40d%40h%40lAdBfFbIbAbBpCjFdDfFpBxC~AnBpKzLpE~E~BxCfAbBx%40tAVh%40j%40tA%60%40jAj%40nBRv%40FX%3FTNz%40H%60%40h%40nDXjBANDRPlARdAp%40bEd%40jC%60ApE%7C%40jDbBvGfAtD%5CbAn%40zAV%5EXVZRb%40H%60%40%3Fl%40ORIl%40e%40vAeBd%40c%40%5CU%5COz%40Sd%40G%60%40%40%7C%40PXJ%5CDz%40b%40tAr%40%60B~%40d%40LbDhB~BnAvBjAnDlBlKxFhIhE%60UlLn%40XLXf%40v%40P%5ERn%40Lz%40%40vAAn%40Gd%40a%40%7CAu%40~C%7DAnGg%40rBmA%7CE%7DAtGcAzDSr%40Sd%40K%3FEBKNELAR%40RDN_%40lBcAdEk%40tBw%40P%5DSeB%7D%40m%40c%40k%40m%40aB_AC%5BMQQESFMX%3FXBLBB%40b%40ALGRpBdANRVN&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/37_Barceloneta_a_Zona_Franca_route.png"
+            },
+            {
+                "id": "38_Camp_Nou_a_Barceloneta_route",
+                "file_name": "38_Camp_Nou_a_Barceloneta_route.png",
+                "image_index": 38,
+                "file_size_in_kb": 162.25,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:46.694350",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Ayfq%7BFyi%7DKHn%40%5DFYPQPDDDJJ%60%40%40X%3FrA%40b%40Ln%40Np%40BJ%40h%40F%60%40PXAD%3FJ%3FLFPLND%40Fh%40%3Fj%40SlECd%40Ef%40I%5CSh%40Sn%40Cf%40An%40%40XCj%40Or%40Un%40%7B%40dBmApB%7D%40jAa%40%60%40cAz%40_%40Pe%40LuBv%40iA%60%40k%40b%40F%5Ej%40lDLx%40%7C%40rFz%40xEX%60BCZD%60%40%5CfCPfAV~Az%40zECFAPJdAZlC%7C%40%60Gh%40tD%40ZGj%40MXSPKFUD%5BAa%40MUOUWKSK%5DCY%3FSH%5BNQJGTENBl%40%5EF%3FbDrCdDrCxArAf%40%5E%5C%60%40nBrBpAhBrCnEdB%7CB~%40bA%5CZNH%5C%5Ct%40l%40Z%5Ct%40j%40fAv%40x%40f%40%7CBfAtBt%40zBl%40zCl%40lBf%40~Bv%40dBz%40~%40h%40lA%7C%40~ArA~ClCfAv%40%7C%40l%40%7C%40d%40v%40ZzAd%40pBf%40%7CFjA%60GpApUdFhATlANrBJfC%3FjBI%5EE%60C_%40%60Bc%40nBs%40nB_ArJaFlDiBrCmAdCy%40%7CAa%40xDs%40%7CB%5DjAMh%40AnCCnB%40%60A%40xAFnCThANl%40Hn%40L%60Cf%40%60Cp%40FNFBPHf%40%5EV%5CLTLZP~%40Dj%40CbAOz%40M%5EQ%5CMLSJYFc%40E%5BUWg%40Gk%40A%5DP_BVyAR%7B%40v%40kCr%40mBn%40wArAgCvAcC%7C%40_Bt%40aBpAkDf%40cB%60%40kBb%40cCTaBPgCLcCI%5DDe%40D_ALsG%5C_SNoINgJXcKb%40wJh%40_HPiB%60%40_EPsBF%7BAJwC%40uCCaEG%7BAUgDYaCIu%40w%40qEMu%40sAwFyDiPkBsHeEaQ%7BF_VeDcN%7DCiMqCsKw%40qC%7B%40wCgFoP%7BGiT%7BCwIoAkEg%40yBiAyGa%40%7DCc%40wD_%40gCOu%40u%40qCOe%40eAgC%5Dw%40_BgCgBmBwBqBy%40u%40cC_CsFmG%7BBiCo%40w%40%7BAoBwCmEu%40iA_BmCoBuDwEsHiC%7DDo%40u%40_Au%40sHgFiBmAcBcAuBcAkCkAOS%5BSa%40%5Bq%40e%40uB%7BAyBeBUOQIYCW%40c%40B%7D%40J%5DCo%40OwASeBS_CYE%40E%3F%7DFmEkA%7D%40_Aq%40IUOQIOGSBOBWAm%40Ga%40Se%40QSYOYGa%40BWJMJOB%5B%40SGu%40k%40oByA%5B%5BEg%40Oa%40YWUI%5D%3FMBWUgEcDcDaCkJgHwDqCgAs%40MIYSV%5DRWJUPm%40Ba%40Aa%40C%5DWuA%3FOCKI_%40a%40sA_%40iAe%40mBa%40yA%7BAkDgBqEaAyCqB%7DFW_BIoATAxDaAvAi%40NClCy%40%5CKzC%7D%40BPLn%40Jp%40NbAFd%40UFSBc%40LQD&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/38_Camp_Nou_a_Barceloneta_route.png"
+            },
+            {
+                "id": "39_Diagonal_Mar_a_Sagrada_Familia_route",
+                "file_name": "39_Diagonal_Mar_a_Sagrada_Familia_route.png",
+                "image_index": 39,
+                "file_size_in_kb": 179.1426,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:47.610964",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akwv%7BF%7DbpLxEfEaB~BkD~EmBpCMPDZVzAhBjL~B~Nn%40~DxAvJtBjMpBdMpBvMv%40rER%60AZvBjAtHf%40xCR%7C%40%40NFj%40XzAzCpRz%40rF%5E%60Ce%40l%40cA~AaAtAkCtDuFbIw%40bAt%40fAd%40n%40bBbCxCpEtB%7CCfBnCjBpC%7DAxBiEfGk%40z%40NR%60AtAfCvDfEhG&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/39_Diagonal_Mar_a_Sagrada_Familia_route.png"
+            },
+            {
+                "id": "40_Pla\u00e7a_Catalunya_a_Sagrada_Familia_route",
+                "file_name": "40_Pla\u00e7a_Catalunya_a_Sagrada_Familia_route.png",
+                "image_index": 40,
+                "file_size_in_kb": 199.8369,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:48.427643",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Ared%7Cweight%3A5%7Cenc%3Amir%7BFuufLcBvAa%40%5EQXFXq%40~%40k%40z%40uArBg%40VsCiEg%40%7B%40Q%3FMFILG%60%40Ar%40KLKNGFQRc%40l%40g%40p%40yAhBm%40x%40mDvEqEbGc%40l%40W_%40eEeGqB%7BC%5Be%40eBeC%7DAyBoEsGkI_MkC%7BDkA%7DAwAaCuBuCaFkH%7DG%7DJiA%7DA%7DC%7BE_CfDk%40z%40NR%60AtAfCvDfEhG&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/40_Pla\u00e7a_Catalunya_a_Sagrada_Familia_route.png"
+            },
+            {
+                "id": "41_Sagrada_Familia_a_Ciutadella_route",
+                "file_name": "41_Sagrada_Familia_a_Ciutadella_route.png",
+                "image_index": 41,
+                "file_size_in_kb": 202.4502,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:49.356512",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awpu%7BFuxgLdA~A%5Eh%40%5Ek%40hCuDpAkB%7CBiDp%40eAlAmBjAcBdCoDjIuL~%40qA%7CA%7DBlLoP~D%7DFt%40oAZ%3FHm%40f%40w%40Ze%40b%40o%40pAgBpFaIvB%7BChD_F&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/41_Sagrada_Familia_a_Ciutadella_route.png"
+            },
+            {
+                "id": "42_Camp_Nou_a_Estaci\u00f3_Sants_route",
+                "file_name": "42_Camp_Nou_a_Estaci\u00f3_Sants_route.png",
+                "image_index": 42,
+                "file_size_in_kb": 146.9209,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:50.100926",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aiaq%7BFyk%7DKJZJEVQb%40_%40t%40dAz%40jAX%60%40DU%3FC%3FC%3FGEKe%40_Aq%40gAJcBHe%40R%5DFQj%40m%40hCpEnFeElCwB%5Ec%40oFiKqEqJeB%7BDqDqIgAqCg%40cBc%40iBcAoFs%40uDs%40iCo%40kCo%40cCe%40iBsAwEoAwDe%40mA%60AkAhB%7DBzEqG%7C%40iAZk%40v%40mBt%40qAjC%7DDdA%7DAhAaB_%40q%40eCmDyAvBcClDm%40v%40l%40lCPz%40dAlARFPLbB~B%5E%5CLTCToAvAeAhAELIVCLFPDLdArBV%5EN%3F%60%40f%40PZXh%40rAyADE&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/42_Camp_Nou_a_Estaci\u00f3_Sants_route.png"
+            },
+            {
+                "id": "43_Diagonal___Francesc_Maci\u00e0_a_Forum_route",
+                "file_name": "43_Diagonal___Francesc_Maci\u00e0_a_Forum_route.png",
+                "image_index": 43,
+                "file_size_in_kb": 147.9912,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:51.009438",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aazr%7BFwlbL%7DBgDsByCu%40_AjDcFnF%7DHrDkF%7CEiHpEwGhHeKjFuHnBsClAaBfA%7CA%7CAzBhD%7CElDhFhDaFxAsBr%40cA%60CmDxJwNXe%40H%3FV%3F%5C%3F%3Fy%40%3F_E%3FkE%3FgH%40cNB%7BCLyE%5EaNNmHHg%40TYXQVGLJ%5ELX%40XG%5CSRYHQH_%40Bm%40AWBQTUJIBHHJ~%40r%40tCxB%7CBdBp%40j%40~A%60Bf%40%60%40r%40b%40hAf%40d%40Pt%40Rt%40Fj%40Ix%40MR%40%7C%40Zj%40%5Cf%40TLBTEJKDOBOCWOOQCODALCNAFQBOA%7B%40_%40w%40USG_%40GcAKGAKHkBi%40u%40%5BgAu%40%7B%40u%40uBkB%7D%40o%40yGaFyE_EsB%7BAi%40Sk%40KqAGeAKg%40Qi%40_%40_AcAk%40g%40eE_DiJcHwC%7DBKKg%40q%40Sq%40Oy%40QeBa%40_Ca%40yAuD_JaBgEuCaI%5DaAo%40kB%7DBuGcBqEw%40aB%7DC_FyE_HcJ%7BM%7BV__%40wKaPwDuF_AkAaB_Bi%40e%40u%40m%40eBeAkB_Ai%40WaAc%40%7DA_AmCyBc%40c%40m%40s%40%7D%40kAq%40oA%5Be%40u%40gAsAoBkKkO_CiD%7B%40yAsBwD%7D%40yBw%40kB_%40w%40%3FA%3FK%5Ba%40iAeBs%40%60AU%5Co%40%60AiCnDc%40t%40iBjCaA%7D%40w%40q%40%7BGeGwBkBEQw%40q%40IUKISEQDKHKRCN%3FLBVFNNLPBNpAHh%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/43_Diagonal___Francesc_Maci\u00e0_a_Forum_route.png"
+            },
+            {
+                "id": "44_Pla\u00e7a_Espanya_a_Diagonal_Mar_route",
+                "file_name": "44_Pla\u00e7a_Espanya_a_Diagonal_Mar_route.png",
+                "image_index": 44,
+                "file_size_in_kb": 153.6992,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:51.871679",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Aeap%7BFozbLuAq%40m%40a%40%5B%5Ba%40i%40sAmBsB_Dh%40w%40~A_CpDkFJOFGx%40%40VE%3F%7DA%3FwB%40gF%3FoJ%40wM%3F%7BW%3FcV%40sFB%7BCT%7DIV%7DIHqED%7BAHg%40TYXQVGLJ%5ELX%40XG%5CSRYHQH_%40Bm%40AWBQTUJIBHHJ~%40r%40tCxB%7CBdBp%40j%40~A%60Bf%40%60%40r%40b%40hAf%40zAd%40t%40Fj%40Ix%40MR%40%7C%40Zj%40%5Cf%40TLBTEDCJW%40%5BGSQKI%3FKBCDEXAFQBOA%7B%40_%40w%40USG%7B%40Kg%40GGAKHkBi%40u%40%5BgAu%40qDaDkF%7DDkBsAcAy%40uCeCsB%7BAi%40Sk%40KqAGeAKg%40Qi%40_%40_AcA%7B%40u%40aSgOaAw%40g%40q%40Sq%40Oy%40QeBa%40_COi%40Qo%40uD_JaBgEuCaI%5DaAmDaKcBqEw%40aB%7DC_FyCkEuE%7DGyFkIcXu%60%40iEqGwEyGeBgCs%40_AiAiAaA%7B%40u%40m%40eBeAkB_AkB%7B%40%7DA_AmCyBc%40c%40m%40s%40%5Da%40_%40i%40q%40oA%5Be%40u%40gAc%40o%40eBeCuMoR%7DB%7DDq%40sAk%40sAw%40sBm%40kACI%3FA%3FK%5Ba%40iAeBs%40%60AU%5Co%40%60AmA~A_BdCiBjCaA%7D%40w%40q%40_BwA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/44_Pla\u00e7a_Espanya_a_Diagonal_Mar_route.png"
+            },
+            {
+                "id": "45_Barceloneta_a_El_Born_route",
+                "file_name": "45_Barceloneta_a_El_Born_route.png",
+                "image_index": 45,
+                "file_size_in_kb": 146.5605,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:52.543483",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akeq%7BFc%7BjL_DdAiA%5Ct%40nF~%40tGb%40vCkBn%40o%40p%40KVO%7C%40Ez%40EVGX%7D%40hCyArDcAlC%5CXZXOf%40w%40zBLL_%40tAu%40g%40o%40g%40UMk%40a%40Uv%40Sf%40y%40xA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/45_Barceloneta_a_El_Born_route.png"
+            },
+            {
+                "id": "46_Diagonal___Francesc_Maci\u00e0_a_Camp_Nou_route",
+                "file_name": "46_Diagonal___Francesc_Maci\u00e0_a_Camp_Nou_route.png",
+                "image_index": 46,
+                "file_size_in_kb": 203.0684,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:53.513171",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aazr%7BFwlbL%7DBgDsByCu%40_AjDcFv%40hAnBpCWb%40o%40%60A_%40j%40%5Df%40GTGl%40e%40tFYrD_%40~Ea%40xEo%40nHWzCGd%40f%40NVFTBPHfAxBzB%7CEjEtIjCnFlAjCbBjDnBdErB%7CDrA%7CBfEvHf%40%7C%40dAfBv%40xAnDxFl%40dA%60CzDfBfDhAzBmBdBLf%40R%60AbBk%40LNz%40fAf%40%7C%40%5EbANp%40DVBdAC~%40M~%40BdABLWTWPWNK%5B&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/46_Diagonal___Francesc_Maci\u00e0_a_Camp_Nou_route.png"
+            },
+            {
+                "id": "47_Zona_Franca_a_Drassanes_route",
+                "file_name": "47_Zona_Franca_a_Drassanes_route.png",
+                "image_index": 47,
+                "file_size_in_kb": 161.9482,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:54.476805",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Ared%7Cweight%3A5%7Cenc%3Ay%7Bh%7BF%7Dp~KWOOSqBeAFSDKNUF%3FHAFGBCjB%60ATVJRNPZPvAt%40b%40j%40%40D%3FRH%5CLZ%7D%40vDiC%60KkArE%7D%40hDW%5CWVe%40N%5DDSOIAUFMNa%40KSQMY%5DiAo%40iCQGcDgNy%40cDuA%7BFcEyPwIq%5E%7DAmGoG_W%7BB%7BH%7DFcR%7DCyJsAkEw%40%7BBoAoD%7B%40kCoAyE%5BgBoA_I%5BcCc%40uDW%7BA_%40_Bc%40yA%5DaA%7D%40wBeAkBgAyAyB%7BBwAqA_CyBqAsAmFeGoCcD%7BAoBw%40gAoCgE%5Be%40o%40eAmAaCqA_CcGmJYe%40oAaBc%40c%40oA_AaIoFoBoAwAw%40gBw%40kAg%40_%40SOS%5BSa%40%5B%5BSm%40e%40%7BB_BcBuAMGQIYCW%40W%40m%40Hg%40%40%5DEw%40SkFk%40u%40KM%3FE%3FgCmBaE%7DC_Aq%40IUOQIOGSBOBW%3FUCc%40Mi%40QYUSWKc%40CWF%5DRSXO%5CGb%40%40t%40BTG%5CKXS%5CQb%40EZAp%40MfFCx%40Cl%40Ma%40%7DAkDq%40%7BAc%40s%40kA%7B%40UMqDkDt%40k%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/47_Zona_Franca_a_Drassanes_route.png"
+            },
+            {
+                "id": "48_Sagrada_Familia_a_Pla\u00e7a_Catalunya_route",
+                "file_name": "48_Sagrada_Familia_a_Pla\u00e7a_Catalunya_route.png",
+                "image_index": 48,
+                "file_size_in_kb": 207.3105,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:55.362898",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awpu%7BFuxgLdA~A%5Eh%40%5Ek%40hCuDpAkBvAuBhA%60BhD~ElEnG%60GzIhA~AlC%7CDvDpFpAlBxAvBfEjGdFnHzFjIpCdEx%40jAh%40x%40RUzBcDJOhA_BhEoGlAgBn%40y%40rDmFfAiB%5Cm%40%40SB_%40VgGBiAAYOy%40%5Dw%40_%40%5EiCtB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/48_Sagrada_Familia_a_Pla\u00e7a_Catalunya_route.png"
+            },
+            {
+                "id": "49_Gl\u00f2ries_a_Estaci\u00f3_Sants_route",
+                "file_name": "49_Gl\u00f2ries_a_Estaci\u00f3_Sants_route.png",
+                "image_index": 49,
+                "file_size_in_kb": 197.7432,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:56.262980",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ayou%7BFc~jLy%40mAd%40q%40x%40iAn%40%7D%40%5Cc%40dA~AdBfCmBlCmCzDe%40p%40gDzEcAzAcAvA_CjDmD%60FwBzCw%40bAt%40fAd%40n%40PVrBvC%60AvAtB~CfBpC%60DzExFhIxFjI~GzJjCtDdBjCxEbHvKzOnAlBnC%7CDlCzDvE%7CG~OrUjDbFv%40nA%60CtDxCfEvCfEdClDjD%60FxFhI%7CA~BRPdBfCxCfE~%40zAxEbHbHdKwHxKeBdCY%5CZrARdALf%40r%40~%40VVXHTZtAlBZXJLDN%3FHw%40%60AsAxAQVCFK%60%40Rh%40dAnBLTFBH%40NP%5Cd%40%60%40r%40xA_B&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/49_Gl\u00f2ries_a_Estaci\u00f3_Sants_route.png"
+            },
+            {
+                "id": "50_Estaci\u00f3_Sants_a_Pla\u00e7a_Catalunya_route",
+                "file_name": "50_Estaci\u00f3_Sants_a_Pla\u00e7a_Catalunya_route.png",
+                "image_index": 50,
+                "file_size_in_kb": 191.7773,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:57.231740",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awxp%7BFg%7C%60LhAmAm%40iAUc%40ECK%40OL%7D%40dAKT_AbAM%40GCMUeAoBSi%40CJ%3FNVr%40t%40%7CA%60%40bAxA%60CPJRFx%40FRFHDa%40ZUT%7DA%7C%40gEdCiIzE_BaGSo%40m%40kBcAmCqCcGk%40eAg%40u%40sAmBOQuAqBaAsAkCwDsGmJsFcIiBoCqB%7BCqCwDwFmI%7DAuB%7BBgD%7DA_CwE%7BGs%40gA%5Ba%40FGFM~%40sA%7C%40oAnBkCb%40o%40%7CFmI%7CD%7BFtLeQ%7CBcDbG%7DIrAkBjBmC~%40yAt%40qABa%40VgGDsAA%5DKu%40M_%40S_%40%5B%5CsAfAy%40n%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/50_Estaci\u00f3_Sants_a_Pla\u00e7a_Catalunya_route.png"
+            },
+            {
+                "id": "51_Parc_G\u00fcell_a_Camp_Nou_route",
+                "file_name": "51_Parc_G\u00fcell_a_Camp_Nou_route.png",
+                "image_index": 51,
+                "file_size_in_kb": 212.8174,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:58.195217",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aerw%7BFgrcLf%40z%40h%40%7C%40%60%40i%40%60AwAvAoBzByClAcB%7CCeEp%40dAfBzCf%40jAX%7C%40n%40hC%5CpAp%40nC%7C%40fDt%40bC%60%40z%40Rb%40Z%5Et%40%7C%40n%40t%40h%40h%40nBzBXn%40d%40%60A%5C%60AH%5CJt%40JzABv%40%40dAFxAHhBFzA%5EhEh%40zDPlAZlBr%40%7CCfAzDjAjDx%40nBbApBfAdBn%40v%40bBdBtAtAn%40p%40~%40pAjB%7CBtBfCjCnCvAtAxBjBhBrA%60%40Vb%40%40h%40%40%5EERALGnAeAdC_C%60%40YVIf%40AVDVJ%5CVvCvCvAlBpA%7CB%7CAxDrAtD%5C%7C%40n%40hA%5Eb%40f%40b%40n%40%60%40fAd%40%5CR%7C%40b%40v%40%5E%60Bj%40t%40Rt%40T~%40Tf%40HlAXrDp%40pCPnABHHnA%3Ff%40%40f%40AF%3FDFdAK%5EGTCl%40KvCk%40~FqA%60%40Iz%40STb%40jBvCx%40xAxArC%5Ct%40mBdBZrADTb%40O%7C%40%5BFDz%40hA%60%40n%40b%40dARn%40F%5CF%7C%40%3Ft%40QzA%3Ft%40Fb%40c%40%5EWPKDK%5B&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/51_Parc_G\u00fcell_a_Camp_Nou_route.png"
+            },
+            {
+                "id": "52_Diagonal_Mar_a_Pla\u00e7a_Catalunya_route",
+                "file_name": "52_Diagonal_Mar_a_Pla\u00e7a_Catalunya_route.png",
+                "image_index": 52,
+                "file_size_in_kb": 161.1992,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:58.869579",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akwv%7BF%7DbpLxEfEaB~BkD~EmBpCMPDZVzAhBjL~B~Nn%40~DxAvJtBjMpBdMpBvMv%40rER%60AZvBjAtHf%40xCR%7C%40%40NFj%40XzAzCpRz%40rF%5E%60Ce%40l%40cA~AaAtAkCtDuFbIw%40bAt%40fAd%40n%40bBbCxCpEtB%7CCfBnChKhOxGrJnGhJtBzCvClE%7CDzFfEfGbBdCfCvDrIbMhEdGlHrKrCfEnCyD%7CBcDbG%7DIrAkBjBmC~%40yAt%40qABa%40VgGDsAA%5DKu%40M_%40S_%40%5B%5CsAfAy%40n%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/52_Diagonal_Mar_a_Pla\u00e7a_Catalunya_route.png"
+            },
+            {
+                "id": "53_El_Born_a_Pla\u00e7a_Espanya_route",
+                "file_name": "53_El_Born_a_Pla\u00e7a_Espanya_route.png",
+                "image_index": 53,
+                "file_size_in_kb": 204.3438,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:34:59.707128",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ao~q%7BFy_iL%7DAlCGHp%40~%40x%40dApAfBPVjAxAPUh%40%7B%40Xa%40%7CA%7BBjDeFhCuDVa%40d%40%60%40l%40f%40nCrB%7CBlBfBrAhE~CXT%7C%40v%40nAx%40nBzAp%40f%40h%40%5CLB%40B%40NJd%40NTRNVHR%40J%3Fd%40DXPlBxAj%40d%40LXL%60%40AR%40TD%60%40J%5EPXTR%5ELX%40XG%5CSd%40Eh%40TzC%7CBdBpAMj%40c%40bBq%40vDErA%3Fr%40D%5CHlBZ%7CCt%40vDNh%40J%60%40ZBZJNHRLVZN%5CNf%40JbADrA%40%5CJr%40AB%40LBFNlARZTj%40Zj%40PRVXFHHT%40%5EGZGNQPMFSFO%40Ud%40i%40lAg%40fB_%40xAMf%40Iv%40UdCEn%40E%7CAKlFBj%40%40LNtAl%40%60Ch%40dA~%40lAd%40%5CTNj%40TQ%7C%40AfABrBEn%40C%5EQjAO%7CAAl%40FrABn%40EPORa%40Vo%40RwBtAg%40%5EwBpA%5BPTz%40p%40bCbApDLf%40E%3FIL%3FLBJHFLCFLj%40pBRp%40%5DVaAtAeEfGzB%7CCfB~CR%5ESFeCz%40kBj%40%5Bc%40%5Be%40ESS%5Bu%40mA%7BBcDYs%40i%40%7BBYu%40g%40s%40e%40c%40SM&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/53_El_Born_a_Pla\u00e7a_Espanya_route.png"
+            },
+            {
+                "id": "54_Estaci\u00f3_Sants_a_Marina___Arago_route",
+                "file_name": "54_Estaci\u00f3_Sants_a_Marina___Arago_route.png",
+                "image_index": 54,
+                "file_size_in_kb": 203.0137,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:00.777097",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awxp%7BFg%7C%60LhAmAm%40iAUc%40ECK%40OL%7D%40dAKT_AbAM%40GCMUeAoBSi%40CJ%3FNVr%40t%40%7CA%60%40bAxA%60CPJRFx%40FRFHDa%40ZUT%7DA%7C%40gEdCiIzE_BaGSo%40m%40kBcAmCqCcGk%40eAg%40u%40sAmBOQuAqBaAsAkCwDsGmJsFcIiBoCqB%7BCqCwDwFmI%7DAuB%7BBgD%7DA_CwE%7BGs%40gA%5Ba%40FGFM~%40sA%7C%40oAnBkCb%40o%40%7CFmI%7CD%7BFtLeQ%7CBcDbG%7DIkEkGQ%7B%40Oe%40eCuD%5Bi%40i%40_Ak%40%7D%40yDyFwDqFgBgC_%40k%40bD_FoF%7BHsDoF%7DG%7DJkGeJyE_Ht%40cA%7CA%7DBnHiK&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/54_Estaci\u00f3_Sants_a_Marina___Arago_route.png"
+            },
+            {
+                "id": "55_Marina___Arago_a_Gran_Via___Rambla_route",
+                "file_name": "55_Marina___Arago_a_Gran_Via___Rambla_route.png",
+                "image_index": 55,
+                "file_size_in_kb": 158.9834,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:01.579099",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ak~s%7BF%7BriL%60FoHlCzDdEnGfD~E%7C%40pAd%40r%40JP%7BBbDa%40l%40VZPVSZ%3F%40CH%3FF%40BOXJP%3FT%3FFHVzAtF%60AlDRv%40R%60ALXlCpJ%60ArDr%40xBVbA%60%40vAPp%40Bf%40Z%7C%40%5ExAv%40nCh%40hB%5Cx%40j%40vBj%40tB%5CxAnBjH%5CjAl%40%7B%40V_%40%7CAkC%5EqI%40%7B%40C%5DIe%40M_%40Ue%40e%40i%40uA_A&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/55_Marina___Arago_a_Gran_Via___Rambla_route.png"
+            },
+            {
+                "id": "56_Pla\u00e7a_Espanya_a_Universitat_route",
+                "file_name": "56_Pla\u00e7a_Espanya_a_Universitat_route.png",
+                "image_index": 56,
+                "file_size_in_kb": 141.3369,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:02.258145",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aeap%7BFozbLuAq%40m%40a%40%5B%5Ba%40i%40sAmBsB_DiD%7BEuLoQaKaOuB%7DCu%40gAUYV_%40uFeIeEiG%7DEeHp%40eAFM%3FI%3Fw%40%5CsJ&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/56_Pla\u00e7a_Espanya_a_Universitat_route.png"
+            },
+            {
+                "id": "57_Sagrada_Familia_a_Gl\u00f2ries_route",
+                "file_name": "57_Sagrada_Familia_a_Gl\u00f2ries_route.png",
+                "image_index": 57,
+                "file_size_in_kb": 145.6914,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:03.060840",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awpu%7BFuxgLdA~A%5Eh%40%5Ek%40hCuD%7DD%7DF_B_CiA%7DA%7DC%7BE_D%7DEdDwE%7CAcCj%40w%40zB_D~EgHdAyA%60%40q%40pB%7BCnCaERm%40%40_%40GWw%40gA%7B%40iAgCsDoH%7DK%5Bc%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/57_Sagrada_Familia_a_Gl\u00f2ries_route.png"
+            },
+            {
+                "id": "58_Gl\u00f2ries_a_Drassanes_route",
+                "file_name": "58_Gl\u00f2ries_a_Drassanes_route.png",
+                "image_index": 58,
+                "file_size_in_kb": 161.8135,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:03.902794",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ayou%7BFc~jLy%40mAd%40q%40x%40iAn%40%7D%40%5Cc%40dA~AbCpD%5Ef%40T%5EhDbFfEjGtDtF%5Er%40TLXd%40%60%40%3FvE%40lB%3FfBA~A%40h%40G%40DBDNNNBRGLKDS%40%5BEQlD%7DEnKyO%60E%7DF~EiHrB%7BCj%40%7D%40pCcELORKHDD%40DJDHfBhCfBjCNHv%40n%40%5C%5EfBjCl%40~%40v%40xAz%40~ATl%40LBt%40nBnArD%7CAjEzBjG%60CzGz%40rBrB%60Fl%40xANh%40Ln%40Hr%40T%7CC%60%40xAb%40h%40lDhClJdHrDrC%60A%60Aj%40l%40j%40b%40ZPp%40JzCXj%40JHRh%40%5Cf%40%60%40XZR%5EJd%40Fp%40El%40Md%40I%5CCZBd%40L%5ERTXHXAVMP%5BHWBg%40Ea%40Oa%40SSQKa%40C_%40J%5BVYPGb%40A%5CBVBTG%5CKXS%5CQb%40EZOxGCx%40Cl%40Ma%40%7DAkDq%40%7BAc%40s%40kA%7B%40UMqDkDt%40k%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/58_Gl\u00f2ries_a_Drassanes_route.png"
+            },
+            {
+                "id": "59_Gran_Via___Rambla_a_Hospital_Vall_d'Hebron_route",
+                "file_name": "59_Gran_Via___Rambla_a_Hospital_Vall_d'Hebron_route.png",
+                "image_index": 59,
+                "file_size_in_kb": 156.1084,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:04.724261",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aahr%7BF%7B%7DfL%7B%40u%40e%40m%40KWEOc%40l%40u%40bA%7B%40jAcCbDQVMUiBsCoCyDoEwGsGqJ_JoMeJ_NaBcCyE_H%7DBiDg%40s%40yDtFyB_D_AwAy%40uAm%40eAWMa%40u%40q%40_AcBcCk%40%7B%40sA%7DBkC_EgAeBuAmBkBaCq%40%7D%40oB%7DCaCgDgKaOsAyBi%40o%40s%40iA%7D%40sA%5Bg%40%7DCoEoC_EiEoGeFkHgTm%5BuZ_d%40aGwIuCiEq%40gAUc%40Uc%40eBqEyAkE_AeCg%40gA%5Dm%40QKOSo%40s%40%5DWa%40Sc%40Oa%40Ee%40%40i%40Fa%40Ng%40V_%40Zg%40l%40o%40jA_%40rASxAU%7CA%5Bz%40Y%60%40eAx%40%7DCnB_C~AQZo%40%5Ey%40j%40kCdByFnDaFlCaChAoBz%40_Cz%40uEnAyQvCoDt%40gDbAgBn%40uB~%40o%40%5EsC%60BcDzBqD%60DkDxCsE%7CDmCfCiAlAY%5Ei%40p%40_AvAe%40v%40k%40lAiA%60E%5DnBQhAa%40rASl%40a%40hAg%40%60AoAvBWf%40c%40hAS~%40Mp%40EJ%40j%40JfBNn%40%5EjAf%40~%40RXb%40%5Ev%40%60%40%60%40J~%40Jz%40%3FlAS%60%40Ih%40Gp%40Bf%40Jb%40RTRb%40f%40R%5EN%60%40Jb%40Hl%40HzBDpICvL%3FnCDpATrEr%40bPb%40~Gh%40%60I%5E%7CCjAzHTzAJn%40%60ApEd%40dBv%40rCVv%40jAnEvEzPlE%60PlFtRpA%7CEXrAr%40hE%5ErCXpCT%7CCKXNlCLpCLdB%40TCPBRD%5EJt%40d%40%60D%5CzBZrA%60AfFPdAXlAn%40~Cn%40tCr%40fD%5CnATn%40Xl%40z%40fBvAhChAfBf%40p%40dAlAdAdAbAx%40lAx%40~Az%40%5CRL%60%40HtA%3Ft%40Eh%40Qd%40WZKTMNITQ%7C%40WhBIl%40%40%5ED%5ELb%40zAhDFVm%40lAc%40z%40_AlBK%60%40DPQb%40On%40_BhDmAtAWN%5Bn%40In%40Up%40%7DAfCu%40r%40EJCHBHJRJLV%60%40Vp%40F%60%40%3Fb%40ARMZQNKD%7D%40T&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/59_Gran_Via___Rambla_a_Hospital_Vall_d'Hebron_route.png"
+            },
+            {
+                "id": "60_Zona_Franca_a_Forum_route",
+                "file_name": "60_Zona_Franca_a_Forum_route.png",
+                "image_index": 60,
+                "file_size_in_kb": 128.7939,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:05.360787",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Ared%7Cweight%3A5%7Cenc%3Ay%7Bh%7BF%7Dp~KWOOSqBeAFSDKNUF%3FHAFGBCjB%60ATVJRNPZPvAt%40b%40j%40%40D%3FRH%5CLZ%7D%40vDiC%60KkArE%7D%40hDW%5CWVe%40N%5DDSOIAUFMNa%40KSQMY%5DiAo%40iCQGcDgNy%40cDuA%7BFcEyPwIq%5E%7DAmGoG_W%7BB%7BH%7DFcR%7DCyJsAkEw%40%7BBoAoD%7B%40kCoAyE%5BgBoA_I%5BcCc%40uDW%7BA_%40_Bc%40yA%5DaA%7D%40wBeAkBgAyAyB%7BBwAqA_CyBqAsAmFeGoCcD%7BAoBw%40gAoCgE%5Be%40o%40eAmAaCqA_CcGmJYe%40oAaBc%40c%40oA_AaIoFoBoAwAw%40gBw%40kAg%40oAo%40mBiA%7BB%7BAwC%7BBo%40_%40oAc%40eAYuAe%40gAs%40y%40s%40aCsBq%40g%40sAeAkE%7DC%7DDiDqCwB%5BOm%40Ok%40Ge%40CiAGq%40Sc%40WkBkBsEkDoNqK%5BYe%40m%40Si%40SaAI%7B%40WuBKk%40Kc%40M%5D_%40iAWk%40%7BCmH%7DCkI_BmEq%40sBcC%7DGwAyDg%40sAcDkFgEiGqGoJ%7BEcHmHsKgPcVqEyGyAuB%7BAyBq%40_AwA%7DA%5BYc%40a%40c%40%5DuA_A%7DBmA%7D%40c%40_Ac%40cBaAyBeBk%40g%40%7B%40cAs%40%7D%40k%40eAk%40%7D%40o%40%7D%40sAoBeBgCoHqKuB%7BC_A%7DAkBgD_A%7BBaAaCa%40s%40%3FSkAcBYc%40k%40t%40GJOTi%40v%40gAxAeA%7CAc%40p%40qBxC_BwAeGqF%7BBqBk%40e%40AKGGq%40k%40GSKKQGS%40KFMPCP%3Fb%40FRLLPFBADZFh%40Jt%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/60_Zona_Franca_a_Forum_route.png"
+            },
+            {
+                "id": "61_Sagrada_Familia_a_Camp_Nou_route",
+                "file_name": "61_Sagrada_Familia_a_Camp_Nou_route.png",
+                "image_index": 61,
+                "file_size_in_kb": 180.8584,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:06.298482",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awpu%7BFuxgLpF~HhCxDb%40l%40%5C%5EJXHR%5El%40xDtFv%40lAFDJB%3FHDPHNRHF%3FBHNf%40TXx%40bAvCnEfFrHrBvCX%60%40Zd%40%5Df%40qBtC%5Bd%40uB%7CC%5D%60%40%5ChBTzAj%40hDZnBP%60ACNHn%40F%60%40B%60%40VdBN%5ENLV%7CAhAdHdAvGpCfQpFd%5DjBnL%5E%7CBBb%40QJQ%5EGd%40%40d%40FVR%5CVNJBVAHCBANt%40Jr%40h%40%60D%5CrBrAnIvDjUjE%60X%60C%7CN%60BnKHb%40g%40PYLADCLAL%3FZ%3FRD%5EPl%40Td%40LPZKrAe%40h%40BdAJf%40DrBHjA%40zACn%40ErBUlASrDu%40hH_B%60CzDfBfDhAzBmBdBLf%40R%60AdA%5D%5CMB%40v%40dA%5Eh%40%60%40z%40Rj%40Np%40Ft%40%40bAMjACV%3Ff%40B%5CBLWTWPWNK%5B&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/61_Sagrada_Familia_a_Camp_Nou_route.png"
+            },
+            {
+                "id": "62_Passeig_de_Gracia_a_Pla\u00e7a_Catalunya_route",
+                "file_name": "62_Passeig_de_Gracia_a_Pla\u00e7a_Catalunya_route.png",
+                "image_index": 62,
+                "file_size_in_kb": 107.4951,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:06.929362",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Agis%7BFs%7BeLhByBU%5BbAsAl%40y%40z%40kAVZ%60AxAb%40l%40d%40p%40Z%60%40%7CBdD%60ClDj%40y%40nBwC%5Ci%40rAkBbCmD%7CAkCH%7DATsF%40%7B%40C%5DIe%40M_%40S_%40%5B%5CsAfAy%40n%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/62_Passeig_de_Gracia_a_Pla\u00e7a_Catalunya_route.png"
+            },
+            {
+                "id": "63_Hospital_Vall_d'Hebron_a_Pla\u00e7a_Espanya_route",
+                "file_name": "63_Hospital_Vall_d'Hebron_a_Pla\u00e7a_Espanya_route.png",
+                "image_index": 63,
+                "file_size_in_kb": 162.8711,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:07.691888",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aid%7C%7BFob%60LhA%5BPOL%5B%40w%40Mq%40Ug%40_%40i%40KSCIBIDKLMf%40e%40R%5Dp%40eAd%40%7D%40FW%40UFYL%5BLSVOlAuAt%40%7BAh%40mANo%40Pc%40EQJa%40bBiDl%40mAJPBBrCdAbAZD%40FYTwATuAn%40qDTyA%5EwB%5C%7BBLk%40ZJp%40TrAd%40~Bx%40lIzC%7CJrDTFHCb%40Ht%40XrE~A%60%40LNGh%40XlAl%40lAj%40t%40Zh%40Jb%40NrG%60CxGdC%7COfGh%40R~%40b%40x%40%60%40t%40l%40v%40x%40%7C%40rAfAxBp%40hB%60%40%7CAXrALt%40%5CjCZlDj%40~FPfAXbA~%40zB%5Ep%40p%40~%40l%40%7C%40fBhC~A%7CBbCpDZj%40h%40dApA%60Dr%40nBl%40lA%7CA%60CnA%60B~BjCzDzDtAvA%7C%40nArBdDpBhDh%40fArBzFb%40~%40d%40x%40xAjBhDtDzKtL%60Az%40p%40b%40lAh%40n%40PvARhDXh%40Hz%40TtAn%40tA~%40fEnD%60EdDdDxBrBbAfC~%40tDxA%7CD~AbQjHjBx%40j%40XvAz%40pAbA%60%40Xz%40t%40lGlFzApA%60BpApF~DtC~B~CnCtE%7CDpCdC%7CAbBzAnBhCdEx%40pA%7C%40lAtAjBlAdAZ%5Cp%40h%40dAt%40r%40d%40nBbA%7CBz%40pBj%40lCj%40zBf%40~Bt%40nBz%40r%40b%40fAn%40fA%7C%40bGbFfCbBbA%60%40zAd%40dBd%40~FjAdE%7C%40%60X~FfATpANtAHdCDbCKnAMzAWtA%5DhAa%40lCkAjIiEnE%7DBhCiAzB%7B%40lBi%40jAWbB%5BhC_%40r%40MhAIxCCrA%40lCBvAJfD%5Cl%40HvATnCn%40%60AXVHFL%40%40d%40Th%40h%40NVNZNn%40Hx%40%3F%60AQfAGVS%5EMROJYFc%40A%5DQYa%40Ks%40A_%40H%7D%40ZmBRaAx%40qCl%40aBh%40oArAiClAuB%7C%40_BdAsBpAkDh%40cBVeALUn%40kC~%40yDj%40iBv%40mBtA%7DBlA_Bn%40aAl%40iAd%40uAV%7DAD_BGuAMw%40Cc%40c%40qAUg%40Yk%40c%40i%40w%40i%40eA_%40g%40MoDy%40oBg%40w%40WO%3FGEgAq%40aAcAOIMCcAyAcBgCaAwAkBuCoDeFwFkIsLaQeEeGyA%7BBw%40kAmBmD%7DA%7DCaBkCqF%7BHqI%7BLqFaIyBiDkCyDkGcJoF%7BHeD%7BEiCoDkAyAwBiCe%40q%40gBeC%7DCmEiL%7BP_CiD_AsA_AsAME_AyAwBaD_GoIqQuWoAkBEScAaBkBoC%5Dg%40KWUcASy%40Wu%40g%40y%40a%40a%40_%40W&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/63_Hospital_Vall_d'Hebron_a_Pla\u00e7a_Espanya_route.png"
+            },
+            {
+                "id": "64_Gl\u00f2ries_a_Diagonal___Francesc_Maci\u00e0_route",
+                "file_name": "64_Gl\u00f2ries_a_Diagonal___Francesc_Maci\u00e0_route.png",
+                "image_index": 64,
+                "file_size_in_kb": 182.7734,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:08.468142",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ayou%7BFc~jLy%40mAd%40q%40x%40iAn%40%7D%40%5Cc%40dA~AdBfCmBlCmCzDe%40p%40gDzEcAzAcAvA_CjDmD%60FwBzCw%40bAt%40fAd%40n%40PVrBvC%60AvAtB~CfBpC%60DzExFhIxFjI~GzJjCtDdBjCxEbHvKzOnAlBnC%7CDlCzDvE%7CG~OrUjDbFv%40nA%60CtDxCfEpBtCV%5E%3FP%40BNd%40rAdElBxFLb%40ORi%40t%40gBhCuK~OSVlAfBrBvC%7CHdLgEhGmCzDeG%7DI%7DBgD&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/64_Gl\u00f2ries_a_Diagonal___Francesc_Maci\u00e0_route.png"
+            },
+            {
+                "id": "65_Universitat_a_Ciutadella_route",
+                "file_name": "65_Universitat_a_Ciutadella_route.png",
+                "image_index": 65,
+                "file_size_in_kb": 170.8125,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:09.213416",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3A%7Dcr%7BFeffLd%40oLBiAAYOy%40%5Dw%40EIa%40e%40s%40c%40w%40o%40e%40a%40e%40m%40%5B%7B%40KOeDqC%7D%40s%40m%40i%40yAwBGSC%5D%40%7BA%3FgJ%5Dg%40%7DAaCcBaCMWc%40uAeCmJIUJS%5Eg%40f%40s%40jAcBlDaFnC%7DDLO%5Bg%40uAsBkBgC%7D%40uAWMsAqB%7D%40mAyA%7BBQe%40e%40e%40qAkB%7D%40%7DAf%40m%40x%40mA%60BaCvB_DhDwEtAuB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/65_Universitat_a_Ciutadella_route.png"
+            },
+            {
+                "id": "66_Parc_G\u00fcell_a_Marina___Arago_route",
+                "file_name": "66_Parc_G\u00fcell_a_Marina___Arago_route.png",
+                "image_index": 66,
+                "file_size_in_kb": 201.5459,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:10.072866",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aerw%7BFgrcLf%40z%40h%40%7C%40%60%40i%40%60AwAvAoBzByClAcB%7CCeEJKo%40kAeAoBy%40wA%7DAuCw%40aBa%40uAW_BMwBCi%40Dg%40HaDHkAHYDKfAaApAeALMDKpAcA%5E_%40v%40_AbA_BnBuCdCkDt%40aApBoClEoGhEkGrCaEr%40gAjCuDdEqGlD_FzEaHnDoFlAmBjAcBdCoDjIuL~%40qA%7CA%7DBnHiK&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/66_Parc_G\u00fcell_a_Marina___Arago_route.png"
+            },
+            {
+                "id": "67_Universitat_a_Hospital_Vall_d'Hebron_route",
+                "file_name": "67_Universitat_a_Hospital_Vall_d'Hebron_route.png",
+                "image_index": 67,
+                "file_size_in_kb": 154.7012,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:10.819750",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3A%7Dcr%7BFeffLd%40oLBiAAYOy%40%5Dw%40EIa%40e%40s%40c%40w%40o%40e%40a%40e%40m%40KWEOc%40l%40u%40bAw%40dA%5Dd%40o%40%7C%40y%40dAQVMUiBsCwAsBkEiGiDiFcLkP%7DG%7DJkGeJcJwM%5Be%40_%40d%40kAdBmAhByAuB_BaCy%40uAm%40eAWMa%40u%40SWq%40aAcAyA%5Dg%40cAaBgAgBsAuBiAeB%7BA%7BBuCsDcCuDuAqBgDwEqF%7BHkAkBg%40y%40i%40o%40iAkB%7B%40mAiCwDgCsDmC_EsGgJcKiOaOkTyZgd%40wDuFaBgCk%40eA%5DcAuBsFmAqDeAcC%5Dm%40QKOSo%40s%40SOSOk%40UYGg%40Cg%40Bq%40Pa%40P%7B%40r%40i%40t%40S%60%40_%40dAYzAGf%40SrAQh%40Ub%40MPk%40b%40YT%7DBxAkBlAs%40f%40QZo%40%5Ey%40j%40s%40d%40%7BFrDuAz%40aFlCcD%7CAeC%60AiCz%40sCt%40y%40L_PhC%7DAZ%7BCt%40sC~%40uAj%40sB%60AiCxAoAx%40kBrA%7BClC%5DZuBjBiFjEoBjB_C%60Cq%40%7C%40w%40dA_A%7CAk%40lAe%40%60Bm%40%60Ce%40vCo%40rB_%40fAQ%60%40cAjBaAbBm%40%60BQdAEREJ%40j%40JfBNn%40%5EjAf%40~%40d%40j%40hAn%40%60%40J~%40Jz%40%3FlASt%40Ol%40An%40Ff%40PXRZZV%5ETd%40XlAJ~ADxIAtJ%3FzFDpAFx%40NpDZrHh%40pJx%40fM%5E%7CCr%40bFVzATxAJl%40%60ApEnArE%5EnAz%40bDrBnH%7CDzNjExO~BnIlAtEbA~DRdAd%40vC%5ErCn%40nHKXDv%40NjDHpALdBCPBRD%5E%60%40xCl%40xDZrAx%40lEX~AvAzGhAjFV%60APp%40Tn%40p%40vA%7C%40jBlB%60DdB%7CBhAjAv%40t%40nA%7C%40nAv%40tAt%40L%60%40D%5EDpAEr%40I%5EITWZKTMNOd%40Kl%40WhBIl%40%40%5EFh%40z%40pBj%40pAFVm%40lAc%40z%40_AlBK%60%40DPQb%40On%40i%40lAu%40zAmAtAWNMRMZGXATGVe%40%7C%40q%40dAS%5Cg%40d%40SXCHBHJR%5Eh%40Tf%40Lp%40Av%40MZQNiAZ&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/67_Universitat_a_Hospital_Vall_d'Hebron_route.png"
+            },
+            {
+                "id": "68_Gran_Via___Rambla_a_Pla\u00e7a_Espanya_route",
+                "file_name": "68_Gran_Via___Rambla_a_Pla\u00e7a_Espanya_route.png",
+                "image_index": 68,
+                "file_size_in_kb": 194.6953,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:11.729676",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aahr%7BF%7B%7DfL%7B%40u%40e%40m%40KWOc%40KO%7DDgDk%40c%40g%40c%40yAwBi%40_%40YYICNb%40L%60%40FR%60ApDBf%40HPd%40dBj%40rBv%40hCXx%40f%40dBdA%7CDzBrI%60AlDd%40tBh%40lBJ%60%40bB%60Cp%40JzANj%40BhAF%40DDJdAbB~KbPfGxIpFdItLhQ%60CjDf%40r%40f%40q%40%60%40m%40%5Ek%40h%40s%40x%40%40VEpAk%40dBw%40VIJQ%5EOTIhBw%40bBdG%60CvI%5EtAFZKHCLBJFHL%3FDCJ%5Ej%40rBL%5E%5BTCBCDgFrHY%60%40Z%60%40x%40fAjAnBtAbCkFfBYFSYc%40o%40EScAaBkBoC%5Dg%40KWUcASy%40Wu%40g%40y%40a%40a%40_%40W&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/68_Gran_Via___Rambla_a_Pla\u00e7a_Espanya_route.png"
+            },
+            {
+                "id": "69_Barceloneta_a_Hospital_Vall_d'Hebron_route",
+                "file_name": "69_Barceloneta_a_Hospital_Vall_d'Hebron_route.png",
+                "image_index": 69,
+                "file_size_in_kb": 133.0635,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:12.251421",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akeq%7BFc%7BjL_DdAiA%5CeHtBKBOc%40MWEQs%40qCe%40sA%5Bu%40wAyCeAkBo%40aAOUA%3FK%40eAaBaBcCs%40cAq%40aAqGoJ%7BEcHmHsKgPcVqEyGyAuB%7BAyBq%40_AwA%7DA%5BYc%40a%40c%40%5DuA_A%7DBmA%7D%40c%40_Ac%40cBaAyBeBk%40g%40%7B%40cAs%40%7D%40uCcEkIwLuUc%5DkBmCoA%7DA_BaBg%40e%40wB%7DAc%40WoB%7D%40cAa%40mBe%40_%40KoBk%40oBk%40qDqBwAgAmGcG_Au%40o%40e%40cB%7B%40kAg%40kAWq%40Mu%40G%7B%40%3FsADcAH_ANsA%5EsAh%40y%40%60%40oAz%40q%40n%40g%40h%40oAfBy%40~A%7BAxDm%40bBsAjDkAbCuBnDaCjD%7BCtDy%40~%40s%40n%40g%40h%40eC%60CkCtB%7BB%60BiDzBkGzDcIhFyGdEyDxByAr%40cEjB%7DBz%40sCx%40kBb%40mHjAsHlAkB%60%40eCp%40oC~%40aCbAyBlAmAr%40wBxAu%40h%40sCdCGFg%40d%40yBjBi%40b%40gEtDiB%60BiAjA_AfAW%5CgAzA_%40n%40m%40nAa%40dAe%40dBc%40rBSnAWfAc%40xAUl%40m%40tAaA%60Bi%40%60A%5Br%40%5BdAO%60AGPDrAF~%40FVRz%40h%40nAT%5Cf%40j%40p%40%60%40%60%40Np%40JbADd%40CnAWn%40Kn%40%3Fn%40J%60%40RVN%60%40f%40T%5CP%60%40Lf%40Hh%40Dl%40DtA%3FlABlKAlG%3FvELbBH%7CBFdAb%40hKf%40rIn%40nJRnBlAlId%40xChApFtA%60Fr%40bCpA%7CEbF%7CQ%60EdObGnTx%40fDb%40bC%60%40nCZnCPpBP%7CBIV%40%5EFdAJjCHpAJvACRJ~%40b%40zCz%40dFjA%60GZdBt%40lDjBvINf%40VbATh%40%60ApBfArBzAdC%60%40h%40dApAdAdA~%40x%40jAx%40xAx%40d%40XRJFRFVDn%40B%60AEp%40K%5Ce%40t%40Yf%40Mh%40%5DpBGh%40Cd%40Bb%40Jd%40dA%60Cb%40lAcArBWd%40_AtBBZSf%40Mj%40a%40%7C%40%5Dt%40_%40t%40kArAKD%5B%60%40Qd%40C%5EUr%40i%40z%40e%40v%40%5B%5E_%40%5EORCJJVHLZb%40Tj%40FZB%60%40Ab%40CHMVQLeAX&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/69_Barceloneta_a_Hospital_Vall_d'Hebron_route.png"
+            },
+            {
+                "id": "70_Ciutadella_a_Diagonal___Francesc_Maci\u00e0_route",
+                "file_name": "70_Ciutadella_a_Diagonal___Francesc_Maci\u00e0_route.png",
+                "image_index": 70,
+                "file_size_in_kb": 193.4258,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:13.266874",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ac%7Br%7BFqakLbFkHfCqDl%40eAPUPIHCRC~%40tARH~%40z%40zAtBp%40bAfB%60Db%40z%40Tl%40LBt%40nBf%40zA%60CxGtB~FjCpHdBdEvBhFV%60AHl%40L%7CAJvAFX%5EnAr%40p%40vDnCtEjDrDnC%7CAlAt%40n%40~%40%60A~%40x%40t%40XjAJfBPj%40JHRRLf%40%5Cd%40b%40T%5CL%5CJl%40%3Fn%40Kj%40K%5EE%60%40%3F%5CFb%40NXVPZ%40VGTULYD%5D%3Fk%40K%5DS%5DUOSEa%40B_%40PSVQFCREb%40%40TD%60%40Ml%40e%40z%40IZA%60%40S%60I%5DzMM%60HAvE%3F~BkEfGmC%7CD%7DFlIoCtDuFbIoL%7CPoAlBqEtGoHpKmCvDkJfNqBtChD~ExH~KZd%40%5Dd%40W%60%40uBzCsBxCu%40fAiA_BaBcCaEcGU%5D&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/70_Ciutadella_a_Diagonal___Francesc_Maci\u00e0_route.png"
+            },
+            {
+                "id": "71_Estaci\u00f3_Sants_a_Gran_Via___Rambla_route",
+                "file_name": "71_Estaci\u00f3_Sants_a_Gran_Via___Rambla_route.png",
+                "image_index": 71,
+                "file_size_in_kb": 181.9219,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:14.378871",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awxp%7BFg%7C%60LhAmAm%40iAUc%40ECK%40OL%7D%40dAKT_AbAM%40GCMUeAoBSi%40CJ%3FNVr%40t%40%7CA%60%40bAxA%60CPJRFx%40FRFHDa%40ZUT%7DA%7C%40gEdCiIzE_BaGSo%40m%40kBcAmCqCcGk%40eAg%40u%40sAmBOQuAqBaAsAkCwDsGmJsFcIiBoCqB%7BCqCwDwFmI%7DAuB%7BBgD%7DA_CwE%7BGs%40gA%5Ba%40FGFM~%40sA%7C%40oAnBkCb%40o%40%7CFmI%7CD%7BFtLeQ%7CBcDbG%7DIrAkBjBmC~%40yAt%40qABa%40VgGDsAA%5DKu%40M_%40Ue%40e%40i%40uA_A&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/71_Estaci\u00f3_Sants_a_Gran_Via___Rambla_route.png"
+            },
+            {
+                "id": "72_Marina___Arago_a_Pla\u00e7a_Espanya_route",
+                "file_name": "72_Marina___Arago_a_Pla\u00e7a_Espanya_route.png",
+                "image_index": 72,
+                "file_size_in_kb": 145.9863,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:15.190292",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ak~s%7BF%7BriL%60FoH%7CBcDR_%40L%3FL%3FHm%40~%40wAJOd%40q%40fBgCbBcCtGkJrDkFrByClDcF%7C%40%7BAPUPIHCRC%7C%40rANHv%40n%40%5C%5EfBjCl%40~%40v%40xAz%40~ATl%40LBt%40nBnArD%7CAjEzBjG%60CzGz%40rBrB%60Fl%40xANh%40Ln%40Hr%40T%7CC%60%40xAb%40h%40lDhClJdHrDrC%60A%60Aj%40l%40j%40b%40ZPp%40JzCXj%40Jl%40ZfAx%40jFnElFbEtAbA%7CBjBjB~Ax%40d%40%7C%40ZzAb%40tAf%40f%40%5CbDdC~AdA~BpAvGzCtBlAlExCnChB~BfBh%40h%40v%40dAjFhIpAtBfC%7CEbDbFdBlC~AtBnL%7CMnE~EfBxBxAvB%7C%40zAZn%40d%40bAb%40jAn%40xB%60%40%60BnA%7CGz%40xFj%40jDd%40jCt%40dDdB~FnD%60LhB~FrEzNd%40%60BrCjJdCtIbD%60N~Ltg%40zAnGlEvQ~B~JFr%40Nr%40n%40nCNj%40b%40xB%5ExB%60%40zCLj%40Dn%40Bd%40%40%60AKdBMhAWzAYlBiCfKy%40~C_%40lAQ%5E%7D%40~AUXg%40%60%40%5DR%7B%40X%7B%40J_%40Bm%40Gk%40Ok%40WcAo%40sBiA%5BO_AU%7B%40EsAFw%40Lo%40R%5BNeAl%40c%40Nc%40JoAM_%40Ge%40_%40q%40k%40w%40u%40aBqBeAyAe%40u%40MGiAgASQWGw%40kAmBmDoAcCcBqC%7B%40oAgCqD%7DEgH_HwJ%7BEgHuAyBcHaKoGgJqDiF_B_CqAeBkDcEwAsB%7DB_DmHqKqGqJ_E%7BFMEo%40aA%7BA%7DB_E%7BFuOgUsEyGc%40o%40ESiC%7DDcA%7BAWw%40UiASo%40_%40w%40c%40k%40g%40a%40IG&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/72_Marina___Arago_a_Pla\u00e7a_Espanya_route.png"
+            },
+            {
+                "id": "73_Diagonal___Francesc_Maci\u00e0_a_Universitat_route",
+                "file_name": "73_Diagonal___Francesc_Maci\u00e0_a_Universitat_route.png",
+                "image_index": 73,
+                "file_size_in_kb": 137.707,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:15.964592",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aazr%7BFwlbL%7DBgDsByCu%40_AiDiFuByCu%40_AzBcD~AyBzBaDjDgFhDcFpFaI~A_CnCaElJ%7DMp%40_AmDgFwCgEb%40q%40R_%40%40M%3FeALeCN%7DE&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/73_Diagonal___Francesc_Maci\u00e0_a_Universitat_route.png"
+            },
+            {
+                "id": "74_Universitat_a_Gl\u00f2ries_route",
+                "file_name": "74_Universitat_a_Gl\u00f2ries_route.png",
+                "image_index": 74,
+                "file_size_in_kb": 207.8818,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:16.736910",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3A%7Dcr%7BFeffLd%40oLBiAAYOy%40%5Dw%40EIa%40e%40s%40c%40w%40o%40e%40a%40e%40m%40KWEOc%40l%40u%40bAw%40dA%5Dd%40o%40%7C%40y%40dAQVMUiBsCwAsBkEiGiDiFcLkP%7DG%7DJkGeJcJwMiDaFGK%3FUw%40m%40o%40%5B%7DDeBcBs%40aAa%40SMMKPYf%40u%40lBsCnAmBHKRm%40%40_%40EKIWoAaBqBuCmEwGoDkF&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/74_Universitat_a_Gl\u00f2ries_route.png"
+            },
+            {
+                "id": "75_Barceloneta_a_Gl\u00f2ries_route",
+                "file_name": "75_Barceloneta_a_Gl\u00f2ries_route.png",
+                "image_index": 75,
+                "file_size_in_kb": 180.5176,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:17.476876",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akeq%7BFc%7BjL_DdAiA%5CeHtBKBOc%40Ke%40Ie%40OmACu%40GkAQ_Ac%40gAU_%40a%40c%40iAeA%7B%40eAs%40kAo%40yAs%40yA%7D%40qAsAoBiCuDQ%5BQ%5DYe%40OI%5BAODMJOXIh%40%40ZBJBD%5Bl%40g%40t%40aChDq%40~%40mAhB_DrEqDlFmGdJwB%7CCyFjIUZIEW%3FKFKNCJaA%40iA%3FoDAcPAcA%3FOE%5DSWSQQoAaBqBuCmEwGoDkF&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/75_Barceloneta_a_Gl\u00f2ries_route.png"
+            },
+            {
+                "id": "76_Camp_Nou_a_El_Born_route",
+                "file_name": "76_Camp_Nou_a_El_Born_route.png",
+                "image_index": 76,
+                "file_size_in_kb": 167.1572,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:18.242954",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Ayfq%7BFyi%7DKHn%40%5DFYPQPDDDJJ%60%40%40X%3FrA%40b%40Ln%40Np%40BJ%40h%40F%60%40PXAD%3FJ%3FLFPLND%40Fh%40%3Fj%40SlECd%40Ef%40I%5CSh%40Sn%40Cf%40An%40%40XCj%40Or%40Un%40%7B%40dBmApB%7D%40jAa%40%60%40cAz%40_%40Pe%40LuBv%40iA%60%40k%40b%40F%5Ej%40lDLx%40%7C%40rFz%40xEX%60BCZD%60%40%5CfCPfAV~Az%40zECFAPJdAZlC%7C%40%60Gh%40tD%40ZGj%40MXSPKFUD%5BAa%40MUOUWKSK%5DCY%3FSH%5BNQJGTENBl%40%5EF%3FbDrCdDrCxArAf%40%5E%5C%60%40nBrBpAhBrCnEdB%7CB~%40bA%5CZNH%5C%5Ct%40l%40Z%5Ct%40j%40fAv%40x%40f%40%7CBfAtBt%40zBl%40zCl%40lBf%40~Bv%40dBz%40~%40h%40lA%7C%40~ArA~ClCfAv%40%7C%40l%40%7C%40d%40v%40ZzAd%40pBf%40%7CFjA%60GpApUdFhATlANrBJfC%3FjBI%5EE%60C_%40%60Bc%40nBs%40nB_ArJaFlDiBrCmAdCy%40%7CAa%40xDs%40%7CB%5DjAMh%40AnCCnB%40%60A%40xAFnCThANl%40Hn%40L%60Cf%40%60Cp%40FNFBPHf%40%5EV%5CLTLZP~%40Dj%40CbAOz%40M%5EQ%5CMLSJYFc%40E%5BUWg%40Gk%40A%5DP_BVyAR%7B%40v%40kCr%40mBn%40wArAgCvAcC%7C%40_Bt%40aBpAkDf%40cB%60%40kBb%40cCTaBPgCLcCI%5DDe%40D_ALsG%5C_SNoINgJXcKb%40wJh%40_HPiB%60%40_EPsBF%7BAJwC%40uCCaEG%7BAUgDYaCIu%40w%40qEMu%40sAwFyDiPkBsHeEaQ%7BF_VeDcN%7DCiMqCsKw%40qC%7B%40wCgFoP%7BGiT%7BCwIoAkEg%40yBiAyGa%40%7DCc%40wD_%40gCOu%40u%40qCOe%40eAgC%5Dw%40_BgCgBmBwBqBy%40u%40cC_CsFmG%7BBiCo%40w%40%7BAoBwCmEu%40iA_BmCoBuDwEsHiC%7DDo%40u%40_Au%40sHgFiBmAcBcAuBcAkCkAOS%5BSa%40%5Bq%40e%40uB%7BAyBeBUOQIYCW%40c%40B%7D%40J%5DCo%40OwASeBS_CYE%40E%3F%7DFmEkA%7D%40_Aq%40IUOQIOGSBOBWAm%40Ga%40Se%40QSYOYGa%40BWJMJOB%5B%40SGu%40k%40oByA%5B%5BEg%40Oa%40YWUI%5D%3FMBWUgEcDcDaCkJgHwDqCgAs%40MIYSV%5DRWJUPm%40Ba%40Aa%40C%5DWuA%3FOCKI_%40a%40sA_%40iAe%40mBa%40yAWm%40Wk%40IRGRIl%40Ez%40Mp%40aBvEyBrF%5CXZXOf%40w%40zBLL_%40tAu%40g%40o%40g%40aAo%40Uv%40Sf%40y%40xA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/76_Camp_Nou_a_El_Born_route.png"
+            },
+            {
+                "id": "77_Forum_a_Pla\u00e7a_Catalunya_route",
+                "file_name": "77_Forum_a_Pla\u00e7a_Catalunya_route.png",
+                "image_index": 77,
+                "file_size_in_kb": 160.5078,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:18.967697",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akcw%7BF_gpL%7CDjV%5EvCpAfInEfYzB%7CNfCnOjExXr%40%7CDVbBjAzH%60%40~B%60%40tBDd%40ZdBp%40fExBpNv%40%60FTvAUXY%60%40g%40z%40iA%7CA_AvAaBzBqErGoAbBrAlBzAvBbAxAvDvFbHlKxH%7CKxH%60LhG%7CI%7CFxItDhFbEfGjCxDxAvB~CrEzAzBp%40bAxChEpC%60EzGxJh%40x%40RUzBcDv%40gAnC%7DDdDaFn%40y%40tB%7DCnAiBt%40oA%5Cm%40%40SB_%40JgCNqD%3Fg%40EYKi%40%5Dw%40_%40%5EiCtB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/77_Forum_a_Pla\u00e7a_Catalunya_route.png"
+            },
+            {
+                "id": "78_Drassanes_a_Estaci\u00f3_Sants_route",
+                "file_name": "78_Drassanes_a_Estaci\u00f3_Sants_route.png",
+                "image_index": 78,
+                "file_size_in_kb": 221.8867,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:19.756671",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Aqlp%7BF%7DahLbA%7D%40dAw%40f%40YZ_%40DHBLALOv%40IXOdAi%40dDEb%40HFj%40%5Cb%40%5C%5Eh%40%7CB%60Fj%40vACtAQvGQfIApDAfM%3FtHA~Z%3FbMApLQg%40GEMCGD%5Df%40iCxDgIrLsEvGgEfGiBjC_%40l%40Vb%40V%60%40vB%7CCjDbFkD~EyAvBoAhBaBzBl%40lCF%5EHZt%40%7C%40NNRFPLbB~B%5E%5CJL%40PCJaAhAsAvAKXCJCLFPDLXh%40z%40bBNFFA%60%40f%40PZXh%40rAyADE&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/78_Drassanes_a_Estaci\u00f3_Sants_route.png"
+            },
+            {
+                "id": "79_Diagonal___Francesc_Maci\u00e0_a_Estaci\u00f3_Sants_route",
+                "file_name": "79_Diagonal___Francesc_Maci\u00e0_a_Estaci\u00f3_Sants_route.png",
+                "image_index": 79,
+                "file_size_in_kb": 138.502,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:20.476855",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Aazr%7BFwlbL%7DBgDsByCu%40_AjDcFnF%7DHrDkF%7CEiHpEwGdLjP%7CA~BRPdBfCxCfE~%40zAxEbHbHdK%7DK~OY%5CZrARdALf%40r%40~%40VVXHTZtAlBZXJLDN%3FHw%40%60AsAxAQVCFK%60%40Rh%40dAnBLTFBH%40NP%5Cd%40%60%40r%40xA_B&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/79_Diagonal___Francesc_Maci\u00e0_a_Estaci\u00f3_Sants_route.png"
+            },
+            {
+                "id": "80_Parc_G\u00fcell_a_El_Born_route",
+                "file_name": "80_Parc_G\u00fcell_a_El_Born_route.png",
+                "image_index": 80,
+                "file_size_in_kb": 193.4434,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:21.419065",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aerw%7BFgrcLf%40z%40h%40%7C%40%60%40i%40%60AwAvAoBzByClAcB%7CCeEJKo%40kAeAoBy%40wA%7DAuCw%40aBa%40uAW_BMwBCi%40Dg%40HaDHkAHYDKfAaApAeALMDKpAcA%5E_%40v%40_AbA_BnBuCdCkDt%40aApBoClEoGhEkGrCaEr%40gAjCuDdEqGlD_FzEaHvAuBhA%60BhD~ElEnGpDnFj%40%7C%40LNVa%40l%40%7B%40p%40_AnAiBtDqFn%40%7B%40ZEt%40Al%40QVKPSL%5BD%5B%3Fa%40JaBFa%40r%40cA%5Cg%40%7C%40uA~BiDbBaCfCqDf%40s%40RUB%3FJAFA%5CERNHHJS%5Eg%40f%40s%40jAcBx%40kAHMl%40DpACd%40Ab%40MTc%40dBgCLSJ%3FnBuCzBcD%7CFiIVc%40NH%7C%40r%40rAbArFfE%60Ax%40Pt%40o%40%60B%5CXZXOf%40w%40zBLL_%40tAu%40g%40o%40g%40aAo%40Uv%40Sf%40y%40xA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/80_Parc_G\u00fcell_a_El_Born_route.png"
+            },
+            {
+                "id": "81_Zona_Franca_a_Diagonal_Mar_route",
+                "file_name": "81_Zona_Franca_a_Diagonal_Mar_route.png",
+                "image_index": 81,
+                "file_size_in_kb": 128.752,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:22.096946",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Ared%7Cweight%3A5%7Cenc%3Ay%7Bh%7BF%7Dp~KWOOSqBeAFSDKNUF%3FHAFGBCjB%60ATVJRNPZPvAt%40b%40j%40%40D%3FRH%5CLZ%7D%40vDiC%60KkArE%7D%40hDW%5CWVe%40N%5DDSOIAUFMNa%40KSQMY%5DiAo%40iCQGcDgNy%40cDuA%7BFcEyPwIq%5E%7DAmGoG_W%7BB%7BH%7DFcR%7DCyJsAkEw%40%7BBoAoD%7B%40kCoAyE%5BgBoA_I%5BcCc%40uDW%7BA_%40_Bc%40yA%5DaA%7D%40wBeAkBgAyAyB%7BBwAqA_CyBqAsAmFeGoCcD%7BAoBw%40gAoCgE%5Be%40o%40eAmAaCqA_CcGmJYe%40oAaBc%40c%40oA_AaIoFoBoAwAw%40gBw%40kAg%40oAo%40mBiA%7BB%7BAwC%7BBo%40_%40oAc%40eAYuAe%40gAs%40y%40s%40aCsBq%40g%40sAeAkE%7DC%7DDiDqCwB%5BOm%40Ok%40Ge%40CiAGq%40Sc%40WkBkBsEkDoNqK%5BYe%40m%40Si%40SaAI%7B%40WuBKk%40Kc%40M%5D_%40iAWk%40%7BCmH%7DCkI_BmEq%40sBcC%7DGwAyDg%40sAcDkFgEiGqGoJ%7BEcHmHsKgPcVqEyGyAuB%7BAyBq%40_AwA%7DA%5BYc%40a%40c%40%5DuA_A%7DBmA%7D%40c%40_Ac%40cBaAyBeBk%40g%40%7B%40cAs%40%7D%40k%40eAk%40%7D%40o%40%7D%40sAoBeBgCoHqKuB%7BC_A%7DAkBgD_A%7BBaAaCa%40s%40%3FSkAcBYc%40k%40t%40GJOTi%40v%40gAxAeA%7CAc%40p%40qBxC_BwAyBoB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/81_Zona_Franca_a_Diagonal_Mar_route.png"
+            },
+            {
+                "id": "82_Diagonal_Mar_a_El_Born_route",
+                "file_name": "82_Diagonal_Mar_a_El_Born_route.png",
+                "image_index": 82,
+                "file_size_in_kb": 138.5039,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:22.891494",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akwv%7BF%7DbpLxEfEtDpDh%40%60%40hBhBf%40n%40pAjBHZRj%40Rx%40Tt%40JMp%40eA~CsETa%40NR%60%40OPE%5CBPHJJ%5Cf%40tAbBX%5CRTHBx%40jAlEpGx%40lAn%40%7C%40xB%60D~AnBx%40x%40jAbA~AhAbAh%40lAl%40bClAfBhA%7CAnAvCfDhBfCbG~IhCtDbAzAxClE%7CG%7CJ%7CNdTxCnEpAlBTh%40NZv%40bBr%40pAvAvBrAbCVf%40b%40lAJXD%5Eh%40nAXt%40l%40zAdEfLbFdNA%60%40GToAzD_B%7CDo%40%60BNLh%40d%40%5BbAk%40~ANHa%40xAeAu%40y%40i%40g%40_%40ENc%40nAy%40xA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/82_Diagonal_Mar_a_El_Born_route.png"
+            },
+            {
+                "id": "83_Zona_Franca_a_Ciutadella_route",
+                "file_name": "83_Zona_Franca_a_Ciutadella_route.png",
+                "image_index": 83,
+                "file_size_in_kb": 139.4326,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:23.672065",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Ared%7Cweight%3A5%7Cenc%3Ay%7Bh%7BF%7Dp~KWOOSqBeAFSDKNUF%3FHAFGBCjB%60ATVJRNPZPvAt%40b%40j%40%40D%3FRH%5CLZ%7D%40vDiC%60KkArE%7D%40hDW%5CWVe%40N%5DDSOIAUFMNa%40KSQMY%5DiAo%40iCQGcDgNy%40cDuA%7BFcEyPwIq%5E%7DAmGoG_W%7BB%7BH%7DFcR%7DCyJsAkEw%40%7BBoAoD%7B%40kCoAyE%5BgBoA_I%5BcCc%40uDW%7BA_%40_Bc%40yA%5DaA%7D%40wBeAkBgAyAyB%7BBwAqA_CyBqAsAmFeGoCcD%7BAoBw%40gAoCgE%5Be%40o%40eAmAaCqA_CcGmJYe%40oAaBc%40c%40oA_AaIoFoBoAwAw%40gBw%40kAg%40oAo%40mBiA%7BB%7BAwC%7BBo%40_%40oAc%40eAYuAe%40gAs%40y%40s%40aCsBq%40g%40sAeAkE%7DC%7DDiDqCwB%5BOm%40Ok%40Ge%40CiAGq%40Sc%40WkBkBsEkDoNqK%5BYe%40m%40Si%40SaAI%7B%40WuBKk%40Kc%40M%5D_%40iAWk%40%7BCmH%7DCkI_BmEq%40sBAUQq%40Sq%40m%40oBc%40oBY%7DAOi%40Yg%40g%40y%40KY_%40i%40s%40kAo%40yAs%40yA%7D%40qAsAoBiCuD%5Do%40Q%5DWYEA%5BAODMJOXIh%40%40ZBJBD%5Bl%40g%40t%40aChDq%40~%40mAhBwFhIuFdIa%40j%40KQ_%40m%40cA%7BAk%40aA%5Ek%40h%40w%40nBkCt%40dAhBlCjAdB~A~Bf%40s%40rAiBtAuB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/83_Zona_Franca_a_Ciutadella_route.png"
+            },
+            {
+                "id": "84_Barceloneta_a_Sagrada_Familia_route",
+                "file_name": "84_Barceloneta_a_Sagrada_Familia_route.png",
+                "image_index": 84,
+                "file_size_in_kb": 191.1777,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:24.599873",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akeq%7BFc%7BjL_DdAiA%5CeHtBKBOc%40Ke%40Ie%40OmACu%40GkAQ_Ac%40gAU_%40a%40c%40iAeA%7B%40eAs%40kAo%40yAs%40yA%7D%40qAsAoBiCuDQ%5BQ%5DYe%40OI%5BAODMJOXIh%40%40ZBJBD%5Bl%40g%40t%40aChDq%40~%40mAhB_DrEqDlFmGdJwB%7CCyFjIUZIEW%3FKFKNCJaA%40iA%3FoDAKi%40s%40eAs%40cA_%40k%40OTe%40h%40aC%7CCQL%5Dd%40a%40b%40yAvBaAvA%7DEhH_B~Bo%40hAkBtCcArAoBjCqApBmEnG_FdH%7CBbDbHfK&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/84_Barceloneta_a_Sagrada_Familia_route.png"
+            },
+            {
+                "id": "85_Zona_Franca_a_Sagrada_Familia_route",
+                "file_name": "85_Zona_Franca_a_Sagrada_Familia_route.png",
+                "image_index": 85,
+                "file_size_in_kb": 143.6758,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:25.357168",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Aorange%7Cweight%3A5%7Cenc%3Ay%7Bh%7BF%7Dp~KWOOSqBeAFSDKNUF%3FHAFGBCjB%60ATVJRNPZPvAt%40b%40j%40%40D%3FRH%5CLZ%7D%40vDiC%60KkArE%7D%40hDW%5CWVe%40N%5DDSOIAUFMNa%40KSQMY%5DiAo%40iCQGcDgNy%40cDuA%7BFcEyPwIq%5E%7DAmGoG_W%7BB%7BH%7DFcR%7DCyJsAkEw%40%7BBoAoD%7B%40kCoAyE%5BgBoA_I%5BcCc%40uDW%7BA_%40_Bc%40yA%5DaA%7D%40wBeAkBgAyAyB%7BBwAqA_CyBqAsAmFeGoCcD%7BAoBw%40gAoCgE%5Be%40o%40eAmAaCqA_CcGmJYe%40oAaBc%40c%40oA_AaIoFoBoAwAw%40gBw%40kAg%40oAo%40mBiA%7BB%7BAwC%7BBo%40_%40oAc%40eAYuAe%40gAs%40y%40s%40aCsBq%40g%40sAeAkE%7DC%7DDiDqCwB%5BOm%40Ok%40Ge%40CiAGq%40Sc%40WkBkBsEkDoNqK%5BYe%40m%40Si%40SaAI%7B%40WuBKk%40Kc%40M%5D_%40iAWk%40%7BCmH%7DCkI_BmEq%40sBAUQq%40Sq%40m%40oBc%40oBY%7DAOi%40Yg%40g%40y%40KY_%40i%40s%40kAo%40yAs%40yA%7D%40qAsAoBiCuD%5Do%40Q%5DWYEA%5BAODMJOXIh%40%40ZBJBD%5Bl%40g%40t%40aChDq%40~%40mAhBwFhIuFdIaDtEyFlIgA%7CAUZIEW%3FKFKNCJaA%40iA%3FiA%3FeBAKi%40s%40eAs%40cA_%40k%40OTe%40h%40aC%7CCQL%5Dd%40a%40b%40yAvBgEhGkCzDk%40z%40o%40hAkBtCcArAq%40z%40%7D%40nAqApBmLtP%7CBbD%60DzE%60CjD&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/85_Zona_Franca_a_Sagrada_Familia_route.png"
+            },
+            {
+                "id": "86_Drassanes_a_El_Born_route",
+                "file_name": "86_Drassanes_a_El_Born_route.png",
+                "image_index": 86,
+                "file_size_in_kb": 175.4336,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:26.310856",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aqlp%7BF%7DahLbA%7D%40dAw%40f%40Yb%40k%40JBR%3FJCHIN%5BAWKc%40S%5DSO_%40E%5BDe%40a%40uM%7BJcJ_HkBsAq%40a%40_DeCqBcBh%40qA%5E_AeBuA_B%7CDo%40%60BNLh%40d%40%5BbAk%40~ANHa%40xAeAu%40y%40i%40g%40_%40ENc%40nAy%40xA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/86_Drassanes_a_El_Born_route.png"
+            },
+            {
+                "id": "87_Camp_Nou_a_Pla\u00e7a_Catalunya_route",
+                "file_name": "87_Camp_Nou_a_Pla\u00e7a_Catalunya_route.png",
+                "image_index": 87,
+                "file_size_in_kb": 199.7705,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:27.345812",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aiaq%7BFyk%7DKJZJEVQb%40_%40t%40dAz%40jAX%60%40DU%3FC%3FC%3FGEKe%40_Aq%40gAJcBHe%40R%5DFQj%40m%40hCpEnFeElCwB%5Ec%40oFiKqEqJeB%7BDqDqIgAqCg%40cBc%40iBcAoFs%40uDs%40iCo%40kCo%40cCe%40iBsAwEoAwDmBoEuBgEmAeBy%40gAaA%7DAmA_BcCmD%7DEgHeG%7DIaCiDeCwDiBiCsAiBkEoGeA_BmAcBq%40aAkAiBoEoGiCuDd%40q%40tAqBr%40%7B%40lAgBjG%7DIhD_F~M_S%7CBcDnFcIn%40y%40tB%7DCnAiBt%40oA%5Cm%40%40SB_%40JgCNqD%3Fg%40EYKi%40%5Dw%40_%40%5EiCtB&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/87_Camp_Nou_a_Pla\u00e7a_Catalunya_route.png"
+            },
+            {
+                "id": "88_Marina___Arago_a_Parc_G\u00fcell_route",
+                "file_name": "88_Marina___Arago_a_Parc_G\u00fcell_route.png",
+                "image_index": 88,
+                "file_size_in_kb": 201.4824,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:28.433533",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ak~s%7BF%7BriL%60FoHlCzDdEnGfD~E%7DCvEkAzAiGbJ%7DIhMaChDiBjC%7BDzFqAjBuBtC_AxAk%40x%40%5D%5EWf%40g%40r%40yAxBkCxDe%40r%40%7D%40pAmAxA%7DEdHkIdMoAfBq%40bAdAnBaB~Aw%40l%40qC~BkCdCeCzB%7B%40v%40uAxAgCvBwArAy%40r%40aAfA_Ax%40_BzA%5Db%40cDjC%40p%40Dz%40Hr%40GdAEb%40Oj%40O%5CU%5CKL_%40X%5DRIJc%40j%40uC%7CD&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/88_Marina___Arago_a_Parc_G\u00fcell_route.png"
+            },
+            {
+                "id": "89_Estaci\u00f3_Sants_a_Zona_Franca_route",
+                "file_name": "89_Estaci\u00f3_Sants_a_Zona_Franca_route.png",
+                "image_index": 89,
+                "file_size_in_kb": 169.1934,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:29.158881",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Awxp%7BFg%7C%60LhAmAm%40iAUc%40ECK%40OL%7D%40dAKT_AbAM%40GCMUeAoBSi%40CJ%3FNVr%40t%40%7CA%60%40bAxA%60CPJRFx%40FRFb%40Zp%40d%40d%40Nl%40Np%40_%40TSOSQwAMaA%3Fa%40AWMq%40g%40iAIIgBiD%7BAmCMYy%40%5DQC%5BCcB_CKUIWd%40q%40jAiBhDaFtC_ExDuFdCqDl%40q%40pAcBFIJQFEh%40EH%3FL%60%40DFTTZDZCLCF%40RJp%40t%40%60DtEx%40x%40p%40~%40LFnAjBrGlJ%7CHfL~FnIvDzFDLf%40v%40~%40rA~D%60G%7CNfTnDjFfDhEtEvGxIhMvCjEpCbEdCrDpGhJ%7CFhIbEdGzBfDbD~Ez%40~AvApCb%40x%40r%40lA%60%40j%40rAvB%7C%40tAB%5Ch%40z%40%60%40r%40rAzCn%40%60BR%60%40FBB%40%40JF%5CFRL%5CR%5EFLHJHAP%3FLA%5EKHGRCf%40m%40d%40i%40~%40iA~%40u%40dB_Ab%40Ov%40Qv%40Ar%40%40lA%5C%60%40Nd%40Td%40Zl%40T%60%40PZJ%60%40Hj%40BfAKj%40Kb%40Qf%40Yr%40m%40b%40m%40j%40oAVo%40ZmAfCyJfAiEf%40iAn%40u%40p%40Uf%40Cl%40H%5EVVXP%5EJf%40%40r%40Cl%40GFMXE%60%40BTHXFHHHPFV%3FNEPUJe%40%3FYCSOYOMM%5DUaBi%40sCe%40sCScBE%7BAHgBVyAfBkHjB_IfGwVbBkGD%3FLCJKFOBSE%5BIMKGYCQVE%60%40%40RBFGf%40WnAqAhF%5BjAw%40PgAk%40uAw%40i%40i%40%5D%5ByAw%40%3FCAOCKMQQCSHKZ%40XBJBD%3Fd%40IZpBdANRVN&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/89_Estaci\u00f3_Sants_a_Zona_Franca_route.png"
+            },
+            {
+                "id": "90_Pla\u00e7a_Catalunya_a_Passeig_de_Gracia_route",
+                "file_name": "90_Pla\u00e7a_Catalunya_a_Passeig_de_Gracia_route.png",
+                "image_index": 90,
+                "file_size_in_kb": 149.1846,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:29.851732",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Amir%7BFuufLcBvAa%40%5EQXFXq%40~%40k%40z%40uArBg%40Vg%40t%40_AvAcBfCiDhFqFjIyAxBuBwCaB_CrD_FNT%5Ca%40%5Eg%40&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/90_Pla\u00e7a_Catalunya_a_Passeig_de_Gracia_route.png"
+            },
+            {
+                "id": "91_Diagonal_Mar_a_Parc_G\u00fcell_route",
+                "file_name": "91_Diagonal_Mar_a_Parc_G\u00fcell_route.png",
+                "image_index": 91,
+                "file_size_in_kb": 187.3057,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:30.770288",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akwv%7BF%7DbpLxEfEaB~BkD~EmBpCMPDZVzAhBjL~B~Nn%40~DxAvJtBjMpBdMpBvMv%40rER%60AZvBjAtHf%40xCR%7C%40%40NFj%40XzAzCpRz%40rF%5E%60Ce%40l%40cA~AaAtAkCtDuFbIw%40bAt%40fAd%40n%40bBbCxCpEtB%7CCfBnCjBpC%7DAxBiEfG%7DFjImAbB_AnA%7BAxB_%40l%40%5Db%40aBhCcEbGaFfHuEnGcCjD%7D%40vAq%40vASv%40KRB%60%40%3FD%40FBN%5Cx%40p%40p%40RTZr%40Lb%40NdALjADb%40FxBA%5EUl%40%5BtAcBvHIf%40Db%40%40j%40BnCDrABhA%3Fp%40AV%3FPGF%7B%40bA%60%40j%40%5Cl%40n%40fA%7C%40~A%7CApC%7DAlA%40p%40Dz%40Hr%40CHCz%40Eb%40Oj%40O%5Ca%40j%40_%40X%5DRIJc%40j%40g%40n%40mBlC&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/91_Diagonal_Mar_a_Parc_G\u00fcell_route.png"
+            },
+            {
+                "id": "92_Forum_a_Universitat_route",
+                "file_name": "92_Forum_a_Universitat_route.png",
+                "image_index": 92,
+                "file_size_in_kb": 159.7949,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:31.682045",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Akcw%7BF_gpL%7CDjV%5EvCpAfInEfYzB%7CNfCnOjExXr%40%7CDVbBjAzH%60%40~B%60%40tBDd%40ZdBp%40fExBpNv%40%60FTvAUXY%60%40g%40z%40iA%7CA_AvAaBzBqErGoAbBrAlBzAvBbAxAvDvFbHlKxH%7CKxH%60LhG%7CI%7CFxItDhFbEfGjCxDxAvB~CrEzAzBp%40bAxChEpC%60EzGxJh%40x%40RUzBcDv%40gAnC%7DDdDaFn%40y%40tB%7DCp%40pCl%40fCHRJ%60%40~BbDDHN%5EMRa%40j%40wCgEp%40eAFM%3FI%3Fw%40%5CsJ&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/92_Forum_a_Universitat_route.png"
+            },
+            {
+                "id": "93_Diagonal___Francesc_Maci\u00e0_a_Diagonal_Mar_route",
+                "file_name": "93_Diagonal___Francesc_Maci\u00e0_a_Diagonal_Mar_route.png",
+                "image_index": 93,
+                "file_size_in_kb": 144.0566,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:32.540840",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aazr%7BFwlbL%7DBgDsByCu%40_AjDcFnF%7DHrDkF%7CEiHpEwGhHeKjFuHnBsClAaBfA%7CA%7CAzBhD%7CElDhFhDaFxAsBr%40cA%60CmDxJwNXe%40H%3FV%3F%5C%3F%3Fy%40%3F_E%3FkE%3FgH%40cNB%7BCLyE%5EaNNmHHg%40TYXQVGLJ%5ELX%40XG%5CSRYHQH_%40Bm%40AWBQTUJIBHHJ~%40r%40tCxB%7CBdBp%40j%40~A%60Bf%40%60%40r%40b%40hAf%40d%40Pt%40Rt%40Fj%40Ix%40MR%40%7C%40Zj%40%5Cf%40TLBTEJKDOBOCWOOQCODALCNAFQBOA%7B%40_%40w%40USG_%40GcAKGAKHkBi%40u%40%5BgAu%40%7B%40u%40uBkB%7D%40o%40yGaFyE_EsB%7BAi%40Sk%40KqAGeAKg%40Qi%40_%40_AcAk%40g%40eE_DiJcHwC%7DBKKg%40q%40Sq%40Oy%40QeBa%40_Ca%40yAuD_JaBgEuCaI%5DaAo%40kB%7DBuGcBqEw%40aB%7DC_FyE_HcJ%7BM%7BV__%40wKaPwDuF_AkAaB_Bi%40e%40u%40m%40eBeAkB_Ai%40WaAc%40%7DA_AmCyBc%40c%40m%40s%40%7D%40kAq%40oA%5Be%40u%40gAsAoBkKkO_CiD%7B%40yAsBwD%7D%40yBw%40kB_%40w%40%3FA%3FK%5Ba%40iAeBs%40%60AU%5Co%40%60AiCnDc%40t%40iBjCaA%7D%40w%40q%40_BwA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/93_Diagonal___Francesc_Maci\u00e0_a_Diagonal_Mar_route.png"
+            },
+            {
+                "id": "94_Parc_G\u00fcell_a_Zona_Franca_route",
+                "file_name": "94_Parc_G\u00fcell_a_Zona_Franca_route.png",
+                "image_index": 94,
+                "file_size_in_kb": 153.7949,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:33.355104",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aerw%7BFgrcLf%40z%40h%40%7C%40%60%40i%40%60AwAvAoBzByClAcB%7CCeEp%40dAfBzCf%40jAX%7C%40n%40hC%5CpAp%40nC%7C%40fDbAfDTt%40Xf%40j%40r%40Xf%40%3FPCPAJYPg%40%5CYV%5D%5CcBdBoAtAoFlGe%40h%40gAzAkBlCwAdCm%40tCS~%40a%40lA_%40z%40Y%5CODKr%40UfAa%40bBWt%40w%40jBq%40pA_Ar%40eExBWJUT%5Dn%40GPGn%40%3Fp%40Fh%40Dz%40Af%40BFWViArAUXOTM%5CG%5EA%60%40Dl%40Lj%40T%5ETPNF%5EHTANCHVn%40nC%5CnBTrBH%60%40Pn%40TpCJdAPxAPdAb%40tA%7C%40tBfAbBtCdE%60CjDnBxCLT%60AtB%60BdEd%40hAh%40%60AfA%60BxAjB%60CjC%60CdCxAtAnAxAr%40fA~BvD%7CAjCVp%40vBbGf%40bAd%40t%40pA%60BzKvLdElEj%40d%40v%40d%40hAd%40x%40RnAN%7CALzANrA%5ExAt%40zAdAfEnDdBxAzAhAjAx%40vAz%40pAn%40~Al%40hAb%40jDrAbShIhCfArB~%40fBdAbBpA~ArArDxChC~B%5EZdCjBxEnDfCrBpKdJtBlBfBnBnAdBpCnEpBtC%5Cd%40nAzApAjAt%40j%40fAv%40x%40f%40%7CBfAtBt%40zBl%40zCl%40lBf%40~Bv%40dBz%40~%40h%40lA%7C%40~ArA~ClCfAv%40%7C%40l%40%7C%40d%40v%40ZzAd%40pBf%40%7CFjA%60GpApUdFhATlANrBJfC%3FjBI%5EE%60C_%40%60Bc%40nBs%40nB_ArJaFlDiBrCmAdCy%40%7CAa%40xDs%40%7CB%5DjAMh%40AnCCnB%40%60A%40xAFnCThANl%40Hn%40L%60Cf%40%60Cp%40FNFBPHf%40%5EV%5CLTLZP~%40Dj%40CbAOz%40M%5EQ%5CMLSJYFc%40E%5BUWg%40Gk%40A%5DP_BVyAR%7B%40v%40kCr%40mBn%40wArAgCvAcC%7C%40_Bt%40aBpAkDf%40cB%60%40kBb%40cCTaBPgCLcCI%5DDe%40D_ALsG%5C_SNoINgJXcKb%40wJh%40_HPiB%60%40_EPsBF%7BAJwC%3Fg%40N%7D%40GkHAy%40%40qBDgARyB%5CwB%5E%7DAzAeGp%40_CJOTcAvA%7DFnGeWr%40aCF%3FNIHMDQ%40SKYIKMCKAIBQ%5CA%60%40DPGf%40Ib%40aA~D%5DtA%5BjAw%40PgAk%40uAw%40y%40%7B%40gBaA%3FKGYOMSAIDIJEVBZDJ%3Fd%40IZpBdANRVN&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/94_Parc_G\u00fcell_a_Zona_Franca_route.png"
+            },
+            {
+                "id": "95_Zona_Franca_a_Diagonal___Francesc_Maci\u00e0_route",
+                "file_name": "95_Zona_Franca_a_Diagonal___Francesc_Maci\u00e0_route.png",
+                "image_index": 95,
+                "file_size_in_kb": 161.9199,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:34.034103",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ay%7Bh%7BF%7Dp~KWOOSqBeAFSDKNUF%3FHAFGBCjB%60ATVJRNPZPvAt%40b%40j%40%40D%3FRH%5CLZ%7D%40vDiC%60KkArEwBdIu%40dDMr%40e%40hBaAzDo%40dCYv%40CVa%40%60B_%40~AaAvDe%40lB_%40tAMb%40_%40dAg%40%60Ae%40p%40%5D%5Cc%40Zw%40Zw%40Nc%40D_%40%3FiAW%5DMmDuBg%40Wu%40UaAIqAB%5DDmATc%40RgAn%40w%40VUDSCe%40Es%40KGEcAw%40_A%7D%40%7BAiBiBkCMQGAAA%5D%5BaA_AGAQGw%40kAcAiBqAgC%7BAoCuAwBkJ%7DMaGoIeEiGwBgDwCiEyFiIkFuH%7BEcHqAeBqCgDgE_GcE_GsJsNiCyDiBgCIMME%5Be%40%5Di%40KOaCmDsGmJeQgW%5Bc%40%5Be%40ESS%5Bu%40mA%7BBcDYs%40i%40%7BBYu%40g%40s%40e%40c%40k%40%5Be%40Sq%40a%40%5BWe%40i%40s%40_AcDaFiD%7BE%7DAzBiGxIeEfGcFrH%7DDxFsDhFsDpFiCrDs%40dAWd%40a%40m%40uAoBs%40cAkBqCoDiF%7DEeHs%40gA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/95_Zona_Franca_a_Diagonal___Francesc_Maci\u00e0_route.png"
+            },
+            {
+                "id": "96_Passeig_de_Gracia_a_Hospital_Vall_d'Hebron_route",
+                "file_name": "96_Passeig_de_Gracia_a_Hospital_Vall_d'Hebron_route.png",
+                "image_index": 96,
+                "file_size_in_kb": 182.2441,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:34.870930",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Agis%7BFs%7BeLhByBU%5Bq%40~%40w%40bA_C~Cw%40dAY%5Cc%40l%40W_%40eEeGeA_BgAaB%5B_%40QZkAdByE%7CG%7DAzBs%40fAi%40n%40MRYe%40iBkC%7DBkDqF_IaKaOcCoDkBqCaFoHeEyFwCqEcAuA_AsAq%40aAqAlBKPm%40%7C%40aAvA_CjDyDtF%7DE%7CGiFlHwAxBWb%40k%40jAQn%40MZ%7B%40~%40qAhAu%40v%40a%40%5E%5DX%7DAx%40m%40Vw%40%60%40wBjAmBrAy%40r%40oBrBaAbAeCzCeFrGuA%60BoBpB_A%7C%40yAjAyA%60AsAv%40c%40b%40%7DAn%40oBf%40qAXw%40JSBc%40Ce%40Iq%40M%5D%3Fg%40Dk%40HOAAAmATkCZiAReANc%40d%40SP%5BLcDf%40_%40Fk%40PYLy%40f%40KHeAn%40e%40T_%40D%5DBMFQCG%40UJYXYh%40GV%40XHRALA%5CGXaB%60DQVc%40r%40g%40h%40u%40f%40aGxC%7D%40b%40WMY%3FWLMPI%5E%3F%60%40FVJRTPRBVGV%40RD%60%40PZj%40r%40%60ARPMj%40CNKj%40aAbGaAdFs%40fEQ%60ATJl%40Tn%40TZJDR%40F%3FDB%5CERMr%40%5D~ASb%40%5B%5Cu%40h%40%5DTi%40X%5BVOd%40Kl%40WhBIl%40%40%5EFh%40z%40pBj%40pAFVm%40lAc%40z%40_AlBK%60%40DPQb%40On%40i%40lAu%40zAmAtAWNMRMZGXATGVe%40%7C%40q%40dAS%5Cg%40d%40SXCHBHJR%5Eh%40Tf%40Lp%40Av%40MZQNiAZ&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/96_Passeig_de_Gracia_a_Hospital_Vall_d'Hebron_route.png"
+            },
+            {
+                "id": "97_Universitat_a_Diagonal___Francesc_Maci\u00e0_route",
+                "file_name": "97_Universitat_a_Diagonal___Francesc_Maci\u00e0_route.png",
+                "image_index": 97,
+                "file_size_in_kb": 135.4365,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:35.514018",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3A%7Dcr%7BFeffLd%40oLBiAAYOy%40%5Dw%40_%40%5EsEvDYTa%40%5EQX%5CxAz%40~C%60BfGd%40pBn%40%60CJTBTz%40jAr%40bATZN%60%40o%40~%40m%40~%40q%40~%40qBzC%7BCtE%7DDxFhDzE%60E%60G%3FRFP%7C%40pCdA%60Dx%40bCZ%60Ae%40n%40gA%7CAmBpC%7DFtIqBtChD~ExH~KZd%40%5Dd%40W%60%40uBzCsBxCu%40fAiA_BaBcCaEcGU%5D&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/97_Universitat_a_Diagonal___Francesc_Maci\u00e0_route.png"
+            },
+            {
+                "id": "98_Marina___Arago_a_Sagrada_Familia_route",
+                "file_name": "98_Marina___Arago_a_Sagrada_Familia_route.png",
+                "image_index": 98,
+                "file_size_in_kb": 204.6592,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:36.503001",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Ak~s%7BF%7BriL%60FoH%7CBcDR_%40L%3FL%3FHm%40~%40wAJOd%40q%40%5Em%40%7D%40wAwAyBOWY%60%40s%40dAaBbC%7DA%7CBY%5EILECICK%3FMDKLEJADe%40%40e%40%3F%5D%3FwA%3F%7DA%3F%5BAEYO_%40%7DBeDs%40~%40sA~Ao%40%7C%40QLw%40~%40sAlBg%40v%40kFxHgBlC%5Bh%40sB%60D%7BAtB%7BApBgBlC%7BDvFiEfGk%40z%40NR%60AtAfCvDfEhG&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/98_Marina___Arago_a_Sagrada_Familia_route.png"
+            },
+            {
+                "id": "99_Diagonal___Francesc_Maci\u00e0_a_El_Born_route",
+                "file_name": "99_Diagonal___Francesc_Maci\u00e0_a_El_Born_route.png",
+                "image_index": 99,
+                "file_size_in_kb": 192.3213,
+                "image_dimensions": "1280x800",
+                "timestamp": "2025-05-12T19:35:37.424913",
+                "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?size=640x400&scale=2&format=png&maptype=roadmap&path=color%3Agreen%7Cweight%3A5%7Cenc%3Aazr%7BFwlbL%7DBgDsByCu%40_AiDiFuByCu%40_Ay%40oAwAuB%7DDaGuCcE%5Ba%40FGFMtAoBf%40s%40nBkChEiGfCqDlC%7DD%7CBiDq%40aAkAcBYa%40gA_BgD%7DE%7DAwBeEeGr%40aAjAcBn%40%7B%40dEiGzH%7BKRYW%5Dw%40iAeCyD%7BEyGgBiCsCaEUa%40EYWq%40Mo%40Gm%40D%7D%40FeABWFIr%40eAzCoEvDsFnBqCv%40gAB%40B%3FJCFAZCHFRPr%40cAf%40u%40nBqCVa%40l%40Dx%40Cd%40AV%3Fb%40MTc%40zAyBVa%40J%3FRYdBiCxB_DlGcJ~DxCdGvEPPPt%40o%40%60BNLh%40d%40%5BbAk%40~ANHa%40xAyB%7BAECg%40_%40ENc%40nAy%40xA&key=AIzaSyD4mtJgAgPCLKUHKHfMg6Z4DwWs5WGjc4Y",
+                "local_path": "/Users/ceciliaperez/Documents/UPC- MD/Semestre 4/BDM/Project/BDM_Project/storage/delta/raw/images/google_maps/images/99_Diagonal___Francesc_Maci\u00e0_a_El_Born_route.png"
+            }
+        ],
+        "timestamp": "2025-05-12T19:35:43.324749"
     }
 ]

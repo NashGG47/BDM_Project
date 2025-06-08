@@ -8,5 +8,17 @@
         "dataset": "emissions_data",
         "timestamp": "2025-03-30 22:54:22",
         "records_ingested": 10
+    },
+    {
+        "dataset": "emissions_data",
+        "timestamp": "2025-05-19 23:18:57",
+        "records_ingested": 10,
+        "source": null,
+        "file_size_MB": null,
+        "processing_time_sec": 0.0,
+        "errors": 0,
+        "warnings": [],
+        "previous_record_count": 10,
+        "change_percentage": 0.0
     }
 ]

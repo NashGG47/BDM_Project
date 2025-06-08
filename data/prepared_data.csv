@@ -1,0 +1,11 @@
+result,table,_time,cause,direction,road,pk_end,pk_start,is_maintenance
+_result,0,2025-05-18 18:57:53+00:00,Avaria,2,2,97.0,97.7,0
+_result,1,2025-05-09 13:12:16+00:00,Carril BICI,0,5,25.6,23.0,0
+_result,2,2025-05-16 13:46:20+00:00,Carril en sentit contrari a l'habitual,1,1,6.1,2.5,0
+_result,3,2025-05-18 18:56:43+00:00,Carril en sentit contrari a l'habitual,2,4,11.0,15.2,0
+_result,4,2025-05-18 15:13:49+00:00,Circulació,2,3,4.0,8.0,0
+_result,5,2025-05-15 05:00:00+00:00,Manteniment de ponts,1,0,79.7,79.5,0
+_result,6,2025-05-16 13:45:17+00:00,Reasfaltat,1,1,6.1,2.5,0
+_result,7,2025-05-13 10:50:31+00:00,Reparació de juntes de dilatació,1,2,325.0,324.0,0
+_result,8,2025-05-15 05:00:00+00:00,Treballs de jardineria,0,0,89.9,64.4,0
+_result,9,2025-05-16 12:58:49+00:00,Treballs de manteniment,1,2,262.3,262.0,1
