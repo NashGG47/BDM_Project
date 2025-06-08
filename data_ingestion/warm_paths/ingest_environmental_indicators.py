@@ -39,7 +39,13 @@ def download_and_save():
 
 # Function to process XLS files for Environmental Indicators
 def process_xls(file_path):
+    # Read without skipping rows to preserve headers
     df = pd.read_excel(file_path)
+    
+    # Strip whitespace from column names first
+    df.columns = df.columns.str.strip()
+    
+    # Define the column mapping with the exact Spanish names from the file
     column_mapping = {
         "Año": "year",
         "GWh traccion electrica": "gwh_traccion_electrica",
@@ -48,15 +54,29 @@ def process_xls(file_path):
         "GWh total": "gwh_total",
         "Intensidad Energetica (Wh UT)": "intensidad_energetica_wh_ut",
         "Intensidad de Carbono (g CO2 UT)": "intensidad_carbono_g_co2_ut",
-        "Gastos e inversiones ambientales (miles de euros)": "gastos_inversiones_ambientales_euros",
+        "Gastos e inversiones ambientales ( miles de euros)": "gastos_inversiones_ambientales_euros",  # Note the space before '('
         "Consumo de agua (m3)": "consumo_agua_m3",
         "Generacion de residuos peligrosos (toneladas)": "generacion_residuos_peligrosos_toneladas",
         "Porcentaje Trafico Viajeros con trenes baja emision acustica": "porcentaje_trafico_viajeros_trenes_baja_emision_acustica",
         "Porcentaje Trafico Mercancias con trenes baja emision acustica": "porcentaje_trafico_mercancias_trenes_baja_emision_acustica"
     }
-    df.columns = df.columns.str.strip()
+    
+    # Rename columns
     df.rename(columns=column_mapping, inplace=True)
+    
+    # Clean any remaining special characters from column names
     df.columns = df.columns.str.strip().str.replace(" ", "_").str.replace(r"[;{}()\n\t=]", "", regex=True)
+    
+    # Convert year to integer to ensure proper data type
+    if 'year' in df.columns:
+        df['year'] = pd.to_numeric(df['year'], errors='coerce')
+        df = df.dropna(subset=['year'])  # Remove rows where year couldn't be converted
+        df['year'] = df['year'].astype(int)
+    
+    print(f"Processed {len(df)} rows from {file_path}")
+    print(f"Columns: {df.columns.tolist()}")
+    print(f"First few rows:\n{df.head()}")
+    
     return df
 
 def store_in_delta(df):

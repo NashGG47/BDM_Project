@@ -8,5 +8,55 @@
         "delta_path": "storage/delta/raw/environmental_indicators/202504/20250403",
         "row_count": 7,
         "processing_duration_seconds": 6.309020042419434
+    },
+    {
+        "dataset": "environmental_indicators",
+        "timestamp": "2025-06-08 01:35:33",
+        "raw_file_path": "data_ingestion/warm_paths/environmental_indicators/202506/raw_2025-06-08.xls",
+        "source_url": "https://data.renfe.com/dataset/81f21f5f-b093-413d-92a8-e9f5e670cd6b/resource/5d987311-277c-454f-bfbc-f81a32326973/download/principales-indicadores-ambientales.xls",
+        "file_size_bytes": 20480,
+        "delta_path": "storage/delta/raw/environmental_indicators/202506/20250608",
+        "row_count": 6,
+        "processing_duration_seconds": 9.346781969070435
+    },
+    {
+        "dataset": "environmental_indicators",
+        "timestamp": "2025-06-08 01:41:32",
+        "raw_file_path": "data_ingestion/warm_paths/environmental_indicators/202506/raw_2025-06-08.xls",
+        "source_url": "https://data.renfe.com/dataset/81f21f5f-b093-413d-92a8-e9f5e670cd6b/resource/5d987311-277c-454f-bfbc-f81a32326973/download/principales-indicadores-ambientales.xls",
+        "file_size_bytes": 20480,
+        "delta_path": "storage/delta/raw/environmental_indicators/202506/20250608",
+        "row_count": 7,
+        "processing_duration_seconds": 9.475109338760376
+    },
+    {
+        "dataset": "environmental_indicators",
+        "timestamp": "2025-06-08 12:55:16",
+        "raw_file_path": "data_ingestion/warm_paths/environmental_indicators/202506/raw_2025-06-08.xls",
+        "source_url": "https://data.renfe.com/dataset/81f21f5f-b093-413d-92a8-e9f5e670cd6b/resource/5d987311-277c-454f-bfbc-f81a32326973/download/principales-indicadores-ambientales.xls",
+        "file_size_bytes": 20480,
+        "delta_path": "storage/delta/raw/environmental_indicators/202506/20250608",
+        "row_count": 7,
+        "processing_duration_seconds": 8.966086149215698
+    },
+    {
+        "dataset": "environmental_indicators",
+        "timestamp": "2025-06-08 12:55:30",
+        "raw_file_path": "data_ingestion/warm_paths/environmental_indicators/202506/raw_2025-06-08.xls",
+        "source_url": "https://data.renfe.com/dataset/81f21f5f-b093-413d-92a8-e9f5e670cd6b/resource/5d987311-277c-454f-bfbc-f81a32326973/download/principales-indicadores-ambientales.xls",
+        "file_size_bytes": 20480,
+        "delta_path": "storage/delta/raw/environmental_indicators/202506/20250608",
+        "row_count": 7,
+        "processing_duration_seconds": 8.512393236160278
+    },
+    {
+        "dataset": "environmental_indicators",
+        "timestamp": "2025-06-08 12:55:44",
+        "raw_file_path": "data_ingestion/warm_paths/environmental_indicators/202506/raw_2025-06-08.xls",
+        "source_url": "https://data.renfe.com/dataset/81f21f5f-b093-413d-92a8-e9f5e670cd6b/resource/5d987311-277c-454f-bfbc-f81a32326973/download/principales-indicadores-ambientales.xls",
+        "file_size_bytes": 20480,
+        "delta_path": "storage/delta/raw/environmental_indicators/202506/20250608",
+        "row_count": 7,
+        "processing_duration_seconds": 8.638552904129028
     }
 ]
