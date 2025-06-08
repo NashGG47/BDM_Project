@@ -55,9 +55,6 @@ echo "Running Exploitation Zone for map..."
 python exploitation_zone/showcase_emissions_shapefile.py
 
 echo "Running Trusted Zone for bluesky..."
-python trusted_zone/processing_unstructured.py
-
-echo "Running Trusted Zone for bluesky..."
 python trusted_zone/storing_unstructured.py
 
 echo "Running Exploitation Zone for sentiment..."
