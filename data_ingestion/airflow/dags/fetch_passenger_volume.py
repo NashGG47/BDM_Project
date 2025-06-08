@@ -24,7 +24,7 @@ dag = DAG(
     'ingest_passenger_volume_dag',
     default_args=default_args,
     description='DAG to ingest warm passenger volume data into Delta Lake',
-    schedule_interval=timedelta(days=1),  # fetch data daily
+    schedule=timedelta(days=1),  # fetch data daily
     catchup=False,
 )
 

@@ -1,33 +1,50 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
-from pathlib import Path
 import subprocess
+import logging
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+def run_emissions_job():
+    """Run the job to process and store CO₂ emissions data in InfluxDB."""
+    logging.info("Running trusted_zone/storing_co2_semistructured.py...")
 
-def run_emissions_script():
-    script = PROJECT_ROOT / "trusted_zone/storing_co2_semistructured.py"
-    subprocess.run(["python", str(script)], check=True)
+    try:
+        result = subprocess.run(
+            ["python", "trusted_zone/storing_co2_semistructured.py"],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        logging.info("Script completed successfully.")
+        logging.info(f"stdout: {result.stdout}")
+        logging.info(f"stderr: {result.stderr}")
+    except subprocess.CalledProcessError as e:
+        logging.error("Script failed!")
+        logging.error(f"Return code: {e.returncode}")
+        logging.error(f"stdout: {e.stdout}")
+        logging.error(f"stderr: {e.stderr}")
+        raise
 
 default_args = {
-    'owner': 'airflow',
-    'start_date': datetime(2025,3,15),
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5)
+    "owner": "airflow",
+    "depends_on_past": False,
+    "start_date": datetime(2025, 3, 15),
+    "retries": 1,
+    "retry_delay": timedelta(minutes=5),
 }
 
-dag= DAG(
-    'emissions_to_influxdb', 
-    schedule=timedelta(minutes=1), 
-    default_args=default_args, 
-    catchup=False
+dag = DAG(
+    "ingest_emissions_to_influxdb_dag",
+    description="Process and store CO₂ emissions data into InfluxDB",
+    schedule=timedelta(minutes=30),  # or timedelta(hours=1), depending on your use case
+    catchup=False,
+    default_args=default_args,
 )
 
-run_emissions_script_task = PythonOperator(
-        task_id='run_emissions_script',
-        python_callable=run_emissions_script,
-        dag = dag,
+run_emissions_task = PythonOperator(
+    task_id="run_emissions_job",
+    python_callable=run_emissions_job,
+    dag=dag,
 )
 
-run_emissions_script_task
+run_emissions_task

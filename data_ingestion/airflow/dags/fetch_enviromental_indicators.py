@@ -24,7 +24,7 @@ dag = DAG(
     'ingest_environmental_indicators_dag',
     default_args=default_args,
     description='DAG to ingest warm environmental indicators data into Delta Lake',
-    schedule_interval=timedelta(days=1),  # fetch data daily
+    schedule=timedelta(days=1),  # fetch data daily
     catchup=False,
 )
 

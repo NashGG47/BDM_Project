@@ -32,7 +32,7 @@ dag = DAG(
     dag_id='ingest_twitter_data_dag',
     default_args=default_args,
     description='Cold path DAG to ingest Twitter posts and images into Delta Lake',
-    schedule_interval=timedelta(days=1),  # daily run
+    schedule=timedelta(days=1),  # daily run
     catchup=False,
     tags=["cold_path", "twitter", "delta_lake"],
 )

@@ -31,7 +31,7 @@ dag = DAG(
     dag_id='ingest_serapi_images_dag',
     description='Fetch and store SERAPI image data in Delta Lake',
     default_args=default_args,
-    schedule_interval=timedelta(days=1),
+    schedule=timedelta(days=1),
     start_date=datetime(2025, 3, 15),
     catchup=False,
     tags=["cold_path", "serapi", "delta_lake"],

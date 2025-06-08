@@ -39,7 +39,7 @@ dag = DAG(
     'ingest_bluesky_data_streaming_dag',
     default_args=default_args,
     description='[STREAMING] Bluesky producer and consumer with 30-minute timeout',
-    schedule_interval=None,
+    schedule=None,
     catchup=False,
 )
 

@@ -23,7 +23,7 @@ dag = DAG(
     'ingest_admin_shapefiles_dag',
     default_args=default_args,
     description='DAG to ingest cold data into Delta Lake',
-    schedule_interval=timedelta(days=3),  # Runs each 3 days
+    schedule=timedelta(days=3),  # Runs each 3 days
     catchup=False,
 )
 
