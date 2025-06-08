@@ -30,4 +30,16 @@ python data_ingestion/hot_paths/consumer/consume_gencat_incidents.py
 echo "Running Kafka hp renfe consumer..."
 python data_ingestion/hot_paths/consumer/consume_renfe_incident.py
 
+echo "Running Trusted Zone for transit..."
+python trusted_zone/storing_transit_semistructured.py
+
+echo "Running Trusted Zone for emissions..."
+python trusted_zone/storing_co2_semistructured.py
+
+echo "Running Exploitation Zone for transit..."
+python exploitation_zone/store_transit_semistructured.py
+
+echo "Running Exploitation Zone for map..."
+python exploitation_zone/showcase_emissions_shapefile.py
+
 echo "All scripts executed."

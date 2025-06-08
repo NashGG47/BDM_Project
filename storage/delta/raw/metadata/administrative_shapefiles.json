@@ -21,12 +21,22 @@
     },
     {
         "dataset": "administrative_shapefiles",
-        "timestamp": "2025-06-08 12:53:06",
-        "raw_file_path": "data_ingestion/cold_paths/administrative_shapefiles/202506/0301040100_Districtes_UNITATS_ADM.shp",
+        "timestamp": "2025-04-06 23:11:24",
+        "raw_file_path": "data_ingestion/cold_paths/administrative_shapefiles/202504/0301040100_Districtes_UNITATS_ADM.shp",
         "source_url": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/11851135-6919-4dcb-91ed-821e5e87a428/download",
         "file_size_bytes": 1792879,
-        "delta_path": "storage/delta/raw/administrative_shapefiles/202506/20250608",
+        "delta_path": "storage/delta/raw/administrative_shapefiles/202504/20250406",
         "row_count": 10,
-        "processing_duration_seconds": 11.204370021820068
+        "processing_duration_seconds": 7.381399154663086
+    },
+    {
+        "dataset": "administrative_shapefiles",
+        "timestamp": "2025-05-12 19:33:39",
+        "raw_file_path": "data_ingestion/cold_paths/administrative_shapefiles/202505/0301040100_Districtes_UNITATS_ADM.shp",
+        "source_url": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/11851135-6919-4dcb-91ed-821e5e87a428/download",
+        "file_size_bytes": 1792879,
+        "delta_path": "storage/delta/raw/administrative_shapefiles/202505/20250512",
+        "row_count": 10,
+        "processing_duration_seconds": 7.084197282791138
     }
 ]
