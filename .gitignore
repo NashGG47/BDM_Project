@@ -11,3 +11,5 @@ storage/delta/raw/renfe_incidents/
 storage/delta/raw/images
 storage/delta/raw/social_media
 reports/
+__pycache__/
+*.pyc
