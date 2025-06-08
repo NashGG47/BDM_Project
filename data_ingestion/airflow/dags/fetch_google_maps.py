@@ -32,7 +32,7 @@ dag = DAG(
     dag_id='ingest_google_maps_images_dag',
     default_args=default_args,
     description='Cold path DAG to ingest Google Maps route images into Delta Lake',
-    schedule_interval=timedelta(days=1),  # Runs daily
+    schedule=timedelta(days=1),  # Runs daily
     catchup=False,
     tags=["cold_path", "google_maps", "delta_lake"],
 ) 
