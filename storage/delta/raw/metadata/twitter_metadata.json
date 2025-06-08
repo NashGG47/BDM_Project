@@ -258,5 +258,105 @@
     "image_width": null,
     "image_height": null,
     "image_size_kb": null
+  },
+  {
+    "tweet_id": "1921978292841685402",
+    "username": "transit",
+    "created_at": "2025-05-12T17:18:28.000Z",
+    "image_url": null,
+    "image_path": null,
+    "image_width": null,
+    "image_height": null,
+    "image_size_kb": null
+  },
+  {
+    "tweet_id": "1921973014846943509",
+    "username": "DGTes",
+    "created_at": "2025-05-12T16:57:29.000Z",
+    "image_url": null,
+    "image_path": null,
+    "image_width": null,
+    "image_height": null,
+    "image_size_kb": null
+  },
+  {
+    "tweet_id": "1921968889526648986",
+    "username": "DGTes",
+    "created_at": "2025-05-12T16:41:06.000Z",
+    "image_url": null,
+    "image_path": null,
+    "image_width": null,
+    "image_height": null,
+    "image_size_kb": null
+  },
+  {
+    "tweet_id": "1921968465302176007",
+    "username": "DGTes",
+    "created_at": "2025-05-12T16:39:25.000Z",
+    "image_url": "https://pbs.twimg.com/media/Gqwz7EOXYAArRFY.png",
+    "image_path": "storage/delta/raw/social_media/twitter/images/1921968465302176007_3_1921968230819651584.jpg",
+    "image_width": 853,
+    "image_height": 480,
+    "image_size_kb": 581.9814453125
+  },
+  {
+    "tweet_id": "1921966204698165568",
+    "username": "DGTes",
+    "created_at": "2025-05-12T16:30:26.000Z",
+    "image_url": "https://pbs.twimg.com/media/GqwyE_sWIAAGTFB.jpg",
+    "image_path": "storage/delta/raw/social_media/twitter/images/1921966204698165568_3_1921966202378657792.jpg",
+    "image_width": 1000,
+    "image_height": 667,
+    "image_size_kb": 603.642578125
+  },
+  {
+    "tweet_id": "1921965217572876651",
+    "username": "transit",
+    "created_at": "2025-05-12T16:26:30.000Z",
+    "image_url": "https://pbs.twimg.com/media/GqwxJd9WoAAVrVa.png",
+    "image_path": "storage/delta/raw/social_media/twitter/images/1921965217572876651_3_1921965179710906368.jpg",
+    "image_width": 704,
+    "image_height": 576,
+    "image_size_kb": 512.8115234375
+  },
+  {
+    "tweet_id": "1921955682586128418",
+    "username": "DGTes",
+    "created_at": "2025-05-12T15:48:37.000Z",
+    "image_url": null,
+    "image_path": null,
+    "image_width": null,
+    "image_height": null,
+    "image_size_kb": null
+  },
+  {
+    "tweet_id": "1921951729471328730",
+    "username": "transit",
+    "created_at": "2025-05-12T15:32:55.000Z",
+    "image_url": null,
+    "image_path": null,
+    "image_width": null,
+    "image_height": null,
+    "image_size_kb": null
+  },
+  {
+    "tweet_id": "1921950302346805341",
+    "username": "transit",
+    "created_at": "2025-05-12T15:27:14.000Z",
+    "image_url": null,
+    "image_path": null,
+    "image_width": null,
+    "image_height": null,
+    "image_size_kb": null
+  },
+  {
+    "tweet_id": "1921946681068675350",
+    "username": "DGTes",
+    "created_at": "2025-05-12T15:12:51.000Z",
+    "image_url": null,
+    "image_path": null,
+    "image_width": null,
+    "image_height": null,
+    "image_size_kb": null
   }
 ]

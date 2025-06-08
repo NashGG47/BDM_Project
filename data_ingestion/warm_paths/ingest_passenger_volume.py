@@ -40,7 +40,7 @@ def download_and_save():
 # Function to process CSV files for Passenger Volume
 def process_csv(file_path):
     try:
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(file_path, sep=";")
         df.columns = df.columns.str.strip().str.replace(" ", "_").str.replace(r"[;{}()\n\t=]", "", regex=True)
         return df
     except Exception as e:
